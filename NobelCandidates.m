@@ -1,16 +1,12 @@
 %This script puts together the data for the Nobel candidates.
 %
-%21 February 2018, Richard S.J. Tol
+%First version: 21 February 2018, Richard S.J. Tol
+%This version: 29 October 2020, Richard S.J. Tol
 
-%% McKenzie: Aghion and Romer
-s0 = {'Paul Romer' 'Jose Scheinkman'};
-p0 = {'Jose Scheinkman' 'Lionel McKenzie'};
-
+%% McKenzie: Aghion
+%Romer removed as won
 s1 = {'Philippe Aghion' 'Philippe Aghion' 'Yves Balasko' 'Jerry Green'};
 p1 = {'Yves Balasko' 'Jerry Green' 'Jean-Pierre Aubin' 'Lionel McKenzie'};
-
-s2 = {'Lionel McKenzie' 'Lionel McKenzie' 'Oskar Morgenstern' 'William Baumol'};
-p2 = {'William Baumol' 'Oskar Morgenstern' 'Ludwig von Mises' 'Lionel Robbins'};
 
 s3 = {'Jean-Pierre Aubin' 'Jean-Pierre Aubin' 'Jacques-Louis Lions' 'Laurent Schwartz' 'Georges Valiron' 'Emile Borel' 'Gaston Darboux'};
 p3 = {'Jacques-Louis Lions' 'Jean-Pierre Kahane' 'Laurent Schwartz' 'Georges Valiron' 'Emile Borel' 'Gaston Darboux' 'Michel Chasles'};
@@ -18,20 +14,21 @@ p3 = {'Jacques-Louis Lions' 'Jean-Pierre Kahane' 'Laurent Schwartz' 'Georges Val
 s4 = {'Jean-Pierre Kahane' 'Szolem Mandelbrojt' 'Szolem Mandelbrojt' 'Szolem Mandelbrojt' 'Emile Picard' 'Jules Tannery' 'Charles Hermite' 'Eugene-Charles Catalan' 'Joseph Louiville'};
 p4 = {'Szolem Mandelbrojt' 'Jacques Hadamard' 'Jules Tannery' 'Emile Picard' 'Gaston Darboux' 'Charles Hermite' 'Eugene-Charles Catalan' 'Joseph Louiville' 'Simeon-Denis Poisson'};
 
-s = [s0 s1 s2 s3 s4];
-p = [p0 p1 p2 p3 p4];
+s = [s1 s3 s4];
+p = [p1 p3 p4];
 
-C1 = addedge(G49,p,s);
+C1 = addedge(G52,p,s);
 
-%% Leontief: Jorgenson, Alan Krueger
+%% Leontief: Jorgenson
 s = {'Dale Jorgenson'};
 p = {'Wassily Leontief (1973)'};
 
 C2 = addedge(C1,p,s);
 
-%% Gorman: Alesina, Blundell, Feldstein, Alan Krueger and Moore
-s0 = {'Alberto Alesina' 'Jeffrey Sachs' 'Richard Blundell' 'John Moore' 'Alan Krueger' 'Alan Krueger'};
-p0 = {'Jeffrey Sachs' 'Martin Feldstein' 'W.M. Gorman' 'Stephen Nickell' 'Lawrence Summers' 'Richard Freeman'};
+%% Gorman: Blundell, Feldstein and Moore
+%Alesina, Krueger moved as died
+s0 = {'Richard Blundell' 'John Moore' 'Stephen Bond'};
+p0 = {'W.M. Gorman' 'Stephen Nickell' 'Stephen Nickell'};
 
 s1 = {'Martin Feldstein' 'W.M. Gorman' 'George Duncan' 'Charles Bastable' 'Charles Bastable' 'Stephen Nickell' 'Stephen Nickell'};
 p1 = {'W.M. Gorman' 'George Duncan' 'Charles Bastable' 'J.W. Stubbs' 'J.P. Mahaffy' 'W.M. Gorman' 'Frank Hahn'};
@@ -59,9 +56,15 @@ p = [p0 p1];
 
 C4 = addedge(C3,p,s);
 
-%% Schultz: Barro and Lazaer
-s = {'Robert Barro' 'Edward Lazear' 'Edward Lazear' 'Zvi Griliches' 'Zvi Griliches'};
-p = {'Zvi Griliches' 'Zvi Griliches' 'Sherwin Rosen' 'Theodore Schultz (1979)' 'Arnold Harberger'};
+%% Schultz: Barro, Lazaer
+s0 = {'Robert Barro' 'Edward Lazear' 'Edward Lazear' 'Zvi Griliches' 'Zvi Griliches'};
+p0 = {'Zvi Griliches' 'Zvi Griliches' 'Sherwin Rosen' 'Theodore Schultz (1979)' 'Arnold Harberger'};
+
+s1 = {'Stephen Berry' 'Ariel Pakes'};
+p1 = {'Ariel Pakes' 'Zvi Griliches'};
+
+s = [s0 s1];
+p = [p0 p1];
 
 C5 = addedge(C4,p,s);
 
@@ -71,7 +74,7 @@ p = {'Sherwin Rosen'};
 
 C6 = addedge(C5,p,s);
 
-%% Kindleberger: Bhagwati, Grossman, Melitz
+%% Kindleberger: Bhagwati, Grossman, Melitz, Levinsohn
 s0 = {'Jagdish Bhagwati' 'Gene Grossman' 'Marc Melitz' 'Marc Melitz'};
 p0 = {'Charles Kindleberger' 'Jagdish Bhagwati' 'James Levinsohn' 'Susanto Basu'};
 
@@ -83,9 +86,10 @@ p = [p0 p1];
 
 C7 = addedge(C6,p,s);
 
-%% Solow: Blanchard, Gali, Kiyotaki, Melitz, Nordhaus, Weitzman, Dixit, Hall
-s = {'Olivier Blanchard' 'Olivier Blanchard' 'Jordi Gali' 'Nobuhiro Kiyotaki' 'William Nordhaus' 'Martin Weitzman' 'Robert Hall' 'Avinash Dixit'};
-p = {'Stanley Fischer' 'Robert Solow (1987)' 'Olivier Blanchard' 'Olivier Blanchard' 'Robert Solow (1987)' 'Robert Solow (1987)' 'Robert Solow (1987)' 'Robert Solow (1987)'};
+%% Solow: Blanchard, Gali, Kiyotaki, Melitz, Dixit, Hall
+%Nordhaus removed as won, Weitzman removed as died
+s = {'Olivier Blanchard' 'Olivier Blanchard' 'Jordi Gali' 'Nobuhiro Kiyotaki' 'Robert Hall' 'Avinash Dixit'};
+p = {'Stanley Fischer' 'Robert Solow (1987)' 'Olivier Blanchard' 'Olivier Blanchard' 'Robert Solow (1987)' 'Robert Solow (1987)'};
 
 C8 = addedge(C7,p,s);
 
@@ -119,15 +123,24 @@ p = {'Hendrik Houthakker'};
 
 C13 = addedge(C12,p,s);
 
-%% Sargan: Hendry, Phillips
-s = {'David Hendry' 'Peter Phillips'};
-p = {'Denis Sargan' 'Denis Sargan'};
+%% Sargan: Hendry, Phillips, Perron, Arellano
+s = {'David Hendry' 'Peter Phillips' 'Pierre Perron' 'Manuel Arellano'};
+p = {'Denis Sargan' 'Denis Sargan' 'Peter Phillips' 'Denis Sargan'};
 
 C14 = addedge(C13,p,s);
 
-%% Koopmans: Howitt
-s = {'Peter Howitt' 'John Ledyard' 'Stanley Reiter'};
-p = {'John Ledyard' 'Stanley Reiter' 'Tjalling Koopmans (1975)'};
+%% Koopmans: Howitt, Arthur
+s0 = {'Peter Howitt' 'John Ledyard' 'Stanley Reiter'};
+p0 = {'John Ledyard' 'Stanley Reiter' 'Tjalling Koopmans (1975)'};
+
+s1 = {'Brian Arthur' 'Brian Arthur' 'Stuart Dreyfus' 'Arthur Bryson' 'Hans Liepmann' 'Hans Liepmann'};
+p1 = {'Daniel McFadden (2000)' 'Stuart Dreyfus' 'Arthur Bryson' 'Hans Liepmann' 'Richard Bar' 'Theodore von Karman'};
+
+s2 = {'Richard Bar' 'Richard Bar' 'Georg Rost' 'Emil Hilb' 'Friedrich Prym'  'Friedrich Prym'  'Martin Ohm' 'Karl von Langsdorf'};
+p2 = {'Georg Rost' 'Emil Hilb' 'Friedrich Prym' 'Ferdinand Lindemann' 'Ernst Kummer' 'Martin Ohm' 'Karl von Langsdorf' 'Abraham Kaestner'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
 
 C15 = addedge(C14,p,s);
 
@@ -182,9 +195,22 @@ p = {'Franklin Fisher'};
 
 C21 = addedge(C20,p,s);
 
-%% Wilson: Milgrom
-s = {'Paul Milgrom'};
-p = {'Robert Wilson'};
+%% Arrow: Rubinstein
+%Milgrom removed as won
+s0 = {'Ariel Rubinstein' 'Menahem Yaari' 'Menahem Yaari' 'Herbert Scarf'};
+p0 = {'Menahem Yaari' 'Kenneth Arrow (1972)' 'Herbert Scarf' 'Salomon Bochner'};
+
+s1 = {'Salomon Bochner' 'Erhard Schmidt' 'Salomon Bochner' 'Issai Schur' 'Issai Schur'};
+p1 = {'Erhard Schmidt' 'David Hilbert' 'Issai Schur' 'Ferdinand Frobenius' 'Lazarus Fuchs'};
+
+s2 = {'Ferdinand Frobenius' 'Ferdinand Frobenius' 'Lazarus Fuchs' 'Lazarus Fuchs'};
+p2 = {'Ernst Kummer' 'Karl Weierstrass' 'Ernst Kummer' 'Karl Weierstrass'};
+
+s3 = {'Karl Weierstrass' 'Karl Weierstrass' 'Christoph Gudermann' 'Christoph Gudermann'};
+p3 = {'Friedrich Richelot' 'Christoph Gudermann' 'Carl Gauss' 'Bernard Thibaut'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
 
 C22 = addedge(C21,p,s);
 
@@ -194,7 +220,7 @@ p = {'Stewart Myers' 'Alexander Robichek' 'David Alhadeff'};
 
 C23 = addedge(C22,p,s);
 
-%% Keynes: Pesaran, List, Krueger
+%% Keynes: Pesaran, List
 s = {'Hashem Pesaran' 'David Champernowne'};
 p = {'David Champernowne' 'John Maynard Keynes'};
 
@@ -258,8 +284,11 @@ p2 = {'William Fellner'};
 s3 = {'Robert Abelson' 'Robert Abelson' 'John Tukey'};
 p3 = {'Silvan Tomkins' 'John Tukey' 'Solomon Lefschetz'};
 
-s = [s0 s1 s2 s3];
-p = [p0 p1 p2 p3];
+s4 = {'Wesley Cohen' 'Wesley Cohen' 'Wesley Cohen'};
+p4 = {'Sidney Winter' 'Richard Nelson' 'Richard Levin'};
+
+s = [s0 s1 s2 s3 s4];
+p = [p0 p1 p2 p3 p4];
 
 C27 = addedge(C26,p,s);
 
@@ -275,23 +304,99 @@ p = {'Theodore Anderson' 'Samuel Wilks' 'Everett Lindquist' 'Henry Rietz' 'Georg
 
 C29 = addedge(C28,p,s);
 
+%% Kuznets: Goldin
+s = {'Claudia Goldin'};
+p = {'Robert Fogel (1993)'};
+
+C30 = addedge(C29,p,s);
+
+%% Ehrenfest: Juselius
+s0 = {'Katarina Juselius' 'Johan Olof Fellman' 'Gustav Elfving' 'Rolf Nevanlinna' 'Rolf Nevanlinna'};
+p0 = {'Johan Olof Fellman' 'Gustav Elfving' 'Rolf Nevanlinna' 'Ernst Lindelof' 'Gunnar Nordstrom'};
+
+s1 = {'Gunnar Nordstrom' 'Gunnar Nordstrom' 'Gunnar Nordstrom' 'Gunnar Nordstrom'};
+p1 = {'Hermann Minkowsky' 'Hjallmar Tallqvist' 'Albert Einstein' 'Paul Ehrenfest'};
+
+s2 = {'Hermann Minkowsky' 'Hjallmar Tallqvist' 'Edvard Neovius' 'Hermann Schwarz' 'Hermann Schwarz'};
+p2 = {'Ferdinand Lindemann' 'Edvard Neovius' 'Hermann Schwarz' 'Karl Weierstrass' 'Ernst Kummer'};
+
+s3 = {'Albert Einstein' 'Albert Einstein'};
+p3 = {'Aurel Stodola' 'Alfred Kleiner'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+C31 = addedge(C30,p,s);
+
+%% Orphans: Kreps  Dickey, Fuller
+s0 = {'David Kreps' 'Evan Porteus'};
+p0 = {'Evan Porteus' 'William Pierskalla'};
+
+s1 = {'Daniel Levinthal'};
+p1 = {'James March'};
+
+s2 = {'David Dickey' 'Wayne Fuller'};
+p2 = {'Wayne Fuller' 'Geoffrey Shepherd'};
+
+s3 = {'Soren Johansen' 'Soren Johansen' 'Anders Hald' 'Georg Rasch' 'Georg Rasch'};
+p3 = {'Hans Brons' 'Anders Hald' 'Georg Rasch' 'Niels Norlund' 'Niels Nielsen'};
+
+s4 = {'Douglas Diamond'};
+p4 = {'Stephen Ross'};
+
+s5 = {'Richard Posner'};
+p5 = {'William Brennan'};
+
+s = [s0 s1 s2 s3 s4 s5];
+p = [p0 p1 p2 p3 p4 p5];
+
+C32 = addedge(C31,p,s);
+
+%% Diseased
+s0 = {'Halbert White' 'Halbert White'};
+p0 = {'Robert Solow (1987)' 'Jerry Hausman'};
+
+s1 = {'Martin Weitzman' 'Anthony Atkinson'};
+p1 = {'Robert Solow (1987)' 'Robert Solow (1987)'};
+
+s2 = {'Gordon Tullock' 'Henry Simons'};
+p2 = {'Henry Simons' 'Frank Knight'};
+
+s3 = {'William Baumol'};
+p3 = {'Lionel Robbins'};
+
+s4 = {'Alan Krueger' 'Alan Krueger'};
+p4 = {'Lawrence Summers' 'Richard Freeman'};
+
+s5 = {'Frank Ramsey'};
+p5 = {'John Maynard Keynes'};
+
+s6 = {'Alberto Alesina' 'Jeffrey Sachs'};
+p6 = {'Jeffrey Sachs' 'Martin Feldstein'};
+
+s = [s0 s1 s2 s3 s4 s5 s6];
+p = [p0 p1 p2 p3 p4 p5 p6];
+
+C33 = addedge(C32,p,s);
+
+
 %%
-closecanda = centrality(C29,'outcloseness');
-closecandhout = harmoniccentrality(C29,'out');
-closecandhin = harmoniccentrality(C29,'in');
+closecanda = centrality(C32,'outcloseness');
+closecandhout = harmoniccentrality(C32,'out');
+closecandhin = harmoniccentrality(C32,'in');
 
 select = nobool(:,nyear);
-ncand = size(C29.Nodes,1) - nnode(nyear);
+ncand = size(C32.Nodes,1) - nnode(nyear);
 select = [select; zeros(ncand,1)];
 
-nobelcandhin = harmonicnobelity(C29,select,'in');
+nobelcandhin = harmonicnobelity(C32,select,'in');
 
 %%
 hfig = figure;
 if names
-    plot(C29,'Layout',layout,'NodeLabel',C29.Nodes.Name);
+    plot(C32,'Layout',layout,'NodeLabel',C32.Nodes.Name);
 else
-     plot(C29,'Layout',layout,'NodeLabel',{});
+     plot(C32,'Layout',layout,'NodeLabel',{});
 end
 title('Candidates');
 set(gcf,'units','points','position',[0,0,960,720])

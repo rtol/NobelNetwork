@@ -1,6 +1,7 @@
 %This script puts together the data for the Nobel network over time.
 %
-%21 February 2018, Richard S.J. Tol
+%First version: 21 February 2018, Richard S.J. Tol
+%This version: 27 October 2020, Richard S.J. Tol
 
 clear all
 names = true;
@@ -824,8 +825,8 @@ set(gcf,'units','points','position',[0,0,960,720])
 xticklabels({}); yticklabels({});xticks([]);yticks([]);
 F(40) = getframe(hfig);
 %%
-s0 = {'Oliver Williamson (2009)' 'Oliver Williamson (2009)'};
-p0 = {'Richard Cyert' 'Herbert Simon (1978)'};
+s0 = {'Oliver Williamson (2009)' 'Oliver Williamson (2009)' 'Richard Cyert' 'Richard Cyert' 'Arthur Burns'};
+p0 = {'Richard Cyert' 'Herbert Simon (1978)' 'George Stigler (1982)' 'Arthur Burns' 'Wesley Clair Mitchell'};
 
 s1 = {'Elinor Ostrom (2009)' 'Dwaine Marvick' 'Dwaine Marvick' 'Dwaine Marvick' 'Dwaine Marvick'};
 p1 = {'Dwaine Marvick' 'Paul Hazard' 'David Truman' 'Franz Neumann' 'Robert Merton'};
@@ -887,8 +888,8 @@ set(gcf,'units','points','position',[0,0,960,720])
 xticklabels({}); yticklabels({});xticks([]);yticks([]);
 F(43) = getframe(hfig);
 %%
-s = {'Lloyd Shapley (2012)' 'Alvin Roth (2012)' 'Robert Wilson' 'Howard Raiffa' 'Arthur Copeland' 'Oliver Kellogg' 'David Hilbert' 'Ferdinand Lindemann' 'Felix Klein' 'Felix Klein' 'Felix Klein' 'Rudolf Lipschitz'};
-p = {'Albert Tucker' 'Robert Wilson' 'Howard Raiffa' 'Arthur Copeland' 'Oliver Kellogg' 'David Hilbert' 'Ferdinand Lindemann' 'Felix Klein' 'Rudolf Lipschitz' 'Julius Pluecker' 'Rudolf Clebsch' 'Gustav Dirichlet'};
+s = {'Lloyd Shapley (2012)' 'Alvin Roth (2012)' 'Robert Wilson (2020)' 'Howard Raiffa' 'Arthur Copeland' 'Oliver Kellogg' 'David Hilbert' 'Ferdinand Lindemann' 'Felix Klein' 'Felix Klein' 'Felix Klein' 'Rudolf Lipschitz'};
+p = {'Albert Tucker' 'Robert Wilson (2020)' 'Howard Raiffa' 'Arthur Copeland' 'Oliver Kellogg' 'David Hilbert' 'Ferdinand Lindemann' 'Felix Klein' 'Rudolf Lipschitz' 'Julius Pluecker' 'Rudolf Clebsch' 'Gustav Dirichlet'};
 
 G44 = addedge(G43,p,s);
 GED(44) = length(s);
@@ -956,7 +957,7 @@ xticklabels({}); yticklabels({});xticks([]);yticks([]);
 F(47) = getframe(hfig);
 %%
 s = {'Bengt Holmstrom (2016)' 'Oliver Hart (2016)' 'Michael Rothshield' 'Michael Rothshield' 'Michael Rothshield' 'Franklin Fisher'};
-p = {'Robert Wilson' 'Michael Rothshield' 'Robert Solow (1987)' 'Peter Diamond (2010)' 'Franklin Fisher' 'John Meyer'};
+p = {'Robert Wilson (2020)' 'Michael Rothshield' 'Robert Solow (1987)' 'Peter Diamond (2010)' 'Franklin Fisher' 'John Meyer'};
 
 G48 = addedge(G47,p,s);
 GED(48) = length(s);
@@ -988,3 +989,81 @@ title('2017: Thaler');
 set(gcf,'units','points','position',[0,0,960,720])
 xticklabels({}); yticklabels({});xticks([]);yticks([]);
 F(49) = getframe(hfig);
+
+%%
+s = {'William Nordhaus (2018)' 'Paul Romer (2018)' 'Paul Romer (2018)' 'Jose Scheinkman' 'Lionel McKenzie' 'Lionel McKenzie' 'William Baumol' 'Oskar Morgenstern'};
+p = {'Robert Solow (1987)' 'Robert Lucas (1995)' 'Jose Scheinkman' 'Lionel McKenzie' 'William Baumol' 'Oskar Morgenstern' 'Lionel Robbins' 'Ludwig von Mises'};
+
+G50 = addedge(G49,p,s);
+GED(50) = length(s);
+
+hfig = figure;
+if names
+    plot(G50,'Layout',layout,'NodeLabel',G50.Nodes.Name);
+else
+     plot(G50,'Layout',layout,'NodeLabel',{});
+end
+title('2018: Nordhaus and Romer');
+set(gcf,'units','points','position',[0,0,960,720])
+xticklabels({}); yticklabels({});xticks([]);yticks([]);
+F(50) = getframe(hfig);
+
+%%
+s = {'Esther Duflo (2019)' 'Esther Duflo (2019)' 'Esther Duflo (2019)' 'Joshua Angrist' 'Joshua Angrist'  'David Card' 'Orley Ashenfelter' 'Orley Ashenfelter' 'Stephen Goldfeld' 'Albert Ando'  'Abhijit Banerjee (2019)' 'Michael Kremer (2019)' 'Robert Barro' 'Zvi Griliches' 'Zvi Griliches'};
+p = {'Joshua Angrist' 'Abhijit Banerjee (2019)' 'Michael Kremer (2019)' 'Orley Ashenfelter' 'David Card' 'Orley Ashenfelter' 'Albert Rees' 'Stephen Goldfeld' 'Albert Ando' 'Franco Modigliani (1985)' 'Eric Maskin (2007)' 'Robert Barro' 'Zvi Griliches' 'Theodore Schultz (1979)' 'Arnold Harberger'};
+
+G51 = addedge(G50,p,s);
+GED(51) = length(s);
+
+hfig = figure;
+if names
+    plot(G51,'Layout',layout,'NodeLabel',G51.Nodes.Name);
+else
+     plot(G51,'Layout',layout,'NodeLabel',{});
+end
+title('2019: Banerjee, Duflo and Kremer');
+set(gcf,'units','points','position',[0,0,960,720])
+xticklabels({}); yticklabels({});xticks([]);yticks([]);
+F(51) = getframe(hfig);
+%%
+s = {'Paul Milgrom (2020)'};
+p = {'Robert Wilson (2020)'};
+
+G52 = addedge(G51,p,s);
+GED(52) = length(s);
+
+hfig = figure;
+if names
+    plot(G52,'Layout',layout,'NodeLabel',G52.Nodes.Name);
+else
+     plot(G52,'Layout',layout,'NodeLabel',{});
+end
+title('2020: Milgrom and Wilson');
+set(gcf,'units','points','position',[0,0,960,720])
+xticklabels({}); yticklabels({});xticks([]);yticks([]);
+F(52) = getframe(hfig);
+
+%% sensitivity
+s0 = {'Eugen Boehm von Bawerk'};
+p0 = {'Carl Menger'};
+
+s1 = {'Gary Becker (1992)' 'Gary Becker (1992)' 'Gary Becker (1992)' 'Gary Becker (1992)'};
+p1 = {'Milton Friedman (1976)' 'Henry Schultz' 'Aaron Director' 'Leonard Savage'};
+
+s2 = {'Leonard Savage' 'Leonard Savage' 'Leonard Savage' 'Sumner Myers' 'Marston Morse'};
+p2 = {'Sumner Myers' 'Milton Friedman (1976)' 'Allen Wallis' 'Marston Morse' 'George Birkhoff'};
+
+s3 = {'Aaron Director'};
+p3 = {'Thorstein Veblen'};
+
+s4 = {'Daniel McFadden (2000)' 'Daniel McFadden (2000)' 'Daniel McFadden (2000)' 'Hirofumi Uzawa' 'John Chipman'};
+p4 = {'Kenneth Arrow (1972)' 'Hirofumi Uzawa' 'John Chipman' 'Kenneth Arrow (1972)' 'Fritz Machlup'};
+
+s = [s0 s1 s2 s3 s4];
+p = [p0 p1 p2 p3 p4];
+
+s5 = {'Leonid Hurwicz (2007)' 'Leonid Hurwicz (2007)'};
+p5 = {'Jacob Marschak' 'Tjalling Koopmans (1975)'};
+
+G52alt = addedge(G52,p,s);
+G52alt = rmedge(G52alt,p5,s5);

@@ -5,22 +5,22 @@
 load coastlines
 centraluni(centraluni==0)=NaN;
 
-for i=1:49,
+for i=1:52,
     hmap = figure
     worldmap('world')
     title(num2str(i+1968));
     set(gcf,'units','points','position',[0,0,960,720])
     plotm(coastlat,coastlon)
-    scatterm(lat,lon,centraluni(:,i)*10,'MarkerEdgeColor','red')
+    scatterm(lat,lon,centraluni(:,i)*20,'MarkerEdgeColor','red')
     M(i) = getframe(hmap);
 end
 
 %%
-v = VideoWriter('C:\Users\Richard\Google Drive\Papers\Nobel\nobelmap.mp4','MPEG-4')
+v = VideoWriter('C:\Users\rtol\Google Drive\Papers\Nobel\nobelmap.mp4','MPEG-4')
 %v = VideoWriter('C:\Users\Richard\Google Drive\Papers\Nobel\nobelmap','Uncompressed AVI');
 v.FrameRate = 2;
 open(v);
-for i = 1:49, 
+for i = 1:52, 
    writeVideo(v,M(i));
 end
 close(v)

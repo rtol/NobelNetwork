@@ -4,7 +4,7 @@
 
 nyear = size(F,2);
 nnode = zeros(1,nyear);
-nnode(nyear) = size(G49.Nodes,1);
+nnode(nyear) = size(G52.Nodes,1);
 nnetwork = zeros(1,nyear);
 
 closeness = zeros(nnode(nyear),nyear);
@@ -35,6 +35,25 @@ for i=1:nyear,
     closeharm(1:nnode(i),i)= eval(strcat('harmoniccentrality(G',num2str(i),')'));
     nobelharm(1:nnode(i),i)= eval(strcat('harmonicnobelity(G',num2str(i),',nobool(1:',num2str(nnode(i)),',',num2str(i),'))'));
 end
+
+%%
+altnb = zeros(size(G52alt.Nodes,1),52);
+for i=1:nyear,
+    if i>1,
+        altnb(:,i) = altnb(:,i-1);
+    end
+    for j=1:nnode(i),        
+        test = eval(strcat('length(cell2mat(strfind(table2cell(G',num2str(i),'.Nodes(',num2str(j),',1)),"',num2str(i+1968),'")))'));
+        if test == 1,
+            altnb(j,i)=1;
+        end
+    end
+end
+
+altcn = centrality(G52alt,'outcloseness');
+altnn = nobelity(G52alt,altnb(:,52));
+altch = harmoniccentrality(G52alt);
+altnh = harmonicnobelity(G52alt,altnb(:,52));
 
 %%
 nnetwork(1) = 2; %Frisch and Tinbergen are not connected

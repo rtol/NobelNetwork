@@ -5,7 +5,7 @@
 nframes = size(F,2);
 
 %v = VideoWriter('C:\Users\Richard\Google Drive\Papers\Nobel\nobel.mp4','MPEG-4')
-v = VideoWriter('C:\Users\Richard\Google Drive\Papers\Nobel\nobel','Uncompressed AVI');
+v = VideoWriter('C:\Users\rtol\Google Drive\Papers\Nobel\nobel','Uncompressed AVI');
 v.FrameRate = 1;
 %v.CompressionRatio = 1;
 open(v);
@@ -16,9 +16,9 @@ close(v)
 
 %%
 if names
-    p = plot(G49,'Layout',layout,'NodeLabel',G49.Nodes.Name);
+    p = plot(G52,'Layout',layout,'NodeLabel',G52.Nodes.Name);
 else
-    p = plot(G49,'Laexyout',layout,'NodeLabel',{});
+    p = plot(G52,'Laexyout',layout,'NodeLabel',{});
 end
 
 %title('Current network');
@@ -28,3 +28,5 @@ colormap cool
 p.NodeCData = nobool(:,nyear);
 p.MarkerSize = 4;
 p.LineWidth = 0.75;
+
+print('nobel','-djpeg','-r1500');
