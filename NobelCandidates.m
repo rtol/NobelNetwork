@@ -17,7 +17,7 @@ p4 = {'Szolem Mandelbrojt' 'Jacques Hadamard' 'Jules Tannery' 'Emile Picard' 'Ga
 s = [s1 s3 s4];
 p = [p1 p3 p4];
 
-C1 = addedge(G52,p,s);
+C1 = addedge(G53,p,s);
 
 %% Leontief: Jorgenson
 s = {'Dale Jorgenson'};
@@ -45,16 +45,16 @@ p = [p0 p1 p2 p3];
 C3 = addedge(C2,p,s);
 
 %% Ashenfelter: Angrist and Card
-s0 = {'Joshua Angrist' 'Joshua Angrist' 'David Card'};
-p0 = {'Orley Ashenfelter' 'David Card' 'Orley Ashenfelter'};
+%s0 = {'Joshua Angrist' 'Joshua Angrist' 'David Card'};
+%p0 = {'Orley Ashenfelter' 'David Card' 'Orley Ashenfelter'};
 
-s1 = {'Orley Ashenfelter' 'Orley Ashenfelter' 'Stephen Goldfeld' 'Albert Ando'};
-p1 = {'Albert Rees' 'Stephen Goldfeld' 'Albert Ando' 'Franco Modigliani (1985)'};
+%s1 = {'Orley Ashenfelter' 'Orley Ashenfelter' 'Stephen Goldfeld' 'Albert Ando'};
+%p1 = {'Albert Rees' 'Stephen Goldfeld' 'Albert Ando' 'Franco Modigliani (1985)'};
 
-s = [s0 s1];
-p = [p0 p1];
+%s = [s0 s1];
+%p = [p0 p1];
 
-C4 = addedge(C3,p,s);
+C4 = C3;
 
 %% Schultz: Barro, Lazaer
 s0 = {'Robert Barro' 'Edward Lazear' 'Edward Lazear' 'Zvi Griliches' 'Zvi Griliches'};
@@ -378,7 +378,6 @@ s = [s0 s1 s2 s3 s4 s5 s6];
 p = [p0 p1 p2 p3 p4 p5 p6];
 
 C33 = addedge(C32,p,s);
-
 
 %%
 closecanda = centrality(C32,'outcloseness');

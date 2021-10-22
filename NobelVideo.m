@@ -15,14 +15,16 @@ end
 close(v)
 
 %%
+
 if names
-    p = plot(G52,'Layout',layout,'NodeLabel',G52.Nodes.Name);
+    p = plot(G53,'Layout',layout,'NodeLabel',G53.Nodes.Name);
 else
-    p = plot(G52,'Laexyout',layout,'NodeLabel',{});
+    p = plot(G53,'Laexyout',layout,'NodeLabel',{});
 end
 
 %title('Current network');
 set(gcf,'units','points','position',[0,0,2250,750])
+%fig=gcf;ax=fig.CurrentAxes;fig.Color='w';fig.OuterPosition=fig.InnerPosition;
 xticklabels({}); yticklabels({});xticks([]);yticks([]);
 colormap cool
 p.NodeCData = nobool(:,nyear);

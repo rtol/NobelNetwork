@@ -5,7 +5,7 @@
 load coastlines
 centraluni(centraluni==0)=NaN;
 
-for i=1:52,
+for i=1:53,
     hmap = figure
     worldmap('world')
     title(num2str(i+1968));
@@ -20,7 +20,7 @@ v = VideoWriter('C:\Users\rtol\Google Drive\Papers\Nobel\nobelmap.mp4','MPEG-4')
 %v = VideoWriter('C:\Users\Richard\Google Drive\Papers\Nobel\nobelmap','Uncompressed AVI');
 v.FrameRate = 2;
 open(v);
-for i = 1:52, 
+for i = 1:53, 
    writeVideo(v,M(i));
 end
 close(v)
