@@ -1,4 +1,4 @@
-function hc = harmonicnobelity(G,select,s)
+function hc = holdernobelity(G,select,h,s)
 %hc = nobelity(G,select,s)
 %G is a graph, directed or no
 %select is a vector of zeros and ones
@@ -22,16 +22,16 @@ for i=1:n
         end 
     end
 end
-invdist = dist.^-1;
+invdist = dist.^h;
 for i=1:n
     invdist(i,i)=0;
 end
 if ~exist('s')
-    hc = (n-1)*sum(invdist,2);
+    hc = (n-1)*sum(invdist,2).^(-1/h);
 elseif s(1)=='o'
-    hc = (n-1)*sum(invdist,2);
+    hc = (n-1)*sum(invdist,2).^(-1/h);
 elseif s(1)=='i'
-    hc = (n-1)*sum(invdist,1)';
+    hc = (n-1)*(sum(invdist,1)').^(-1/h);
 else
     hc = 0;
 end
