@@ -1,13 +1,18 @@
 function hc = holdernobelity(G,select,h,s)
-%hc = nobelity(G,select,s)
-%G is a graph, directed or no
+%hc = holdernobelity(G,select,s)
+%
+%hc is the generalized average proximity of all nodes to selected nodes in G
+%G is a graph
 %select is a vector of zeros and ones
+%h is power of the generalized average
+%   h=1 arithmetic average
+%   h=0 geometric average
+%   h=-1 harmonic average
+%note that hc is undefined for a unconnnected graph unless h<0
 %s is an optional string, in for incloseness, out for outcloseness
 %(=default)
-%hc is the average distance to all nodes in select
-%if select is a vector of ones, hc is the harmonic centrality measure
 %
-%22 March 2022, Richard S.J. Tol
+%23 August 2022, Richard S.J. Tol
 
 n = size(G.Nodes,1);
 dist = distances(G);

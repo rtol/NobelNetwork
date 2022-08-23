@@ -1,8 +1,10 @@
 function hc = harmoniccentrality(G,s)
 %hc = harmoniccentrality(G,s)
-%G is a graph, directed or no
-%select is a vector of zeros and ones
+%
+%hc is the harmonic average proximity of all nodes to all nodes in G
+%G is a graph
 %s is an optional string, in for incloseness, out for outcloseness
+%(=default)
 %
 %21 February 2018, Richard S.J. Tol
 

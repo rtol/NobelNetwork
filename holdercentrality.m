@@ -1,10 +1,17 @@
 function hc = holdercentrality(G,h,s)
 %hc = holdercentrality(G,h,s)
-%G is a graph, directed or no
-%select is a vector of zeros and ones
-%s is an optional string, in for incloseness, out for outcloseness
 %
-%21 February 2018, Richard S.J. Tol
+%hc is the generalized average proximity of all nodes to all nodes in G
+%G is a graph
+%h is power of the generalized average
+%   h=1 arithmetic average
+%   h=0 geometric average
+%   h=-1 harmonic average
+%note that hc is undefined for a unconnnected graph unless h<0
+%s is an optional string, in for incloseness, out for outcloseness
+%(=default)
+%
+%23 August 2022, Richard S.J. Tol
 
 n = size(G.Nodes,1);
 dist = distances(G);

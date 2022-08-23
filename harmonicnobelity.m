@@ -1,11 +1,12 @@
 function hc = harmonicnobelity(G,select,s)
 %hc = nobelity(G,select,s)
-%G is a graph, directed or no
+%
+%hc is the harmonic average proximity of all nodes to selected nodes in G
+%G is a graph
 %select is a vector of zeros and ones
+%if select is a vector of ones, hc is the harmonic centrality measure
 %s is an optional string, in for incloseness, out for outcloseness
 %(=default)
-%hc is the average distance to all nodes in select
-%if select is a vector of ones, hc is the harmonic centrality measure
 %
 %22 March 2022, Richard S.J. Tol
 
