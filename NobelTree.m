@@ -375,8 +375,14 @@ p64 = {'Galileo Galilei'};
 s65 = {'Theodorus van der Graeff'};
 p65 = {'Theodorus Craanen'};
 
-s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59 s60 s61 s62 s63 s64 s65];
-p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46 p47 p48 p49 p50 p51 p52 p53 p54 p55 p56 p57 p58 p59 p60 p61 p62 p63 p64 p65];
+s66 = {'Konrad Gessner' 'Konrad Gessner'};
+p66 = {'Guillaume Rondolet' 'Wolfgang Capito'};
+
+s67 = {'Wolfgang Capito' 'Wolfgang Capito'};
+p67 = {'Ulrich Zasius' 'Desiderius Erasmus'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59 s60 s61 s62 s63 s64 s65 s66 s67];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46 p47 p48 p49 p50 p51 p52 p53 p54 p55 p56 p57 p58 p59 p60 p61 p62 p63 p64 p65 p66 p67];
 
 NT = addedge(NT,p,s);
 
@@ -540,8 +546,53 @@ p17 = {'James Pound'};
 s18 = {'James Pound'};
 p18 = {'Edmond Halley'};
 
-s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18];
-p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18];
+s19 = {'Robert Hooke' 'Robert Hooke'};
+p19 = {'Thomas Willis' 'Robert Boyle'};
+
+s20 = {'Thomas Willis'};
+p20 = {'William Harvey'};
+
+s21 = {'Robert Boyle' 'Robert Boyle' 'Robert Boyle'};
+p21 = {'John Wilkins' 'John Wallis' 'William Petty'};
+
+s22 = {'John Wallis' 'John Wallis'};
+p22 = {'Francis Glisson' 'William Oughtred'};
+
+s23 = {'Francis Glisson'};
+p23 = {'William Harvey'};
+
+s24 = {'William Petty' 'William Petty' 'William Petty'};
+p24 = {'John Pell' 'Marine Mersenne' 'Rene Descartes'};
+
+s25 = {'Rene Descartes' 'Rene Descartes'};
+p25 = {'Jacob Gool' 'Isaac Beeckman'};
+
+s26 = {'Isaac Beeckman'};
+p26 = {'Rudolf Snellius'};
+
+s27 = {'Jacob Gool' 'Jacob Gool'};
+p27 = {'Thomas Erpenius' 'Willibrord Snellius'};
+
+s28 = {'Willibrord Snellius' 'Willibrord Snellius' 'Willibrord Snellius' 'Willibrord Snellius'};
+p28 = {'Rudolf Snellius' 'Ludolph van Keulen' 'Johannes Kepler' 'Tycho Brahe'};
+
+s29 = {'Tycho Brahe' 'Tycho Brahe'};
+p29 = {'Casper Peucer' 'Valentin Thau'};
+
+s30 = {'Casper Peucer' 'Casper Peucer'};
+p30 = {'Erasmus Reinhold' 'Georg Rheticus'};
+
+s31 = {'Georg Rheticus'};
+p31 = {'Nicolaus Copernicus'};
+
+s32 = {'Valentin Thau'};
+p32 = {'Johannes Hommel'};
+
+s33 = {'Johannes Hommel'};
+p33 = {'Erasmus Reinhold'};
+    
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33];
 
 NT = addedge(NT,p,s);
 
@@ -1004,8 +1055,11 @@ p47 = {'Constantijn van Oppyck' 'Jacob Gool'};
 s48 = {'Christian Heyne' 'Christian Heyne' 'Christian Heyne'};
 p48 = {'Johann Ernesti' 'Johann Christ' 'Johann Bach'};
 
-s = [s0 s1 s2 s3 s4 s5 s6 s9 s10 s11 s12 s13 s14 s16 s17 s18 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48];
-p = [p0 p1 p2 p3 p4 p5 p6 p9 p10 p11 p12 p13 p14 p16 p17 p18 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46 p47 p48];
+s49 = {'Siegmund Baumgarten'};
+p49 = {'Christian Michaelis'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s9 s10 s11 s12 s13 s14 s16 s17 s18 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48 s49];
+p = [p0 p1 p2 p3 p4 p5 p6 p9 p10 p11 p12 p13 p14 p16 p17 p18 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46 p47 p48 p49];
 
 NT = addedge(NT,p,s);
 
@@ -1028,9 +1082,6 @@ p4 = {'Heinrich Magnus'};
 s5 = {'Ernst G. Fischer'};
 p5 = {'Johann von Segner'};
 
-s6 = {'Johann von Segner' 'Johann von Segner'};
-p6 = {'Georg Hamberger' 'Simon Hilschner'};
-
 s7 = {'Simon Hilschner'};
 p7 = {'Rudolf Krauss'};
 
@@ -1043,8 +1094,8 @@ p9 = {'Johann LeBrett' 'Gottlob Storr' 'Ernst Platner'};
 s10 = {'Ernst Platner' 'Ernst Platner'};
 p10 = {'Johann Ernesti' 'Christian Ludwig'};
 
-s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10];
-p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10];
+s = [s0 s1 s2 s3 s4 s5 s7 s8 s9 s10];
+p = [p0 p1 p2 p3 p4 p5 p7 p8 p9 p10];
 
 NT = addedge(NT,p,s);
 
@@ -1125,13 +1176,13 @@ s12 = {'Jozef Stefan'};
 p12 = {'Andreas von Ettingshausen'};
 
 s13 = {'Wilhelm Ostwald (C1909)' 'Wilhelm Ostwald (C1909)'};
-p13 = {'Carl Schmidt' 'Arthur von Oettingen'};
+p13 = {'Carl E.H. Schmidt' 'Arthur von Oettingen'};
 
-s14 = {'Carl Schmidt' 'Carl Schmidt' 'Carl Schmidt' 'Carl Schmidt'};
+s14 = {'Carl E.H. Schmidt' 'Carl E.H. Schmidt' 'Carl E.H. Schmidt' 'Carl E.H. Schmidt'};
 p14 = {'Heinrich Rose' 'Justus von Liebich' 'Friedrich Wohler' 'Rudolf Wagner'};
 
 s15 = {'Arthur von Oettingen'};
-p15 = {'Carl Schmidt'};
+p15 = {'Carl E.H. Schmidt'};
 
 s16 = {'Heinrich Rose' 'Heinrich Rose' 'Heinrich Rose'};
 p16 = {'Martin Klaproth' 'Johann Pfaff' 'Jons Berzelius'};
@@ -1455,9 +1506,9 @@ s5 = {'Paul Dirac (P1933)'};
 p5 = {'Ralph Fowler'};
 
 s6 = {'Ralph Fowler' 'Ralph Fowler'};
-p6 = {'Archibald Hill' 'Ernst Rutherford (C1908)'};
+p6 = {'Archibald Hill (M1922)' 'Ernst Rutherford (C1908)'};
 
-s7 = {'Archibald Hill' 'Archibald Hill'};
+s7 = {'Archibald Hill (M1922)' 'Archibald Hill (M1922)'};
 p7 = {'Walter Fletcher' 'John Langley'};
 
 s8 = {'Walter Fletcher'};
@@ -1719,7 +1770,7 @@ s4 = {'Jean-Martin Charcot'};
 p4 = {'GB Duchenne'};
 
 s5 = {'Johann von Gudden' 'Johann von Gudden'};
-p5 = {'Carl Jacobi' 'Alfred Volkman'};
+p5 = {'Carl Jacobi' 'Alfred Volkmann'};
 
 s6 = {'Sigmund Freud' 'Sigmund Freud' 'Sigmund Freud' 'Sigmund Freud' 'Sigmund Freud' 'Sigmund Freud'};
 p6 = {'Franz Brentano' 'Ernst von Brucke' 'Jean-Martin Charcot' 'Salomon Stricker' 'Theodor Meynert' 'Hermann Nothnagel'};
@@ -2863,7 +2914,7 @@ s0 = {'Subramanyan Chandrasekhar (P1983)' 'Subramanyan Chandrasekhar (P1983)' 'S
 p0 = {'Max Born (P1954)' 'Niels Bohr (P1922)' 'Ralph Fowler' 'Edward Milne'};
 
 s1 = {'Edward Milne' 'Edward Milne' 'Edward Milne'};
-p1 = {'Ernest Barnes' 'GH Hardy' 'Archibald Hill'};
+p1 = {'Ernest Barnes' 'GH Hardy' 'Archibald Hill (M1922)'};
 
 s2 = {'Ernest Barnes'};
 p2 = {'Walter Ball'};
@@ -3412,9 +3463,9 @@ s6 = {'Mark Cardillo'};
 p6 = {'Simon Bauer'};
 
 s7 = {'Simon Bauer'};
-p7 = {'Thorfinn Hogness'};
+p7 = {'Thorfin Hogness'};
 
-s8 = {'Thorfinn Hogness'};
+s8 = {'Thorfin Hogness'};
 p8 = {'Joel Hildebrand'};
 
 s9 = {'Joel Hildebrand' 'Joel Hildebrand'};
@@ -3551,7 +3602,7 @@ s5 = {'David Ritson'};
 p5 = {'Carl Collie'};
 
 s6 = {'Ricardo Giacconi (P2002)' 'Ricardo Giacconi (P2002)' 'Ricardo Giacconi (P2002)'};
-p6 = {'Guiseppe Occhialini' 'Robert Thompson' 'George Reynolds'};
+p6 = {'Guiseppe Occhialini' 'Robert W. Thompson' 'George Reynolds'};
 
 s7 = {'Guiseppe Occhialini' 'Guiseppe Occhialini'};
 p7 = {'Bruno Rossi' 'Patrick Blackett (P1948)'};
@@ -3559,7 +3610,7 @@ p7 = {'Bruno Rossi' 'Patrick Blackett (P1948)'};
 s8 = {'Bruno Rossi' 'Bruno Rossi'};
 p8 = {'Quirino Majorana' 'Arthur Compton (P1927)'};
 
-s9 = {'Robert Thompson'};
+s9 = {'Robert W. Thompson'};
 p9 = {'Bruno Rossi'};
 
 s10 = {'George Reynolds' 'George Reynolds'};
@@ -3877,8 +3928,8 @@ p32 = {'Thomas Laby' 'Ralph Fowler'};
 s33 = {'Thomas Laby'};
 p33 = {'Joseph Thomson (P1906)'};
 
-s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33];
-p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33];
+s = [s0 s1 s2 s3 s4 s5 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33];
+p = [p0 p1 p2 p3 p4 p5 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33];
 
 NT = addedge(NT,p,s);
 
@@ -4660,9 +4711,9 @@ s0 = {'James Sumner (C1946)' 'James Sumner (C1946)'};
 p0 = {'Otto Folin' 'Theodor Svedberg (C1926)'};
 
 s1 = {'Otto Folin' 'Otto Folin' 'Otto Folin'};
-p1 = {'Julius Stieglitz' 'Ernst Salkowski' 'Albrecht Kossel'};
+p1 = {'Julius Stieglitz' 'Ernst Salkowski' 'Albrecht Kossel (M1910)'};
 
-s2 = {'Albrecht Kossel'};
+s2 = {'Albrecht Kossel (M1910)'};
 p2 = {'Ernst Hoppe-Seyler'};
 
 s3 = {'Julius Stieglitz'};
@@ -4743,15 +4794,6 @@ p = [p0];
 NT = addedge(NT,p,s);
 
 %%
-s0 = {'Kurt Alder (C1950)'};
-p0 = {'Otto Diels (C1950)'};
-
-s = [s0];
-p = [p0];
-
-NT = addedge(NT,p,s);
-
-%%
 s0 = {'Glenn Seaborg (C1951)' 'Glenn Seaborg (C1951)'};
 p0 = {'George Gibson' 'Gilbert Lewis'};
 
@@ -4768,9 +4810,9 @@ s1 = {'Charles Martin'};
 p1 = {'Carl Ludwig'};
 
 s2 = {'Leslie Harris'};
-p2 = {'Frederick Hopkins'};
+p2 = {'Frederick Hopkins (M1929)'};
 
-s3 = {'Frederick Hopkins' 'Frederick Hopkins'};
+s3 = {'Frederick Hopkins (M1929)' 'Frederick Hopkins (M1929)'};
 p3 = {'Thomas Stevenson' 'Michael Foster'};
 
 s4 = {'Thomas Stevenson'};
@@ -4789,7 +4831,7 @@ s8 = {'James Irvine'};
 p8 = {'Johannes Wislicenus'};
 
 s9 = {'Norman Pirie'};
-p9 = {'Frederick Hopkins'};
+p9 = {'Frederick Hopkins (M1929)'};
 
 s10 = {'Hedley Marston'};
 p10 = {'Brailsford Robertson'};
@@ -4804,7 +4846,7 @@ s12 = {'Friedrich Goltz' 'Friedrich Goltz' 'Friedrich Goltz' 'Friedrich Goltz'};
 p12 = {'Hermann von Helmholtz' 'Wilhelm von Wittich' 'Karl Wagner' 'August Muller'};
 
 s13 = {'Wilhelm von Wittich' 'Wilhelm von Wittich'};
-p13 = {'Hermann von Helmholtz' 'Alfred Volkman'};
+p13 = {'Hermann von Helmholtz' 'Alfred Volkmann'};
 
 s14 = {'Karl Wagner' 'Karl Wagner'};
 p14 = {'Johannes Muller' 'Bernhard von Langenbeck'};
@@ -4884,8 +4926,23 @@ p38 = {'Johannes van Horne'};
 s39 = {'Johannes van Horne' 'Johannes van Horne'};
 p39 = {'Henricus Regius' 'Johannes Vesling'};
 
-s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39];
-p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p32 p32 p33 p34 p35 p36 p37 p38 p39];
+s40 = {'Rudolf Snellius' 'Rudolf Snellius'};
+p40 = {'Immanuel Tremellius' 'Valentin Naboth'};
+
+s41 = {'Immanuel Tremellius'};
+p41 = {'Thomas Cranmer'};
+
+s42 = {'Valentin Naboth'};
+p42 = {'Erasmus Reinhold'};
+
+s43 = {'Erasmus Reinhold'};
+p43 = {'Jakob Milich'};
+
+s44 = {'Jakob Milich'};
+p44 = {'Desiderius Erasmus'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p32 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44];
 
 NT = addedge(NT,p,s);
 
@@ -4998,8 +5055,23 @@ p34 = {'Carl Kielmeyer'};
 s35 = {'John Abel'};
 p35 = {'Carl Ludwig'};
 
-s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35];
-p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35];
+s36 = {'Antonio Scarpa'};
+p36 = {'Giovanbattista Morgagni'};
+
+s37 = {'Giovanbattista Morgagni'};
+p37 = {'Antonio Valsalvi'};
+
+s38 = {'Antonio Valsalvi'};
+p38 = {'Marcello Malpighi'};
+
+s39 = {'Marcello Malpighi'};
+p39 = {'Giovanni Borelli'};
+
+s40 = {'Giovanni Borelli'};
+p40 = {'Benedetto Castelli'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40];
 
 NT = addedge(NT,p,s);
 
@@ -5302,12 +5374,12 @@ p = [p0 p1 p2 p3 p4 p5 p6];
 NT = addedge(NT,p,s);
 %%
 s0 = {'Luis Leloir (C1970)' 'Luis Leloir (C1970)' 'Luis Leloir (C1970)'};
-p0 = {'Bernardo Houssay' 'Frederick Hopkins' 'Carl Cori'};
+p0 = {'Bernardo Houssay (M1947)' 'Frederick Hopkins (M1929)' 'Carl Cori (M1947)'};
 
-s1 = {'Carl Cori' 'Carl Cori'};
-p1 = {'Otto Loewi' 'Harvey Gaylord'};
+s1 = {'Carl Cori (M1947)' 'Carl Cori (M1947)'};
+p1 = {'Otto Loewi (M1936)' 'Harvey Gaylord'};
 
-s2 = {'Otto Loewi' 'Otto Loewi' 'Otto Loewi'};
+s2 = {'Otto Loewi (M1936)' 'Otto Loewi (M1936)' 'Otto Loewi (M1936)'};
 p2 = {'Oswald Schmiedeberg' 'Ernest Starling' 'Hans Meyer'};
 
 s3 = {'Oswald Schmiedeberg'};
@@ -5562,7 +5634,7 @@ NT = addedge(NT,p,s);
 
 %%
 s0 = {'Paul Berg (C1980)' 'Paul Berg (C1980)' 'Paul Berg (C1980)'};
-p0 = {'Harland Wood' 'Herman Kalckar' 'Arthur Kornberg'};
+p0 = {'Harland Wood' 'Herman Kalckar' 'Arthur Kornberg (M1959)'};
 
 s1 = {'Harland Wood' 'Harland Wood'};
 p1 = {'Chester Werkman' 'William Peterson'};
@@ -5583,9 +5655,9 @@ s6 = {'Henry Martin'};
 p6 = {'Michael Foster'};
 
 s7 = {'Theophil Prudden' 'Theophil Prudden'};
-p7 = {'Francis Delafield' 'Robert Koch'};
+p7 = {'Francis Delafield' 'Robert Koch (M1905)'};
 
-s8 = {'Robert Koch' 'Robert Koch' 'Robert Koch' 'Robert Koch'};
+s8 = {'Robert Koch (M1905)' 'Robert Koch (M1905)' 'Robert Koch (M1905)' 'Robert Koch (M1905)'};
 p8 = {'Friedrich Henle' 'Karl Hasse' 'Georg Meissner' 'Rudolf Virchow'};
 
 s9 = {'Friedrich Henle'};
@@ -5601,13 +5673,13 @@ s12 = {'Charles Whitman' 'Charles Whitman'};
 p12 = {'Louis Agassiz' 'Rudolf Leuckart'};
 
 s13 = {'Herman Kalckar' 'Herman Kalckar' 'Herman Kalckar' 'Herman Kalckar'};
-p13 = {'Fritz Lipmann' 'Ejnar Lundsgard' 'Cornelis van Niel' 'Carl Cori'};
+p13 = {'Fritz Lipmann (M1953)' 'Ejnar Lundsgard' 'Cornelis van Niel' 'Carl Cori (M1947)'};
 
-s14 = {'Fritz Lipmann'};
-p14 = {'Otto Meyerhof'};
+s14 = {'Fritz Lipmann (M1953)'};
+p14 = {'Otto Meyerhof (M1922)'};
 
-s15 = {'Otto Meyerhof' 'Otto Meyerhof' 'Otto Meyerhof'};
-p15 = {'Franz Nissl' 'Ludolf von Krehl' 'Otto Warburg'};
+s15 = {'Otto Meyerhof (M1922)' 'Otto Meyerhof (M1922)' 'Otto Meyerhof (M1922)'};
+p15 = {'Franz Nissl' 'Ludolf von Krehl' 'Otto Warburg (M1931)'};
 
 s16 = {'Franz Nissl' 'Franz Nissl'};
 p16 = {'Johann von Gudden' 'Emil Skioli'};
@@ -5639,7 +5711,7 @@ p24 = {'Justus Loder' 'August Batsch'};
 s25 = {'August Batsch'};
 p25 = {'Justus Loder'};
 
-s26 = {'Otto Warburg' 'Otto Warburg'};
+s26 = {'Otto Warburg (M1931)' 'Otto Warburg (M1931)'};
 p26 = {'Emil Fischer (C1902)' 'Ludolf von Krehl'};
 
 s27 = {'Ejnar Lundsgard'};
@@ -5675,8 +5747,8 @@ p36 = {'Willem de Vriese'};
 s37 = {'Willem de Vriese'};
 p37 = {'Casper Reinwardt'};
 
-s38 = {'Arthur Kornberg' 'Arthur Kornberg' 'Arthur Kornberg'};
-p38 = {'William McCann' 'Severo Ochoa' 'Carl Cori'};
+s38 = {'Arthur Kornberg (M1959)' 'Arthur Kornberg (M1959)' 'Arthur Kornberg (M1959)'};
+p38 = {'William McCann' 'Severo Ochoa (M1959)' 'Carl Cori (M1947)'};
 
 s39 = {'William McCann' 'William McCann'};
 p39 = {'Graham Lusk' 'Eugene Dubois'};
@@ -5687,10 +5759,10 @@ p40 = {'Carl von Voit'};
 s41 = {'Carl von Voit' 'Carl von Voit'};
 p41 = {'Carl von Siebold' 'Theodor von Bischoff'};
 
-s42 = {'Severo Ochoa' 'Severo Ochoa' 'Severo Ochoa'};
-p42 = {'Juan Negrin' 'Otto Meyerhof' 'Henry Dale'};
+s42 = {'Severo Ochoa (M1959)' 'Severo Ochoa (M1959)' 'Severo Ochoa (M1959)'};
+p42 = {'Juan Negrin' 'Otto Meyerhof (M1922)' 'Henry Dale (M1936)'};
 
-s43 = {'Henry Dale' 'Henry Dale'};
+s43 = {'Henry Dale (M1936)' 'Henry Dale (M1936)'};
 p43 = {'Ernest Starling' 'John Langley'};
 
 s44 = {'Walter Gilbert (C1980)' 'Walter Gilbert (C1980)'};
@@ -5753,7 +5825,7 @@ s0 = {'Aaron Klug (C1982)' 'Aaron Klug (C1982)' 'Aaron Klug (C1982)' 'Aaron Klug
 p0 = {'Douglas Hartree' 'Reginald James' 'Francis Roughton' 'Rosalind Franklin'};
 
 s1 = {'Douglas Hartree' 'Douglas Hartree' 'Douglas Hartree'};
-p1 = {'Ralph Fowler' 'Archibald Hill' 'Ernst Rutherford (C1908)'};
+p1 = {'Ralph Fowler' 'Archibald Hill (M1922)' 'Ernst Rutherford (C1908)'};
 
 s2 = {'Reginald James' 'Reginald James'};
 p2 = {'Joseph Thomson (P1906)' 'William Bragg (P1915)'};
@@ -5928,14 +6000,11 @@ p13 = {'Emil Fischer (C1902)' 'Charles R. Barnes' 'John Nef'};
 s14 = {'John Nef'};
 p14 = {'Adolf von Baeyer (C1905)'};
 
-s15 = {'Elmer Kohler'};
-p15 = {'Ira Remsen'};
-
 s16 = {'Paul Bartlett' 'Paul Bartlett'};
 p16 = {'James Conant' 'Phoebus Levene'};
 
 s17 = {'Phoebus Levene' 'Phoebus Levene' 'Phoebus Levene' 'Phoebus Levene'};
-p17 = {'Aleksandr Dianin' 'Edmund Drechsel' 'Albrecht Kossel' 'Emil Fischer (C1902)'};
+p17 = {'Aleksandr Dianin' 'Edmund Drechsel' 'Albrecht Kossel (M1910)' 'Emil Fischer (C1902)'};
 
 s18 = {'Edmund Drechsel' 'Edmund Drechsel' 'Edmund Drechsel'};
 p18 = {'Otto Erdmann' 'Hermann Kolbe' 'Carl Ludwig'};
@@ -5958,8 +6027,8 @@ p23 = {'Louis Fieser'};
 s24 = {'Charles Pedersen (C1987)'};
 p24 = {'James Norris'};
     
-s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24];
-p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24];
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s16 s17 s18 s19 s20 s21 s22 s23 s24];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p16 p17 p18 p19 p20 p21 p22 p23 p24];
 
 NT = addedge(NT,p,s);
 %%
@@ -5985,9 +6054,9 @@ s6 = {'Hartmut Michel (C1988)'};
 p6 = {'Dieter Oesterhelt'};
 
 s7 = {'Dieter Oesterhelt'};
-p7 = {'Feodor Lynen'};
+p7 = {'Feodor Lynen (M1964)'};
 
-s8 = {'Feodor Lynen'};
+s8 = {'Feodor Lynen (M1964)'};
 p8 = {'Heinrich Wieland (C1927)'};
     
 s = [s0 s1 s2 s3 s4 s5 s6 s7 s8];
@@ -5996,7 +6065,7 @@ p = [p0 p1 p2 p3 p4 p5 p6 p7 p8];
 NT = addedge(NT,p,s);
 %%
 s0 = {'Sydney Altman (C1989)' 'Sydney Altman (C1989)' 'Sydney Altman (C1989)'};
-p0 = {'Leonard Lerman' 'Sydney Brenner' 'Matthew Meselson'};
+p0 = {'Leonard Lerman' 'Sydney Brenner (M2002)' 'Matthew Meselson'};
 
 s1 = {'Leonard Lerman' 'Leonard Lerman' 'Leonard Lerman'};
 p1 = {'Linus Pauling (C1954)' 'Dan Campbell' 'Leo Szilard'};
@@ -6034,7 +6103,7 @@ p11 = {'George Parker'};
 s12 = {'George Parker' 'George Parker'};
 p12 = {'Edward Mark' 'Rudolf Leuckart'};
 
-s13 = {'Sydney Brenner' 'Sydney Brenner'};
+s13 = {'Sydney Brenner (M2002)' 'Sydney Brenner (M2002)'};
 p13 = {'Cyril Hinshelwood (C1956)' 'Gunther Stent'};
 
 s14 = {'Gunther Stent' 'Gunther Stent'};
@@ -6098,9 +6167,9 @@ s33 = {'Joseph Gall'};
 p33 = {'Dan Poulson'};
 
 s34 = {'Dan Poulson'};
-p34 = {'Thomas Morgan'};
+p34 = {'Thomas Morgan (M1933)'};
 
-s35 = {'Thomas Morgan' 'Thomas Morgan'};
+s35 = {'Thomas Morgan (M1933)' 'Thomas Morgan (M1933)'};
 p35 = {'William Brooks' 'Hans Driesch'};
 
 s36 = {'Hans Driesch' 'Hans Driesch' 'Hans Driesch'};
@@ -6167,13 +6236,13 @@ s56 = {'Kenneth Thimann'};
 p56 = {'Samuel Schryver'};
 
 s57 = {'Samuel Schryver'};
-p58 = {'Johannes Wislicenus'};
+p57 = {'Johannes Wislicenus'};
 
-p59 = {'Alfred Sturtevant'};
-p59 = {'Thomas Morgan'};
+s58 = {'Alfred Sturtevant'};
+p58 = {'Thomas Morgan (M1933)'};
 
-s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59];
-p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46 p47 p48 p49 p50 p51 p52 p53 p54 p55 p56 p57 p58 p59];
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46 p47 p48 p49 p50 p51 p52 p53 p54 p55 p56 p57 p58];
 
 NT = addedge(NT,p,s);
 %%
@@ -6241,7 +6310,7 @@ s0 = {'Kary Mullis (C1993)'};
 p0 = {'John Neilands'};
 
 s1 = {'John Neilands' 'John Neilands'};
-p1 = {'Frank Strong' 'Hugo Theorell'};
+p1 = {'Frank Strong' 'Hugo Theorell (M1955)'};
 
 s2 = {'Frank Strong' 'Frank Strong' 'Frank Strong'};
 p2 = {'Samuel McElvain' 'Paul Karrer (C1937)' 'Fritz Kogl'};
@@ -6252,8 +6321,8 @@ p3 = {'Heinrich Wieland (C1927)'};
 s4 = {'Samuel McElvain'};
 p4 = {'Roger Adams'};
 
-s5 = {'Hugo Theorell' 'Hugo Theorell'};
-p5 = {'Albert Calmette' 'Otto Warburg'};
+s5 = {'Hugo Theorell (M1955)' 'Hugo Theorell (M1955)'};
+p5 = {'Albert Calmette' 'Otto Warburg (M1931)'};
 
 s6 = {'Albert Calmette' 'Albert Calmette'};
 p6 = {'Louis Pasteur' 'Emile Roux'};
@@ -6262,12 +6331,12 @@ s7 = {'Emile Roux' 'Emile Roux'};
 p7 = {'Louis Pasteur' 'Emile Duclaux'};
 
 s8 = {'Michael Smith (C1993)' 'Michael Smith (C1993)' 'Michael Smith (C1993)'};
-p8 = {'Ewart Jones' 'Bernard Henbest' 'Gobind Khorana'};
+p8 = {'Ewart Jones' 'Bernard Henbest' 'Gobind Khorana (M1968)'};
 
 s9 = {'Bernard Henbest'};
 p9 = {'Ewart Jones'};
 
-s10 = {'Gobind Khorana' 'Gobind Khorana' 'Gobind Khorana' 'Gobind Khorana'};
+s10 = {'Gobind Khorana (M1968)' 'Gobind Khorana (M1968)' 'Gobind Khorana (M1968)' 'Gobind Khorana (M1968)'};
 p10 = {'Roger Beer' 'Alexander Robertson' 'Vladimir Prelog (C1975)' 'Alexander Todd (C1957)'};
 
 s11 = {'Roger Beer'};
@@ -6327,7 +6396,7 @@ s7 = {'Sherwood Rowland (C1995)'};
 p7 = {'Willard Libby (C1960)'};
 
 s = [s0 s1 s2 s3 s4 s5 s6 s7];
-p = [p0 p1 p2 p3 s4 s5 s6 s7];
+p = [p0 p1 p2 p3 p4 p5 p6 p7];
 
 NT = addedge(NT,p,s);
 %%
@@ -6430,7 +6499,7 @@ s1 = {'Paul Phillips' 'Paul Phillips' 'Paul Phillips'};
 p1 = {'Edwin Hart' 'Harry Steenbock' 'Gustav Bohstedt'};
 
 s2 = {'Edwin Hart' 'Edwin Hart'};
-p2 = {'Albrecht Kossel' 'Stephen Babcock'};
+p2 = {'Albrecht Kossel (M1910)' 'Stephen Babcock'};
 
 s3 = {'Stephen Babcock'};
 p3 = {'Hans Hubner'};
@@ -6448,7 +6517,7 @@ s7 = {'William Henry'};
 p7 = {'Charley Riley'};
 
 s8 = {'Harry Russell' 'Harry Russell' 'Harry Russell' 'Harry Russell'};
-p8 = {'Edward Birge' 'Robert Koch' 'Louis Pasteur' 'William Welch'};
+p8 = {'Edward Birge' 'Robert Koch (M1905)' 'Louis Pasteur' 'William Welch'};
 
 s9 = {'Edward Birge' 'Edward Birge' 'Edward Birge' 'Edward Birge'};
 p9 = {'Louis Agassiz' 'John McCrady' 'Nathaniel Shaler' 'Carl Ludwig'};
@@ -6463,7 +6532,7 @@ s12 = {'William Welch'};
 p12 = {'Francis Delafield'};
 
 s13 = {'Murray Luck' 'Murray Luck'};
-p13 = {'Frederick Hopkins' 'John B.S. Haldane'};
+p13 = {'Frederick Hopkins (M1929)' 'John B.S. Haldane'};
 
 s14 = {'John B.S. Haldane'};
 p14 = {'John S. Haldane'};
@@ -6493,12 +6562,12 @@ s22 = {'John Walker'};
 p22 = {'Edward Abraham'};
 
 s23 = {'Edward Abraham' 'Edward Abraham' 'Edward Abraham'};
-p23 = {'Robert Robinson (C1947)' 'Hans von Euler-Chelpin (C1929)' 'Howard Florey'};
+p23 = {'Robert Robinson (C1947)' 'Hans von Euler-Chelpin (C1929)' 'Howard Florey (M1945)'};
 
-s24 = {'Howard Florey' 'Howard Florey' 'Howard Florey'};
-p24 = {'Charles Sherrington' 'Alfred Richards' 'Frederick Hopkins'};
+s24 = {'Howard Florey (M1945)' 'Howard Florey (M1945)' 'Howard Florey (M1945)'};
+p24 = {'Charles Sherrington (M1932)' 'Alfred Richards' 'Frederick Hopkins (M1929)'};
 
-s25 = {'Charles Sherrington' 'Charles Sherrington'};
+s25 = {'Charles Sherrington (M1932)' 'Charles Sherrington (M1932)'};
 p25 = {'John Langley' 'Friedrich Goltz'};
 
 s26 = {'Alfred Richards' 'Alfred Richards'};
@@ -6599,8 +6668,8 @@ p4 = {'Gen-itsu Kita'};
 s5 = {'Keiichi Shishido'};
 p5 = {'Gen-itsu Kita'};
 
-s6 = {'Barry Sharpless (C2001)' 'Barry Sharpless (C2001)' 'Barry Sharpless (C2001)' 'Barry Sharpless (C2001)'};
-p6 = {'Thomas Spencer' 'Eugene van Tamelen' 'James Collman' 'Konrad Bloch'};
+s6 = {'Barry Sharpless (C2001)' 'Barry Sharpless (C2001)' 'Barry Sharpless (C2001)' 'Barry Sharpless (C2001)' 'Barry Sharpless (C2022)' 'Barry Sharpless (C2022)' 'Barry Sharpless (C2022)' 'Barry Sharpless (C2022)'};
+p6 = {'Thomas Spencer' 'Eugene van Tamelen' 'James Collman' 'Konrad Bloch (M1964)' 'Thomas Spencer' 'Eugene van Tamelen' 'James Collman' 'Konrad Bloch (M1964)'};
 
 s7 = {'Thomas Spencer'};
 p7 = {'Eugene van Tamelen'};
@@ -6617,7 +6686,7 @@ p10 = {'Reynold Fuson'};
 s11 = {'Reynold Fuson' 'Reynold Fuson'};
 p11 = {'William Hunter' 'Elmer Kohler'};
 
-s12 = {'Konrad Bloch' 'Konrad Bloch' 'Konrad Bloch'};
+s12 = {'Konrad Bloch (M1964)' 'Konrad Bloch (M1964)' 'Konrad Bloch (M1964)'};
 p12 = {'Hans Clarke' 'Rudolf Schoenheimer' 'David Rittenberg'};
 
 s13 = {'Rudolf Schoenheimer' 'Rudolf Schoenheimer' 'Rudolf Schoenheimer'};
@@ -6705,9 +6774,9 @@ s2 = {'Gordon Tomkins'};
 p2 = {'Israel Chaikoff'};
 
 s3 = {'Israel Chaikoff'};
-p3 = {'John MacLeod'};
+p3 = {'John Macleod (M1923)'};
 
-s4 = {'John MacLeod' 'John MacLeod'};
+s4 = {'John Macleod (M1923)' 'John Macleod (M1923)'};
 p4 = {'Max Siegfried' 'Leonard Hill'};
 
 s5 = {'Max Siegfried'};
@@ -6717,7 +6786,7 @@ s6 = {'Leonard Hill'};
 p6 = {'Edward Sharpey-Schafer'};
 
 s7 = {'Irwin Rose (C2004)' 'Irwin Rose (C2004)'};
-p7 = {'Birgit Vennesland' 'Severo Ochoa'};
+p7 = {'Birgit Vennesland' 'Severo Ochoa (M1959)'};
 
 s8 = {'Birgit Vennesland' 'Birgit Vennesland'};
 p8 = {'Martin Hanke' 'Baird Hastings'};
@@ -6726,13 +6795,13 @@ s9 = {'Martin Hanke'};
 p9 = {'Julius Stieglitz'};
 
 s10 = {'Harvey Lodish' 'Harvey Lodish' 'Harvey Lodish'};
-p10 = {'Norton Zinder' 'Francis Crick' 'Sydney Brenner'};
+p10 = {'Norton Zinder' 'Francis Crick (M1962)' 'Sydney Brenner (M2002)'};
 
 s11 = {'Norton Zinder'};
-p11 = {'Joshua Lederberg'};
+p11 = {'Joshua Lederberg (M1958)'};
 
-s12 = {'Joshua Lederberg' 'Joshua Lederberg'};
-p12 = {'Francis Ryan' 'Edward Tatum'};
+s12 = {'Joshua Lederberg (M1958)' 'Joshua Lederberg (M1958)'};
+p12 = {'Francis Ryan' 'Edward Tatum (M1958)'};
 
 s13 = {'Francis Ryan' 'Francis Ryan'};
 p13 = {'Lester Barth' 'Douglas Whitaker'};
@@ -6752,10 +6821,7 @@ p17 = {'Charles Kofoid'};
 s18 = {'Charles Kofoid'};
 p18 = {'Edward Mark'};
 
-s19 = {'Edward Mark'};
-p19 = {'Rudolf Leuckart'};
-
-s20 = {'Edward Tatum' 'Edward Tatum'};
+s20 = {'Edward Tatum (M1958)' 'Edward Tatum (M1958)'};
 p20 = {'William Peterson' 'Edwin Fred'};
 
 s21 = {'Edwin Fred'};
@@ -6764,14 +6830,14 @@ p21 = {'Alfred Koch'};
 s22 = {'Alfred Koch'};
 p22 = {'Heinrich de Bary'};
 
-s23 = {'Francis Crick' 'Francis Crick'};
+s23 = {'Francis Crick (M1962)' 'Francis Crick (M1962)'};
 p23 = {'Edward Andrade' 'Max Perutz (C1962)'};
 
 s24 = {'Edward Andrade' 'Edward Andrade'};
 p24 = {'Philip Lenard (P1905)' 'Ernst Rutherford (C1908)'};
 
-s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24];
-p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24];
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s20 s21 s22 s23 s24];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p20 p21 p22 p23 p24];
 
 NT = addedge(NT,p,s);
 %%
@@ -6824,7 +6890,7 @@ NT = addedge(NT,p,s);
 NT = addnode(NT,{'Yves Chauvin (C2005)'});
 %%
 s0 = {'Roger Kornberg (C2006)' 'Roger Kornberg (C2006)' 'Roger Kornberg (C2006)' 'Roger Kornberg (C2006)'};
-p0 = {'Paul Berg (C1980)' 'Harden McConnell' 'Francis Crick' 'Aaron Klug (C1982)'};
+p0 = {'Paul Berg (C1980)' 'Harden McConnell' 'Francis Crick (M1962)' 'Aaron Klug (C1982)'};
 
 s1 = {'Harden McConnell' 'Harden McConnell'};
 p1 = {'Norman Davidson' 'Robert Mullikan (C1966)'};
@@ -6873,13 +6939,13 @@ s5 = {'Frank Johnson'};
 p5 = {'Edmund Harvey'};
 
 s6 = {'Edmund Harvey'};
-p6 = {'Thomas Morgan'};
+p6 = {'Thomas Morgan (M1933)'};
 
 s7 = {'Martin Chalfie (C2008)' 'Martin Chalfie (C2008)' 'Martin Chalfie (C2008)' 'Martin Chalfie (C2008)'};
-p7 = {'Klaus Weber' 'Jose Zadunaisky' 'Robert Perlman' 'Sydney Brenner'};
+p7 = {'Klaus Weber' 'Jose Zadunaisky' 'Robert Perlman' 'Sydney Brenner (M2002)'};
 
 s8 = {'Klaus Weber' 'Klaus Weber' 'Klaus Weber'};
-p8 = {'Kurt Wallenfels' 'James Watson' 'William Konigsberg'};
+p8 = {'Kurt Wallenfels' 'James Watson (M1962)' 'William Konigsberg'};
 
 s9 = {'Kurt Wallenfels' 'Kurt Wallenfels'};
 p9 = {'Arnulf Soltys' 'Richard Kuhn (C1938)'};
@@ -6887,20 +6953,20 @@ p9 = {'Arnulf Soltys' 'Richard Kuhn (C1938)'};
 s10 = {'Arnulf Soltys'};
 p10 = {'Fritz Pregl (C1923)'};
 
-s11 = {'James Watson' 'James Watson' 'James Watson'};
-p11 = {'Salvador Luria' 'John Kendrew (C1962)' 'Max Delbruck'};
+s11 = {'James Watson (M1962)' 'James Watson (M1962)' 'James Watson (M1962)'};
+p11 = {'Salvador Luria (M1969)' 'John Kendrew (C1962)' 'Max Delbruck (M1969)'};
 
-s12 = {'Salvador Luria'};
+s12 = {'Salvador Luria (M1969)'};
 p12 = {'Guiseppe Levi'};
 
 s13 = {'Guiseppe Levi'};
 p13 = {'Oskar Hertwig'};
 
-s14 = {'Max Delbruck'};
+s14 = {'Max Delbruck (M1969)'};
 p14 = {'Max Born (P1954)'};
 
 s15 = {'Jose Zadunaisky' 'Jose Zadunaisky' 'Jose Zadunaisky'};
-p15 = {'Bernardo Houssay' 'Edward Conway' 'Hans Ussing'};
+p15 = {'Bernardo Houssay (M1947)' 'Edward Conway' 'Hans Ussing'};
 
 s16 = {'Edward Conway'};
 p16 = {'Gustav Embden'};
@@ -6915,9 +6981,9 @@ s19 = {'Julius Cohnheim' 'Julius Cohnheim'};
 p19 = {'Rudolf Virchow' 'Albert von Kolliker'};
 
 s20 = {'Hans Ussing'};
-p20 = {'August Krogh'};
+p20 = {'August Krogh (M1920)'};
 
-s21 = {'August Krogh'};
+s21 = {'August Krogh (M1920)'};
 p21 = {'Christian Bohr'};
 
 s22 = {'Robert Perlman' 'Robert Perlman'};
@@ -6930,7 +6996,7 @@ s24 = {'Harold Edelhoch'};
 p24 = {'John Edsall'};
 
 s25 = {'John Edsall' 'John Edsall' 'John Edsall'};
-p25 = {'Alfred Redfield' 'Frederick Hopkins' 'Edwin Cohn'};
+p25 = {'Alfred Redfield' 'Frederick Hopkins (M1929)' 'Edwin Cohn'};
 
 s26 = {'Alfred Redfield'};
 p26 = {'George Parker'};
@@ -6954,12 +7020,12 @@ s32 = {'Henry Schuette'};
 p32 = {'Edward Birge'};
 
 s33 = {'Richard Adrien'};
-p33 = {'Alan Hodgkin'};
+p33 = {'Alan Hodgkin (M1963)'};
 
-s34 = {'Alan Hodgkin' 'Alan Hodgkin' 'Alan Hodgkin'};
-p34 = {'Edgar Adrien' 'Kenneth Cole' 'Herbert Gasser'};
+s34 = {'Alan Hodgkin (M1963)' 'Alan Hodgkin (M1963)' 'Alan Hodgkin (M1963)'};
+p34 = {'Edgar Adrian (M1932)' 'Kenneth Cole' 'Herbert Gasser (M1944)'};
 
-s35 = {'Edgar Adrien'};
+s35 = {'Edgar Adrian (M1932)'};
 p35 = {'Keith Lucas'};
 
 s36 = {'Keith Lucas' 'Keith Lucas'};
@@ -6968,10 +7034,10 @@ p36 = {'Walter Fletcher' 'Michael Foster'};
 s37 = {'Kenneth Cole' 'Kenneth Cole' 'Kenneth Cole'};
 p37 = {'Irving Langmuir (C1932)' 'Floyd Richtmyer' 'Peter Debye (C1936)'};
 
-s38 = {'Herbert Gasser' 'Herbert Gasser'};
-p38 = {'Joseph Erlanger' 'William Howell'};
+s38 = {'Herbert Gasser (M1944)' 'Herbert Gasser (M1944)'};
+p38 = {'Joseph Erlanger (M1944)' 'William Howell'};
 
-s39 = {'Joseph Erlanger'};
+s39 = {'Joseph Erlanger (M1944)'};
 p39 = {'William Howell'};
 
 s40 = {'William Howell' 'William Howell'};
@@ -6999,10 +7065,10 @@ s2 = {'Thomas Mayer' 'Thomas Mayer'};
 p2 = {'Gilbert Lewis' 'James Franck (P1925)'};
 
 s3 = {'Peter Moore' 'Peter Moore' 'Peter Moore'};
-p3 = {'James Watson' 'Alfred Tissieres' 'Hugh Huxley'};
+p3 = {'James Watson (M1962)' 'Alfred Tissieres' 'Hugh Huxley'};
 
 s4 = {'Alfred Tissieres' 'Alfred Tissieres' 'Alfred Tissieres'};
-p4 = {'James Watson' 'David Keilin' 'Jacques Monod'};
+p4 = {'James Watson (M1962)' 'David Keilin' 'Jacques Monod (M1965)'};
 
 s5 = {'David Keilin'};
 p5 = {'George Nutall'};
@@ -7019,16 +7085,16 @@ p8 = {'Max von Pettenkofer'};
 s9 = {'Max von Pettenkofer' 'Max von Pettenkofer' 'Max von Pettenkofer'};
 p9 = {'Johann Buchner' 'Johann von Scherer' 'Justus von Liebich'};
 
-s10 = {'Jacques Monod' 'Jacques Monod'};
-p10 = {'Thomas Morgan' 'Andre Lwoff'};
+s10 = {'Jacques Monod (M1965)' 'Jacques Monod (M1965)'};
+p10 = {'Thomas Morgan (M1933)' 'Andre Lwoff (M1965)'};
 
-s11 = {'Andre Lwoff' 'Andre Lwoff' 'Andre Lwoff' 'Andre Lwoff'};
-p11 = {'Edouard Chatton' 'Felix Mesnil' 'Otto Meyerhof' 'David Keilin'};
+s11 = {'Andre Lwoff (M1965)' 'Andre Lwoff (M1965)' 'Andre Lwoff (M1965)' 'Andre Lwoff (M1965)'};
+p11 = {'Edouard Chatton' 'Felix Mesnil' 'Otto Meyerhof (M1922)' 'David Keilin'};
 
 s12 = {'Felix Mesnil' 'Felix Mesnil' 'Felix Mesnil' 'Felix Mesnil'};
-p12 = {'Richard Hertwig' 'Ernst Haeckel' 'Theodor Engelmann' 'Ilya Mechnikov'};
+p12 = {'Richard von Hertwig' 'Ernst Haeckel' 'Theodor Engelmann' 'Ilya Mechnikov (M1908)'};
 
-s13 = {'Richard Hertwig' 'Richard Hertwig'};
+s13 = {'Richard von Hertwig' 'Richard von Hertwig'};
 p13 = {'Max Schultze' 'Ernst Haeckel'};
 
 s14 = {'Max Schultze' 'Max Schultze'};
@@ -7046,14 +7112,14 @@ p17 = {'Carl Gegenbauer' 'Albert von Bezold'};
 s18 = {'Albert von Bezold'};
 p18 = {'Emil du Bois-Reymond'};
 
-s19 = {'Ilya Mechnikov' 'Ilya Mechnikov' 'Ilya Mechnikov' 'Ilya Mechnikov'};
+s19 = {'Ilya Mechnikov (M1908)' 'Ilya Mechnikov (M1908)' 'Ilya Mechnikov (M1908)' 'Ilya Mechnikov (M1908)'};
 p19 = {'Rudolf Leuckart' 'Friedrich Henle' 'Carl von Siebold' 'Louis Pasteur'};
 
 s20 = {'Hugh Huxley' 'Hugh Huxley'};
 p20 = {'John Kendrew (C1962)' 'Francis Schmitt'};
 
 s21 = {'Francis Schmitt'};
-p21 = {'Joseph Erlanger'};
+p21 = {'Joseph Erlanger (M1944)'};
 
 s22 = {'Thomas Steitz (C2009)' 'Thomas Steitz (C2009)'};
 p22 = {'William Lipscomb (C1976)' 'David Blow'};
@@ -7062,7 +7128,7 @@ s23 = {'David Blow' 'David Blow'};
 p23 = {'Max Perutz (C1962)' 'Alexander Rich'};
 
 s24 = {'Alexander Rich' 'Alexander Rich' 'Alexander Rich'};
-p24 = {'John Edsall' 'Linus Pauling (C1954)' 'Francis Crick'};
+p24 = {'John Edsall' 'Linus Pauling (C1954)' 'Francis Crick (M1962)'};
 
 s25 = {'Ada Yonath (C2009)' 'Ada Yonath (C2009)'};
 p25 = {'Wolfie Traub' 'Albert Cotton'};
@@ -7125,9 +7191,9 @@ s1 = {'Edgar Haber'};
 p1 = {'Christian Anfinsen (C1972)'};
 
 s2 = {'Jesse Roth'};
-p2 = {'Rosalyn Yalow'};
+p2 = {'Rosalyn Yalow (M1977)'};
 
-s3 = {'Rosalyn Yalow' 'Rosalyn Yalow'};
+s3 = {'Rosalyn Yalow (M1977)' 'Rosalyn Yalow (M1977)'};
 p3 = {'Rudolf Schoenheimer' 'Maurice Goldhaber'};
 
 s4 = {'Maurice Goldhaber' 'Maurice Goldhaber' 'Maurice Goldhaber' 'Maurice Goldhaber'};
@@ -7137,10 +7203,10 @@ s5 = {'Ira Pastan'};
 p5 = {'Earl Stadtman'};
 
 s6 = {'Earl Stadtman' 'Earl Stadtman' 'Earl Stadtman' 'Earl Stadtman'};
-p6 = {'Horace Barker' 'Fritz Lipmann' 'Feodor Lynen' 'Georges Cohen'};
+p6 = {'Horace Barker' 'Fritz Lipmann (M1953)' 'Feodor Lynen (M1964)' 'Georges Cohen'};
 
 s7 = {'Georges Cohen'};
-p7 = {'Jacques Monod'};
+p7 = {'Jacques Monod (M1965)'};
 
 s8 = {'Horace Barker' 'Horace Barker' 'Horace Barker'};
 p8 = {'James McBain' 'Cornelis van Niel' 'Albert Kluyver'};
@@ -7158,7 +7224,7 @@ s0 = {'Martin Karplus (C2013)' 'Martin Karplus (C2013)'};
 p0 = {'Linus Pauling (C1954)' 'Charles Coulson'};
 
 s1 = {'Michael Levitt (C2013)' 'Michael Levitt (C2013)' 'Michael Levitt (C2013)' 'Michael Levitt (C2013)'};
-p1 = {'Robert Diamond' 'Aaron Klug (C1982)' 'Francis Crick' 'Shneior Lifson'};
+p1 = {'Robert Diamond' 'Aaron Klug (C1982)' 'Francis Crick (M1962)' 'Shneior Lifson'};
 
 s2 = {'Shneior Lifson' 'Shneior Lifson' 'Shneior Lifson'};
 p2 = {'Aharon Katzir-Katchalsky' 'Peter Debye (C1936)' 'Jan Hermans'};
@@ -7234,7 +7300,7 @@ p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10];
 NT = addedge(NT,p,s);
 %%
 s0 = {'Tomas Lindahl (C2015)' 'Tomas Lindahl (C2015)' 'Tomas Lindahl (C2015)'};
-p0 = {'Einar Hammersten' 'Jacques Fresco' 'Gerald Edelman'};
+p0 = {'Einar Hammersten' 'Jacques Fresco' 'Gerald Edelman (M1972)'};
 
 s1 = {'Jacques Fresco'};
 p1 = {'Aaron Bendich'};
@@ -7272,7 +7338,7 @@ p11 = {'Marston Bogert' 'Richard Willstatter (C1915)' 'Walter Jacobs' 'Donald va
 s12 = {'Walter Jacobs'};
 p12 = {'Emil Fischer (C1902)'};
 
-s13 = {'Gerald Edelman'};
+s13 = {'Gerald Edelman (M1972)'};
 p13 = {'Henry Kunkel'};
 
 s14 = {'Henry Kunkel'};
@@ -7300,10 +7366,10 @@ s21 = {'Paul Modrich (C2015)' 'Paul Modrich (C2015)'};
 p21 = {'Robert Lehman' 'Charles Richardson'};
 
 s22 = {'Robert Lehman' 'Robert Lehman'};
-p22 = {'Roger Herriott' 'Arthur Kornberg'};
+p22 = {'Roger Herriott' 'Arthur Kornberg (M1959)'};
 
 s23 = {'Charles Richardson'};
-p23 = {'Arthur Kornberg'};
+p23 = {'Arthur Kornberg (M1959)'};
 
 s24 = {'Roger Herriott' 'Roger Herriott'};
 p24 = {'John Northrop (C1946)' 'John Nelson'};
@@ -7321,10 +7387,10 @@ s28 = {'Frank Brink'};
 p28 = {'Detlev Bronk'};
 
 s29 = {'Detlev Bronk' 'Detlev Bronk' 'Detlev Bronk'};
-p29 = {'Robert Gesell' 'Edgar Adrien' 'Archibald Hill'};
+p29 = {'Robert Gesell' 'Edgar Adrian (M1932)' 'Archibald Hill (M1922)'};
 
 s30 = {'Robert Gesell'};
-p30 = {'Joseph Erlanger'};
+p30 = {'Joseph Erlanger (M1944)'};
 
 s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30];
 p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30];
@@ -7368,13 +7434,13 @@ p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9];
 NT = addedge(NT,p,s);
 %%
 s0 = {'Jacques Dubochet (C2017)'};
-p0 = {'Edouard Kellenberger'};
+p0 = {'Eduard Kellenberger'};
 
-s1 = {'Edouard Kellenberger'};
+s1 = {'Eduard Kellenberger'};
 p1 = {'Jean-Jacques Weigle'};
 
 s2 = {'Jean-Jacques Weigle' 'Jean-Jacques Weigle'};
-p2 = {'Max Delbruck' 'Charles-Eugene Guye'};
+p2 = {'Max Delbruck (M1969)' 'Charles-Eugene Guye'};
 
 s3 = {'Charles-Eugene Guye'};
 p3 = {'Charles Soret'};
@@ -7432,13 +7498,13 @@ p6 = {'John Williams'};
 s7 = {'John Williams' 'John Williams'};
 p7 = {'Peter Debye (C1936)' 'Farrington Daniels'};
 
-s8 = {'John Kirkwood'};
+s8 = {'John Kirkwood' 'John Kirkwood' 'John Kirkwood'};
 p8 = {'Peter Debye (C1936)' 'John Slater' 'Frederick Keyes'};
 
 s9 = {'George Smith (C2018)' 'George Smith (C2018)'};
-p9 = {'Edgar Haber' 'Oliver Smithies'};
+p9 = {'Edgar Haber' 'Oliver Smithies (M2007)'};
 
-s10 = {'Oliver Smithies' 'Oliver Smithies'};
+s10 = {'Oliver Smithies (M2007)' 'Oliver Smithies (M2007)'};
 p10 = {'Alexander Ogston' 'John Williams'};
 
 s11 = {'Alexander Ogston'};
@@ -7454,7 +7520,7 @@ s14 = {'Brian Hartley' 'Brian Hartley'};
 p14 = {'Bernard Kilby' 'Malcolm Dixon'};
 
 s15 = {'Malcolm Dixon'};
-p15 = {'Frederick Hopkins'};
+p15 = {'Frederick Hopkins (M1929)'};
 
 s16 = {'Bernard Kilby'};
 p16 = {'Frederick Kipping'};
@@ -7516,10 +7582,10 @@ s3 = {'Bernard Sureau'};
 p3 = {'Louis Pasteur'};
 
 s4 = {'Francois Cuzin'};
-p4 = {'Francois Jacob'};
+p4 = {'Francois Jacob (M1965)'};
 
-s5 = {'Francois Jacob'};
-p5 = {'Andre Lwoff'};
+s5 = {'Francois Jacob (M1965)'};
+p5 = {'Andre Lwoff (M1965)'};
 
 s6 = {'Julian Davies' 'Julian Davies'};
 p6 = {'Eugene van Tamelen' 'Gilbert Stork'};
@@ -7567,12 +7633,3407 @@ s20 = {'Wilhelm Wundt' 'Wilhelm Wundt' 'Wilhelm Wundt' 'Wilhelm Wundt'};
 p20 = {'Robert Bunsen' 'Karl Hasse' 'Johannes Muller' 'Hermann von Helmholtz'};
 
 s21 = {'Benno Erdmann' 'Benno Erdmann'};
+p21 = {'Eduard Zeller' 'Hermann Bonitz'};
 
-tot hier
+s22 = {'Hermann Bonitz' 'Hermann Bonitz' 'Hermann Bonitz'};
+p22 = {'Johann Hermann' 'August Boeckh' 'Karl Lachmann'};
+
+s23 = {'Karl Lachmann' 'Karl Lachmann' 'Karl Lachmann' 'Karl Lachmann' 'Karl Lachmann'};
+p23 = {'Johann Hermann' 'August Boeckh' 'Christian Heyne' 'Georg Benecke' 'Christian Schutz'};
+
+s24 = {'Georg Benecke'};
+p24 = {'Christian Heyne'};
+
+s25 = {'Christian Schutz'};
+p25 = {'Johann Semler'};
+
+s26 = {'Johann Semler'};
+p26 = {'Siegmund Baumgarten'};
+
+s27 = {'Jennifer Doudna (C2020)' 'Jennifer Doudna (C2020)'};
+p27 = {'Thomas Cech (C1989)' 'Jack Szostak (M2009)'};
+
+s28 = {'Jack Szostak (M2009)'};
+p28 = {'Ray Wu'};
+
+s29 = {'Ray Wu'};
+p29 = {'Wright Wilson'};
+
+s30 = {'Wright Wilson'};
+p30 = {'Lafayette Mendel'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30];
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Benjamin List (C2021)' 'Benjamin List (C2021)' 'Benjamin List (C2021)'};
+p0 = {'Johann Mulzer' 'Carlos Barbas' 'Richard Lerner'};
+
+s1 = {'Johann Mulzer' 'Johann Mulzer'};
+p1 = {'Rolf Huisgen' 'Elias Corey (C1990)'};
+
+s2 = {'Rolf Huisgen'};
+p2 = {'Heinrich Wieland (C1927)'};
+
+s3 = {'Richard Lerner'};
+p3 = {'Frank Dixon'};
+
+s4 = {'Frank Dixon'};
+p4 = {'Shields Warren'};
+
+s5 = {'Carlos Barbas' 'Carlos Barbas' 'Carlos Barbas'};
+p5 = {'Richard Lerner' 'Stephen Benkovic' 'Chi-Huey Wong'};
+
+s6 = {'Chi-Huey Wong'};
+p6 = {'George Whitesides'};
+
+s7 = {'George Whitesides'};
+p7 = {'John Roberts'};
+
+s8 = {'Stephen Benkovic'};
+p8 = {'Thomas Bruice'};
+
+s9 = {'Thomas Bruice' 'Thomas Bruice'};
+p9 = {'Norman Kharasch' 'Ellery Stowell'};
+
+s10 = {'Norman Kharasch'};
+p10 = {'Charles Hurd'};
+
+s11 = {'Charles Hurd'};
+p11 = {'Lauder Jones'};
+
+s12 = {'Lauder Jones'};
+p12 = {'John Nef'};
+
+s13 = {'Ellery Stowell'};
+p13 = {'Harold Tarver'};
+
+s14 = {'Harold Tarver'};
+p14 = {'Carl L.A. Schmidt'};
+
+s15 = {'Carl L.A. Schmidt' 'Carl L.A. Schmidt'}; 
+p15 = {'Frederick Gay' 'Brailsford Robertson'};
+
+s16 = {'Frederick Gay' 'Frederick Gay'};
+p16 = {'Simon Flexner' 'Jules Bordet (M1919)'};
+
+s17 = {'Jules Bordet (M1919)'};
+p17 = {'Ilya Mechnikov (M1908)'};
+
+s18 = {'Simon Flexner' 'Simon Flexner'};
+p18 = {'William Welch' 'Friedrich von Recklingshausen'};
+
+s19 = {'David MacMillan (C2021)' 'David MacMillan (C2021)'};
+p19 = {'Larry Overman' 'David Evans'};
+
+s20 = {'Larry Overman'};
+p20 = {'Howard Whitlock'};
+
+s21 = {'Howard Whitlock'};
+p21 = {'William Johnson'};
+
+s22 = {'David Evans' 'David Evans'};
+p22 = {'Norman Craig' 'Robert Ireland'};
+
+s23 = {'Norman Craig'};
+p23 = {'George Kistiakowsky'};
+
+s24 = {'Robert Ireland' 'Robert Ireland'};
+p24 = {'William Johnson' 'William Young'};
+
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Emil von Behring (M1901)' 'Emil von Behring (M1901)'};
+p0 = {'Karl Schweigger' 'Robert Koch (M1905)'};
+
+s1 = {'Karl Schweigger' 'Karl Schweigger' 'Karl Schweigger' 'Karl Schweigger'};
+p1 = {'Ernst Blasius' 'Peter Krukenberg' 'Heinrich Muller' 'Albert von Graefe'};
+
+s2 = {'Ernst Blasius'};
+p2 = {'Karl Asmund Rudolphi'};
+
+s3 = {'Peter Krukenberg' 'Peter Krukenberg' 'Peter Krukenberg'};
+p3 = {'Karl Himly' 'Johann Reil' 'Ernst Heim'};
+
+s4 = {'Karl Himly' 'Karl Himly' 'Karl Himly'};
+p4 = {'Georg Hildebrandt' 'August Richter' 'Carl von Siebold'};
+
+s5 = {'Ernst Heim'};
+p5 = {'Adam Nietzki'};
+
+s6 = {'Adam Nietzki'};
+p6 = {'Friedrich Hoffmann'};
+
+s7 = {'Heinrich Muller' 'Heinrich Muller' 'Heinrich Muller' 'Heinrich Muller'};
+p7 = {'Ignaz Doellinger' 'Karl von Rokitansky' 'Friedrich Arnold' 'Friedrich Henle'};
+
+s8 = {'Friedrich Arnold' 'Friedrich Arnold' 'Friedrich Arnold'};
+p8 = {'Vincent Fohmann' 'Leopold Gmelin' 'Friedrich Tiedemann'};
+
+s9 = {'Vincent Fohmann'};
+p9 = {'Friedrich Tiedemann'};
+
+s10 = {'Albert von Graefe' 'Albert von Graefe' 'Albert von Graefe' 'Albert von Graefe'};
+p10 = {'Johann Schonlein' 'Rudolf Virchow' 'Johannes Muller' 'Carl von Arlt'};
+
+s11 = {'Carl von Arlt'};
+p11 = {'Johann Fischer'};
+
+s12 = {'Johann Fischer'};
+p12 = {'Georg Beer'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Ronald Ross (M1902)'};
+p0 = {'Patrick Manson'};
+s = [s0];
+p = [p0];
+
+NT = addedge(NT,p,s);
+NT = addnode(NT,{'Niels Finsen (M1903)'});
+
+%%
+s0 = {'Ivan Pavlov (M1904)' 'Ivan Pavlov (M1904)' 'Ivan Pavlov (M1904)'};
+p0 = {'Phillip Owsyannykow' 'Sergei Botkin' 'Carl Ludwig'};
+
+s1 = {'Sergei Botkin' 'Sergei Botkin' 'Sergei Botkin' 'Sergei Botkin'};
+p1 = {'Nicolai Pirogov' 'Rudolf Virchow' 'Ludwig Traube' 'Ernst Hoppe-Seyler'};
+
+s2 = {'Nicolai Pirogov'};
+p2 = {'Christian Moier'};
+
+s3 = {'Christian Moier'};
+p3 = {'Antonio Scarpa'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Camillo Golgi (M1906)' 'Camillo Golgi (M1906)' 'Camillo Golgi (M1906)'};
+p0 = {'Bartolomeo Panizza' 'Eusebio Oehl' 'Giulio Bizozero'};
+
+s1 = {'Giulio Bizozero'};
+p1 = {'Eusebio Oehl'};
+
+s2 = {'Eusebio Oehl'};
+p2 = {'Bartolomeo Panizza'};
+
+s3 = {'Bartolomeo Panizza'};
+p3 = {'Antonio Scarpa'};
+
+s4 = {'Santiago Ramon y Cajal (M1906)'};
+p4 = {'Aureliano Maestre de San Juan'};
+
+s5 = {'Aureliano Maestre de San Juan' 'Aureliano Maestre de San Juan' 'Aureliano Maestre de San Juan'};
+p5 = {'Rudolf Virchow' 'Eloy Ordonez' 'Marcos Rubio'};
+
+s6 = {'Eloy Ordonez'};
+p6 = {'Charles-Philippe Robin'};
+
+s7 = {'Charles-Philippe Robin'};
+p7 = {'Hermann Lebert'};
+
+s8 = {'Hermann Lebert' 'Hermann Lebert'};
+p8 = {'Guillaume Dupuytren' 'Pierre-Charles Louis'};
+
+s9 = {'Pierre-Charles Louis'};
+p9 = {'Rene Laennec'};
+
+s10 = {'Rene Laennec'};
+p10 = {'Guillaume Dupuytren'};
+
+s11 = {'Marcos Rubio'};
+p11 = {'Manuel la Gasca Segura'};
+
+s12 = {'Manuel la Gasca Segura' 'Manuel la Gasca Segura' 'Manuel la Gasca Segura'};
+p12 = {'Antonio Cavanilles' 'Pedro Echeandia' 'Vicente Lorente'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Charles Laveran (M1907)'};
+p0 = {'Emile Kuss'};
+
+s1 = {'Emile Kuss' 'Emile Kuss'};
+p1 = {'Ernest-Alexandre Lauth' 'Jean Lobstein'};
+
+s2 = {'Jean Lobstein'};
+p2 = {'Thomas Lauth'};
+
+s3 = {'Ernest-Alexandre Lauth' 'Ernest-Alexandre Lauth'};
+p3 = {'Thomas Lauth' 'Vincent Fohmann'};
+
+s4 = {'Thomas Lauth' 'Thomas Lauth' 'Thomas Lauth'};
+p4 = {'John Hunter' 'Pierre-Joseph Desault' 'Jacob Spielmann'};
+
+s5 = {'John Hunter'};
+p5 = {'William Cheselden'};
+
+s6 = {'William Cheselden'};
+p6 = {'John Cowper'};
+
+s7 = {'Jacob Spielmann'};
+p7 = {'Johann Sachs'};
+
+s8 = {'Johann Sachs'};
+p8 = {'Johann Scheid'};
+
+s9 = {'Johann Scheid'};
+p9 = {'Marcus Mappus'};
+
+s10 = {'Pierre-Joseph Desault'};
+p10 = {'P.C. Antoine-Louis'};
+
+s11 = {'P.C. Antoine-Louis'};
+p11 = {'Francois de la Peyronie'};
+
+s12 = {'Francois de la Peyronie'};
+p12 = {'Georges Mareschal'};
+
+s13 = {'Georges Mareschal'};
+p13 = {'Simon le Breton'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Theodor Kocher (M1909)' 'Theodor Kocher (M1909)' 'Theodor Kocher (M1909)' 'Theodor Kocher (M1909)'};
+p0 = {'Theodor Billroth' 'Bernhard von Langenbeck' 'Anton Biermer' 'Georg Lucke'};
+
+s1 = {'Theodor Billroth' 'Theodor Billroth' 'Theodor Billroth'};
+p1 = {'Bernhard von Langenbeck' 'Johann von Oppolzer' 'Ludwig Traube'};
+
+s2 = {'Georg Lucke' 'Georg Lucke'};
+p2 = {'Bernhard von Langenbeck' 'Ernst Blasius'};
+
+s3 = {'Anton Biermer' 'Anton Biermer' 'Anton Biermer'};
+p3 = {'Rudolf Virchow' 'Carl von Marcus' 'Johann von Scherer'};
+
+s4 = {'Carl von Marcus'};
+p4 = {'Johann Schonlein'};
+
+s = [s0 s1 s2 s3 s4];
+p = [p0 p1 p2 p3 p4];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Allvar Gullstrand (M1911)'};
+p0 = {'Johan Widmark'};
+
+s1 = {'Johan Widmark'};
+p1 = {'Franciscus Donders'};
+
+s2 = {'Franciscus Donders' 'Franciscus Donders' 'Franciscus Donders' 'Franciscus Donders' 'Franciscus Donders'};
+p2 = {'Jacob Schroeder van der Kolk' 'Nicolaas de Fremery' 'Josephus Bernard' 'Bernardus Suerman' 'Jan Wolterbeek'};
+
+s3 = {'Bernardus Suerman'};
+p3 = {'Matthias van Geuns'};
+
+s4 = {'Jan Wolterbeek'};
+p4 = {'Matthias van Geuns'};
+
+s5 = {'Matthias van Geuns' 'Matthias van Geuns'};
+p5 = {'Hieronymus Gaubius' 'Wouter van Doeveren'};
+
+s6 = {'Jacob Schroeder van der Kolk'};
+p6 = {'Gerbrand Bakker'};
+
+s7 = {'Gerbrand Bakker'};
+p7 = {'Meinard de Pui'};
+
+s8 = {'Meinard de Pui' 'Meinard de Pui'};
+p8 = {'Antonius Brugmans' 'Wouter van Doeveren'};
+
+s9 = {'Josephus Bernard' 'Josephus Bernard' 'Josephus Bernard' 'Josephus Bernard'};
+p9 = {'Sebald Brugmans' 'Nicolaas Oosterdijk' 'Edouard Sandifort' 'Nicolaas Paradijs'};
+
+s10 = {'Edouard Sandifort'};
+p10 = {'Frederik Albinus'};
+
+s11 = {'Nicolaas Oosterdijk'};
+p11 = {'Johann Hahn'};
+
+s12 = {'Johann Hahn' 'Johann Hahn'};
+p12 = {'Hieronymus Gaubius' 'Pieter van Musschenbroek'};
+
+s13 = {'Sebald Brugmans' 'Sebald Brugmans'};
+p13 = {'Antonius Brugmans' 'Wolter Forsten Verschuir'};
+
+s14 = {'Wolter Forsten Verschuir' 'Wolter Forsten Verschuir' 'Wolter Forsten Verschuir'};
+p14 = {'Pieter Camper' 'Wouter van Doeveren' 'William Cullen'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Alexis Carrel (M1912)' 'Alexis Carrel (M1912)'};
+p0 = {'G.N. Stewart' 'Leo Testut'};
+
+s1 = {'Leo Testut'};
+p1 = {'Alfred Vulpian'};
+
+s2 = {'Alfred Vulpian'};
+p2 = {'MJP Flourens'};
+
+s3 = {'MJP Flourens'};
+p3 = {'Alphonse de Candolle'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Charles Richet (M1913)' 'Charles Richet (M1913)' 'Charles Richet (M1913)'};
+p0 = {'Alfred Vulpian' 'Charles-Philippe Robin' 'Pierre Bertholet'};
+
+s1 = {'Pierre Bertholet'};
+p1 = {'Antoine-Jerome Balard'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Robert Barany (M1914)' 'Robert Barany (M1914)'};
+p0 = {'Carl van Noorden' 'Emil Kraepelin'};
+
+s1 = {'Carl van Noorden' 'Carl van Noorden' 'Carl van Noorden'};
+p1 = {'Victor Hensen' 'Franz Riegel' 'Karl Gerhardt'};
+
+s2 = {'Victor Hensen' 'Victor Hensen'};
+p2 = {'Johannes Muller' 'Peter Panum'};
+
+s3 = {'Franz Riegel' 'Franz Riegel' 'Franz Riegel'};
+p3 = {'Karl Gerhardt' 'Salomon Stricker' 'Johann von Oppolzer'};
+
+s4 = {'Karl Gerhardt' 'Karl Gerhardt'};
+p4 = {'Franz von Rinecker' 'Wilhelm Griesinger'};
+
+s5 = {'Franz von Rinecker' 'Franz von Rinecker'};
+p5 = {'Michael Jager' 'Ignaz Doellinger'};
+
+s6 = {'Michael Jager'};
+p6 = {'Ignaz Doellinger'};
+
+s7 = {'Wilhelm Griesinger' 'Wilhelm Griesinger'};
+p7 = {'Francois Magendie' 'Johann Schonlein'};
+
+s8 = {'Emil Kraepelin' 'Emil Kraepelin' 'Emil Kraepelin' 'Emil Kraepelin' 'Emil Kraepelin'};
+p8 = {'Hermann Emminghaus' 'Franz von Rinecker' 'Johann von Gudden' 'Wilhelm Wundt' 'Paul Flechsig'};
+
+s9 = {'Hermann Emminghaus'};
+p9 = {'Friedrich Siebert'};
+
+s10 = {'Friedrich Siebert' 'Friedrich Siebert' 'Friedrich Siebert'};
+p10 = {'Rudolf Virchow' 'Albert von Kolliker' 'August Siebert'};
+
+s11 = {'August Siebert'};
+p11 = {'Johann Schonlein'};
+
+s12 = {'Paul Flechsig' 'Paul Flechsig' 'Paul Flechsig' 'Paul Flechsig'};
+p12 = {'Ernst Weber' 'Karl Wunderlich' 'Ernst Wagner' 'Carl Ludwig'};
+
+s13 = {'Karl Wunderlich'};
+p13 = {'Ferdinand von Gmelin'};
+
+s14 = {'Ernst Wagner' 'Ernst Wagner'};
+p14 = {'Karl Wunderlich' 'Johann von Oppolzer'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Frederick Banting (M1923)'};
+p0 = {'John MacLeod (M1923)'};
+
+s = [s0];
+p = [p0];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Willem Einthoven (M1924)'};
+p0 = {'Franciscus Donders'};
+
+s = [s0];
+p = [p0];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Johannes Fibiger (M1926)' 'Johannes Fibiger (M1926)' 'Johannes Fibiger (M1926)' 'Johannes Fibiger (M1926)' 'Johannes Fibiger (M1926)'};
+p0 = {'Robert Koch (M1905)' 'Emil von Behring (M1901)' 'Johannes Orth' 'Anton Weichselbaum' 'Carl Salomonsen'};
+
+s1 = {'Anton Weichselbaum'};
+p1 = {'Engel Josef'};
+
+s2 = {'Engel Josef'};
+p2 = {'Karl von Rokitansky'};
+
+s3 = {'Carl Salomonsen'};
+p3 = {'Julius Cohnheim'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Julius Wagner von Jauregg (M1927)' 'Julius Wagner von Jauregg (M1927)'};
+p0 = {'Maximilian Leidesdorf' 'Salomon Stricker'};
+
+s = [s0];
+p = [p0];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Charles Nicolle (M1928)' 'Charles Nicolle (M1928)'};
+p0 = {'Emile Roux' 'Francois Gombault'};
+
+s1 = {'Francois Gombault'};
+p1 = {'Jean-Martin Charcot'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Christiaan Eijkman (M1929)' 'Christiaan Eijkman (M1929)' 'Christiaan Eijkman (M1929)'};
+p0 = {'Thomas Place' 'Josef Forster' 'Robert Koch (M1905)'};
+
+s1 = {'Thomas Place' 'Thomas Place'};
+p1 = {'Franciscus Donders' 'Adrianus Heynsius'};
+
+s2 = {'Adrianus Heynsius' 'Adrianus Heynsius'};
+p2 = {'Franciscus Donders' 'Gerrit Jan Mulder'};
+
+s3 = {'Josef Forster' 'Josef Forster'};
+p3 = {'Carl von Voit' 'Max von Pettenkofer'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Karl Landsteiner (M1930)' 'Karl Landsteiner (M1930)'};
+p0 = {'Ernst Ludwig' 'Anton Weichselbaum'};
+
+s1 = {'Ernst Ludwig' 'Ernst Ludwig' 'Ernst Ludwig'};
+p1 = {'Josef Redtenbacher' 'Robert Bunsen' 'Adolf von Baeyer (C1905)'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'George Whipple (M1934)' 'George Whipple (M1934)'};
+p0 = {'William Welch' 'William Sedgwick'};
+
+s1 = {'George Minot (M1934)'};
+p1 = {'William Howell'};
+
+s2 = {'William Murphy (M1934)'};
+p2 = {'Henry Christian'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Hans Spemann (M1935)'};
+p0 = {'Theodor Boveri'};
+
+s1 = {'Theodor Boveri' 'Theodor Boveri'};
+p1 = {'Karl von Kupffer' 'Richard von Hertwig'};
+
+s2 = {'Karl von Kupffer' 'Karl von Kupffer' 'Karl von Kupffer'};
+p2 = {'Johannes Muller' 'Friedrich Bidder' 'Emil du Bois-Reymond'};
+
+s3 = {'Friedrich Bidder'};
+p3 = {'Johannes Muller'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Albert von Szent-Gyorgyi (M1937)' 'Albert von Szent-Gyorgyi (M1937)' 'Albert von Szent-Gyorgyi (M1937)' 'Albert von Szent-Gyorgyi (M1937)'};
+p0 = {'Leonor Michaelis' 'Armin Tschermak-Seysenegg' 'Frederick Hopkins (M1929)' 'Hartog Hamburger'};
+
+s1 = {'Hartog Hamburger' 'Hartog Hamburger'};
+p1 = {'Franciscus Donders' 'Hendrik Dibbits'};
+
+s2 = {'Armin Tschermak-Seysenegg'};
+p2 = {'Julius Bernstein'};
+
+s3 = {'Julius Bernstein'};
+p3 = {'Emil du Bois-Reymond'};
+
+s4 = {'Leonor Michaelis' 'Leonor Michaelis' 'Leonor Michaelis' 'Leonor Michaelis'};
+p4 = {'Oskar Hertwig' 'Paul Ehrlich (M1908)' 'Ernst von Leyden' 'Moritz Litten'};
+
+s5 = {'Moritz Litten' 'Moritz Litten'};
+p5 = {'Friedrich von Frerichs' 'Julius Cohnheim'};
+
+s6 = {'Friedrich von Frerichs' 'Friedrich von Frerichs' 'Friedrich von Frerichs'};
+p6 = {'Friedrich Wohler' 'Rudolf Wagner' 'Bernhard von Langenbeck'};
+
+s = [s0 s1 s2 s3 s4 s5 s6];
+p = [p0 p1 p2 p3 p4 p5 p6];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Corneille Heymans (M1938)' 'Corneille Heymans (M1938)' 'Corneille Heymans (M1938)'};
+p0 = {'Ernest Starling' 'Hans Meyer' 'Carl Wiggers'};
+
+s1 = {'Carl Wiggers' 'Carl Wiggers'};
+p1 = {'Otto Frank' 'Warren Lombard'};
+
+s2 = {'Warren Lombard'};
+p2 = {'Carl Ludwig'};
+
+s3 = {'Otto Frank'};
+p3 = {'Carl Ludwig'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Gerhard Domagk (M1939)'};
+p0 = {'Max Burger'};
+
+s1 = {'Max Burger'};
+p1 = {'Alfred Schittenhelm'};
+
+s2 = {'Alfred Schittenhelm'};
+p2 = {'Emil Fischer (C1902)'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Hendrik Dam (M1943)' 'Hendrik Dam (M1943)' 'Hendrik Dam (M1943)'};
+p0 = {'Fritz Pregl (C1923)' 'Rudolf Schoenheimer' 'Paul Karrer (C1937)'};
+
+s1 = {'Edward Doisy (M1943)'};
+p1 = {'Otto Folin'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Alexander Fleming (M1945)'};
+p0 = {'Almroth Wright'};
+
+s1 = {'Ernst Chain (M1945)' 'Ernst Chain (M1945)' 'Ernst Chain (M1945)'};
+p1 = {'Howard Florey (M1945)' 'Frederick Hopkins (M1929)' 'Wilhelm Schlenk'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Hermann Muller (M1946)'};
+p0 = {'Thomas Morgan (M1933)'};
+
+s = [s0];
+p = [p0];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Gerty Cori (M1947)'};
+p0 = {'Wilhelm Knopfelmacher'};
+
+s = [s0];
+p = [p0];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Paul Muller (M1948)'};
+p0 = {'Friedrich Fichter'};
+
+s1 = {'Friedrich Fichter' 'Friedrich Fichter'};
+p1 = {'Wilhelm Fittig' 'Jules Piccard'};
+
+s2 = {'Jules Piccard' 'Jules Piccard'};
+p2 = {'Gustav Kirchhoff' 'Robert Bunsen'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Walter Hess (M1949)' 'Walter Hess (M1949)'};
+p0 = {'Justus Gaule' 'Max Verworn'};
+
+s1 = {'Justus Gaule' 'Justus Gaule'};
+p1 = {'Friedrich Goltz' 'Carl Ludwig'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+NT = addnode(NT,{'Antonio Moniz (M1949)'});
+%%
+s0 = {'Philip Hench (M1950)'};
+p0 = {'Leonard Rowntree'};
+
+s1 = {'Leonard Rowntree'};
+p1 = {'John Abel'};
+
+s2 = {'Edward Kendall (M1950)'};
+p2 = {'Henry Sherman'};
+
+s3 = {'Henry Sherman' 'Henry Sherman'};
+p3 = {'Wilbur Atwater' 'Pierre de Peyster Ricketts'};
+
+s4 = {'Pierre de Peyster Ricketts'};
+p4 = {'Charles Chandler'};
+
+s5 = {'Wilbur Atwater' 'Wilbur Atwater' 'Wilbur Atwater'};
+p5 = {'Samuel Johnson' 'Carl von Voit' 'Max Rubner'};
+
+s6 = {'Max Rubner' 'Max Rubner'};
+p6 = {'Carl von Voit' 'Carl Ludwig'};
+
+s7 = {'Thadeusz Reichstein (M1950)'};
+p7 = {'Hermann Staudinger (C1953)'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7];
+p = [p0 p1 p2 p3 p4 p5 p6 p7];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Max Theiler (M1951)'};
+p0 = {'Andrew Sellards'};
+
+s1 = {'Andrew Sellards'};
+p1 = {'Rufus Cole'};
+
+s2 = {'Rufus Cole' 'Rufus Cole'};
+p2 = {'Robert Koch (M1905)' 'August von Wassermann'};
+
+s3 = {'August von Wassermann' 'August von Wassermann'};
+p3 = {'Robert Koch (M1905)' 'Paul Ehrlich (M1908)'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Selman Waksman (M1952)' 'Selman Waksman (M1952)'};
+p0 = {'Jacob Lipman' 'Brailsford Robertson'};
+
+s1 = {'Jacob Lipman' 'Jacob Lipman'};
+p1 = {'Edward Voorhees' 'George Caldwell'};
+
+s2 = {'George Caldwell'};
+p2 = {'Friedrich Wohler'};
+
+s3 = {'Edward Voorhees' 'Edward Voorhees'};
+p3 = {'George Cook' 'Wilbur Atwater'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Hans Krebs (M1953)' 'Hans Krebs (M1953)'};
+p0 = {'Otto Warburg (M1931)' 'Wilhelm von Mollendorff'};
+
+s1 = {'Wilhelm von Mollendorff'};
+p1 = {'Max Furbringer'};
+
+s2 = {'Max Furbringer' 'Max Furbringer'};
+p2 = {'Carl Gegenbauer' 'Wilhelm Peters'};
+
+s3 = {'Wilhelm Peters'};
+p3 = {'Johannes Muller'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'John Enders (M1954)'};
+p0 = {'Hans Zinsser'};
+
+s1 = {'Hans Zinsser' 'Hans Zinsser' 'Hans Zinsser'};
+p1 = {'Phillip Hiss' 'Edmund Wilson' 'Bashford Dean'};
+
+s2 = {'Edmund Wilson' 'Edmund Wilson' 'Edmund Wilson'};
+p2 = {'Hans Driesch' 'Theodor Boveri' 'William Brooks'};
+
+s3 = {'Bashford Dean'};
+p3 = {'John Newberry'};
+
+s4 = {'John Newberry'};
+p4 = {'Adolphe Brongniart'};
+
+s5 = {'Adolphe Brongniart' 'Adolphe Brongniart'};
+p5 = {'Antoine-Laurent de Jussieu' 'Rene Desfontaines'};
+
+s6 = {'Rene Desfontaines'};
+p6 = {'Bernard de Jussieu'};
+
+s7 = {'Frederick Robbins (M1954)'};
+p7 = {'John Enders (M1954)'};
+
+s7 = {'Thomas Weller (M1954)' 'Thomas Weller (M1954)'};
+p7 = {'John Enders (M1954)' 'George Larue'};
+
+s8 = {'George Larue'};
+p8 = {'Henry Ward'};
+
+s9 = {'Henry Ward' 'Henry Ward'};
+p9 = {'Rudolf Leuckart' 'Edward Mark'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Andre Cournand (M1956)'};
+p0 = {'Dickinson Richards'};
+
+s1 = {'Dickinson Richards (M1956)' 'Dickinson Richards (M1956)' 'Dickinson Richards (M1956)'};
+p1 = {'Henry Dale (M1936)' 'Ernest Scott' 'Lawrence Henderson'};
+
+s2 = {'Lawrence Henderson' 'Lawrence Henderson'};
+p2 = {'Josiah Royce' 'Franz Hofmeister'};
+
+s3 = {'Josiah Royce' 'Josiah Royce' 'Josiah Royce' 'Josiah Royce'};
+p3 = {'Rudolf Lotze' 'Charles Peirce' 'George Morris' 'William James'};
+
+s4 = {'Rudolf Lotze' 'Rudolf Lotze' 'Rudolf Lotze' 'Rudolf Lotze' 'Rudolf Lotze'};
+p4 = {'Moritz Drobisch' 'Christian H. Weisse' 'Johann Clarus' 'Alfred Volkmann' 'Gustav Fechner'};
+
+s5 = {'Gustav Fechner' 'Gustav Fechner'};
+p5 = {'Ernst Weber' 'Johann Rosenmuller'};
+
+s6 = {'Moritz Drobisch'};
+p6 = {'Karl Mollweide'};
+
+s7 = {'Karl Mollweide'};
+p7 = {'Johann Pfaff'};
+
+s7 = {'Christian H. Weisse' 'Christian H. Weisse'};
+p7 = {'Immanuel Fichte' 'Christian E. Weisse'};
+
+s8 = {'Christian E. Weisse'};
+p8 = {'Johann Seger'};
+
+s9 = {'Immanuel Fichte'};
+p9 = {'Johann Fichte'};
+
+s10 = {'Johann Fichte' 'Johann Fichte'};
+p10 = {'Ernst Platner' 'Immanuel Kant'};
+
+s11 = {'Immanuel Kant'};
+p11 = {'Martin Knutzen'};
+
+s12 = {'Martin Knutzen'};
+p12 = {'Christian Wolff'};
+
+s13 = {'Werner Forssmann (M1956)'};
+p13 = {'Georg Klemperer'};
+
+s14 = {'Georg Klemperer'};
+p14 = {'Ernst von Leyden'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Daniel Bovet (M1957)' 'Daniel Bovet (M1957)'};
+p0 = {'Emile Guyenot' 'Ernest Fourneau'};
+
+s1 = {'Ernest Fourneau' 'Ernest Fourneau'};
+p1 = {'Emil Fischer (C1902)' 'Charles Moureu'};
+
+s2 = {'Charles Moureu'};
+p2 = {'Auguste Behal'};
+
+s3 = {'Auguste Behal'};
+p3 = {'Charles Friedel'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'George Beadle (M1958)' 'George Beadle (M1958)' 'George Beadle (M1958)' 'George Beadle (M1958)'};
+p0 = {'Thomas Morgan (M1933)' 'Franklin Keim' 'Rollins Emerson' 'Lester Sharp'};
+
+s1 = {'Franklin Keim'};
+p1 = {'Harry Love'};
+
+s2 = {'Harry Love'};
+p2 = {'Herbert Webber'};
+
+s3 = {'Herbert Webber'};
+p3 = {'William Trelease'};
+
+s4 = {'William Trelease' 'William Trelease' 'William Trelease'};
+p4 = {'Robert Koch (M1905)' 'Asa Gray' 'William Farlow'};
+
+s5 = {'William Farlow' 'William Farlow' 'William Farlow' 'William Farlow'};
+p5 = {'Asa Gray' 'Jeffries Wyman' 'Heinrich de Bary' 'Henry Bigelow'};
+
+s6 = {'Henry Bigelow' 'Henry Bigelow'};
+p6 = {'Jacob Bigelow' 'Oliver Holmes'};
+
+s7 = {'Jacob Bigelow'};
+p7 = {'Benjamin Barton'};
+
+s8 = {'Rollins Emerson'};
+p8 = {'Edward East'};
+
+s9 = {'Edward East'};
+p9 = {'Cyril Hopkins'};
+
+s10 = {'Cyril Hopkins' 'Cyril Hopkins'};
+p10 = {'George Caldwell' 'Bernhard Tollens'};
+
+s11 = {'Lester Sharp'};
+p11 = {'John Coulter'};
+
+s12 = {'John Coulter'};
+p12 = {'Edward Nelson'};
+
+s13 = {'Edward Nelson'};
+p13 = {'James Dana'};
+
+s14 = {'James Dana'};
+p14 = {'Benjamin Silliman Sr'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Frank Burnet (M1960)' 'Frank Burnet (M1960)'};
+p0 = {'Henry Dale (M1936)' 'John Ledingham'};
+
+s1 = {'John Ledingham'};
+p1 = {'Felix Marchand'};
+
+s2 = {'Peter Medawar (M1960)' 'Peter Medawar (M1960)'};
+p2 = {'Howard Florey (M1945)' 'John Young'};
+
+s3 = {'John Young' 'John Young'};
+p3 = {'Charles Sherrington (M1932)' 'Derek Denny-Brown'};
+
+s4 = {'Derek Denny-Brown'};
+p4 = {'Charles Sherrington (M1932)'};
+
+s = [s0 s1 s2 s3 s4];
+p = [p0 p1 p2 p3 p4];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Georg von Bekesy (M1961)'};
+p0 = {'Karl Tangl'};
+
+s1 = {'Karl Tangl'};
+p1 = {'Lorand Eotvos'};
+
+s2 = {'Lorand Eotvos'};
+p2 = {'Hermann von Helmholtz'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Maurice Wilkins (M1962)'};
+p0 = {'John Randall'};
+
+s1 = {'John Randall'};
+p1 = {'Mark Oliphant'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'John Eccles (M1963)' 'John Eccles (M1963)' 'John Eccles (M1963)'};
+p0 = {'Charles Sherrington (M1932)' 'Edward Liddell' 'Steven Creed'};
+
+s1 = {'Edward Liddell'};
+p1 = {'Charles Sherrington (M1932)'};
+
+s2 = {'Steven Creed'};
+p2 = {'Charles Sherrington (M1932)'};
+
+s3 = {'Andrew Huxley (M1963)'};
+p3 = {'Alan Hodgkin (M1963)'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Peyton Rous (M1966)'};
+p0 = {'Simon Flexner'};
+
+s1 = {'Charles Huggins (M1966)'};
+p1 = {'Frederick Coller'};
+
+s2 = {'Frederick Coller'};
+p2 = {'Walter Cannon'};
+
+s3 = {'Walter Cannon'};
+p3 = {'Henry Bowditch'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Ragnar Granit (M1967)' 'Ragnar Granit (M1967)' 'Ragnar Granit (M1967)'};
+p0 = {'Steven Creed' 'Charles Sherrington (M1932)' 'Detlev Bronk'};
+
+s1 = {'Haldan Hartline (M1967)' 'Haldan Hartline (M1967)' 'Haldan Hartline (M1967)' 'Haldan Hartline (M1967)'};
+p1 = {'Charles Snyder' 'Hermann Pfund' 'Werner Heisenberg (P1932)' 'Arnold Sommerfeld'};
+
+s2 = {'Charles Snyder' 'Charles Snyder'};
+p2 = {'Jacques Loeb' 'William Howell'};
+
+s3 = {'George Wald (M1967)' 'George Wald (M1967)' 'George Wald (M1967)' 'George Wald (M1967)'};
+p3 = {'Otto Meyerhof (M1922)' 'Otto Warburg (M1931)' 'Paul Karrer (C1937)' 'Selig Hecht'};
+
+s4 = {'Selig Hecht' 'Selig Hecht' 'Selig Hecht'};
+p4 = {'George Parker' 'Edward Baly' 'Lawrence Henderson'};
+
+s5 = {'Edward Baly'};
+p5 = {'William Ramsay (C1904)'};
+
+s = [s0 s1 s2 s3 s4 s5];
+p = [p0 p1 p2 p3 p4 p5];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Robert Holley (M1968)' 'Robert Holley (M1968)' 'Robert Holley (M1968)'};
+p0 = {'Vincent du Vigneaud (C1955)' 'Alfred Blomquist' 'Carl Stevens'};
+
+s1 = {'Alfred Blomquist'};
+p1 = {'Carl Marvel'};
+
+s2 = {'Carl Stevens'};
+p2 = {'Herbert Carter'};
+
+s3 = {'Herbert Carter' 'Herbert Carter'};
+p3 = {'Carl Marvel' 'William Rose'};
+
+s4 = {'William Rose' 'William Rose' 'William Rose'};
+p4 = {'Lafayette Mendel' 'Franz Knoop' 'Alonzo Taylor'};
+
+s5 = {'Alonzo Taylor'};
+p5 = {'David von Hansemann'};
+
+s6 = {'David von Hansemann' 'David von Hansemann'};
+p6 = {'Rudolf Virchow' 'Julius Cohnheim'};
+
+s7 = {'Marshall Nirenberg (M1968)' 'Marshall Nirenberg (M1968)'};
+p7 = {'James Hogg' 'James Stetten'};
+
+s8 = {'James Stetten'};
+p8 = {'Rudolf Schoenheimer'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Alfred Hershey (M1969)' 'Alfred Hershey (M1969)'};
+p0 = {'Forest Huddleson' 'Jacques Bronfenbrenner'};
+
+s1 = {'Jacques Bronfenbrenner' 'Jacques Bronfenbrenner' 'Jacques Bronfenbrenner' 'Jacques Bronfenbrenner' 'Jacques Bronfenbrenner'};
+p1 = {'William Gies' 'Hideyo Noguchi' 'Simon Flexner' 'Ilya Mechnikov (M1908)' 'Alexandre Besredka'};
+
+s2 = {'William Gies'};
+p2 = {'Russell Chittenden'};
+
+s3 = {'Hideyo Noguchi'};
+p3 = {'Simon Flexner'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Julius Axelrod (M1970)' 'Julius Axelrod (M1970)'};
+p0 = {'Bernard Brodie' 'George Mandel'};
+
+s1 = {'George Mandel'};
+p1 = {'Arthur Hill'};
+
+s2 = {'Bernard Brodie' 'Bernard Brodie'};
+p2 = {'Raemer Renshaw' 'George Wallace'};
+
+s3 = {'Raemer Renshaw'};
+p3 = {'Marston Bogert'};
+
+s4 = {'George Wallace' 'George Wallace'};
+p4 = {'Oswald Schmiedeberg' 'Arthur Cushny'};
+
+s5 = {'Arthur Cushny' 'Arthur Cushny' 'Arthur Cushny'};
+p5 = {'Oswald Schmiedeberg' 'John Cash' 'Karl Kronecker'};
+
+s6 = {'John Cash' 'John Cash'};
+p6 = {'Carl Ludwig' 'Karl Kronecker'};
+
+s7 = {'Karl Kronecker' 'Karl Kronecker' 'Karl Kronecker' 'Karl Kronecker' 'Karl Kronecker'};
+p7 = {'Carl Ludwig' 'Ludwig Traube' 'Wilhelm Kuhne' 'Hermann von Helmholtz' 'Emil du Bois-Reymond'};
+
+s8 = {'Ulf von Euler (M1970)'};
+p8 = {'Henry Dale (M1936)'};
+
+s9 = {'Bernard Katz (M1970)' 'Bernard Katz (M1970)'};
+p9 = {'John Eccles (M1963)' 'Archibald Hill (M1922)'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Earl Sutherland (M1971)'};
+p0 = {'Carl Cori (M1947)'};
+
+s = [s0];
+p = [p0];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Rodney Porter (M1972)'};
+p0 = {'Frederick Sanger (C1958)'};
+
+s = [s0];
+p = [p0];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Karl von Frisch (M1973)' 'Karl von Frisch (M1973)'};
+p0 = {'Karl Przibram' 'Richard von Hertwig'};
+
+s1 = {'Karl Przibram' 'Karl Przibram' 'Karl Przibram'};
+p1 = {'Rudolf Leuckart' 'Franz Hofmeister' 'Berthold Hatschek'};
+
+s2 = {'Berthold Hatschek'};
+p2 = {'Rudolf Leuckart'};
+
+s3 = {'Niko Tinbergen (M1973)' 'Niko Tinbergen (M1973)'};
+p3 = {'Hilbrand Boschma' 'Konrad Lorenz (M1973)'};
+
+s4 = {'Hilbrand Boschma'};
+p4 = {'Carel Sluiter'};
+
+s5 = {'Carel Sluiter'};
+p5 = {'Christian Hoffmann'};
+
+s6 = {'Christian Hoffmann'};
+p6 = {'Willem Koster'};
+
+s7 = {'Willem Koster'};
+p7 = {'Hidde Halbertsma'};
+
+s8 = {'Hidde Halbertsma' 'Hidde Halbertsma'};
+p8 = {'Jan van der Hoeven' 'Friedrich Schlemm'};
+
+s9 = {'Friedrich Schlemm'};
+p9 = {'Karl Asmund Rudolphi'};
+
+s10 = {'Jan van der Hoeven' 'Jan van der Hoeven'};
+p10 = {'Meinard du Pui' 'Samuel Soemmering'};
+
+s11 = {'Meinard du Pui' 'Meinard du Pui'};
+p11 = {'Wouter van Doeveren' 'Antonius Brugmans'};
+
+s12 = {'Samuel Soemmering' 'Samuel Soemmering' 'Samuel Soemmering' 'Samuel Soemmering' 'Samuel Soemmering'};
+p12 = {'Johann Blumenbach' 'Georg Lichtenberg' 'Christian Heyne' 'Heinrich Wrisberg' 'Pieter Camper'};
+
+s13 = {'Konrad Lorenz (M1973)' 'Konrad Lorenz (M1973)'};
+p13 = {'Oskar Heinroth' 'Ferdinand Hochstetter'};
+
+s14 = {'Ferdinand Hochstetter'};
+p14 = {'Karl Langer'};
+
+s15 = {'Karl Langer' 'Karl Langer'};
+p15 = {'Julius von Krombholz' 'Josef Hyrtl'};
+
+s16 = {'Josef Hyrtl'};
+p16 = {'Joseph Czermak'};
+
+s17 = {'Joseph Czermak'};
+p17 = {'Mihaly von Lenhossek'};
+
+s18 = {'Mihaly von Lenhossek'};
+p18 = {'Georg Prochaska'};
+
+s19 = {'Oskar Heinroth'};
+p19 = {'Victor Hensen'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Albert Claude (M1974)' 'Albert Claude (M1974)'};
+p0 = {'James Murphy' 'Albert Fischer'};
+
+s1 = {'James Murphy' 'James Murphy'};
+p1 = {'William Welch' 'Francis Rous'};
+
+s2 = {'Francis Rous'};
+p2 = {'Simon Flexner'};
+
+s3 = {'Albert Fischer' 'Albert Fischer'};
+p3 = {'Simon Flexner' 'Alexis Carrel (M1912)'};
+
+s4 = {'Christian de Duve (M1974)' 'Christian de Duve (M1974)' 'Christian de Duve (M1974)' 'Christian de Duve (M1974)'};
+p4 = {'Joseph Bouckaert' 'Joseph Masin' 'Hugo Theorell (M1955)' 'Carl Cori (M1947)'};
+
+s5 = {'Joseph Bouckaert'};
+p5 = {'Archibald Hill (M1922)'};
+
+s6 = {'Joseph Masin'};
+p6 = {'James Murphy'};
+
+s7 = {'George Palade (M1974)' 'George Palade (M1974)'};
+p7 = {'Albert Claude (M1974)' 'Grigore Popa'};
+
+s8 = {'Grigore Popa'};
+p8 = {'Francisc Rainer'};
+
+s9 = {'Francisc Rainer'};
+p9 = {'Victor Babes'};
+
+s10 = {'Victor Babes' 'Victor Babes'};
+p10 = {'Louis Pasteur' 'Victor Cornil'};
 
 s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10];
 p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10];
 
 NT = addedge(NT,p,s);
 %%
+s0 = {'David Baltimore (M1975)' 'David Baltimore (M1975)' 'David Baltimore (M1975)' 'David Baltimore (M1975)'};
+p0 = {'Richard Franklin' 'James Darnell' 'Jerard Hurwitz' 'Renato Dulbecco (M1975)'};
+
+s1 = {'Richard Franklin' 'Richard Franklin' 'Richard Franklin'};
+p1 = {'Renato Dulbecco (M1975)' 'Richard Setlow' 'Igor Tamm (P1958)'};
+
+s2 = {'Renato Dulbecco (M1975)' 'Renato Dulbecco (M1975)' 'Renato Dulbecco (M1975)'};
+p2 = {'Salvador Luria (M1969)' 'Guiseppe Levi' 'Max Delbruck (M1969)'};
+
+s3 = {'Richard Setlow' 'Richard Setlow'};
+p3 = {'Ernest Pollard' 'William Watson'};
+
+s4 = {'Ernest Pollard'};
+p4 = {'James Chadwick (P1935)'};
+
+s5 = {'William Watson' 'William Watson' 'William Watson'};
+p5 = {'Henry Gale' 'James Franck (P1925)' 'Arnold Sommerfeld'};
+
+s6 = {'James Darnell' 'James Darnell' 'James Darnell'};
+p6 = {'Robert Glaser' 'Harry Eagle' 'Francois Jacob (M1965)'};
+
+s7 = {'Harry Eagle'};
+p7 = {'William Perlzweig'};
+
+s8 = {'William Perlzweig'};
+p8 = {'William Gies'};
+
+s9 = {'Robert Glaser'};
+p9 = {'Barry Wood'};
+
+s10 = {'Barry Wood' 'Barry Wood' 'Barry Wood'};
+p10 = {'Lawrence Henderson' 'William Clark' 'Hans Zinsser'};
+
+s11 = {'William Clark'};
+p11 = {'Harmon Morse'};
+
+s12 = {'Jerard Hurwitz' 'Jerard Hurwitz' 'Jerard Hurwitz' 'Jerard Hurwitz'};
+p12 = {'Harland Wood' 'Albert Neuberger' 'Arthur Kornberg (M1959)' 'Bernard Horecker'};
+
+s13 = {'Bernard Horecker'};
+p13 = {'Thorfin Hogness'};
+
+s14 = {'Howard Temin (M1975)' 'Howard Temin (M1975)'};
+p14 = {'Renato Dulbecco (M1975)' 'Harry Rubin'};
+
+s15 = {'Harry Rubin'};
+p15 = {'Renato Dulbecco (M1975)'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Baruch Blumberg (M1976)'};
+p0 = {'Alexander Ogston'};
+
+s1 = {'Carleton Gajdusek (M1976)' 'Carleton Gajdusek (M1976)' 'Carleton Gajdusek (M1976)' 'Carleton Gajdusek (M1976)' 'Carleton Gajdusek (M1976)'};
+p1 = {'John Edsall' 'Linus Pauling (C1954)' 'John Kirkwood' 'Max Delbruck (M1969)' 'John Enders (M1954)'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Roger Guillemin (M1977)'};
+p0 = {'Hans Selye'};
+
+s1 = {'Hans Selye' 'Hans Selye' 'Hans Selye'};
+p1 = {'Richard von Zeynek' 'Elmer McCollum' 'James Collip'};
+
+s2 = {'Richard von Zeynek'};
+p2 = {'Ernst Ludwig'};
+
+s3 = {'Elmer McCollum' 'Elmer McCollum' 'Elmer McCollum'};
+p3 = {'Treat Johnson' 'Thomas Osborne' 'Lafayette Mendel'};
+
+s4 = {'Thomas Osborne' 'Thomas Osborne'};
+p4 = {'William Mixter' 'Samuel Johnson'};
+
+s5 = {'William Mixter'};
+p5 = {'Robert Bunsen'};
+
+s6 = {'James Collip'};
+p6 = {'Archibald Macallum'};
+
+s7 = {'Archibald Macallum' 'Archibald Macallum'};
+p7 = {'Ramsey Wright' 'Henry Martin'};
+
+s8 = {'Andrew Schally (M1977)'};
+p8 = {'Murray Saffran'};
+
+s9 = {'Murray Saffran'};
+p9 = {'Orville Denstedt'};
+
+s10 = {'Orville Denstedt'};
+p10 = {'Horace Brocklesby'};
+
+s11 = {'Horace Brocklesby'};
+p11 = {'Matthew Parker'};
+
+s12 = {'Matthew Parker' 'Matthew Parker' 'Matthew Parker'};
+p12 = {'George Henderson' 'John Ferguson' 'Viktor Meyer'};
+
+s13 = {'John Ferguson'};
+p13 = {'Thomas Anderson'};
+
+s14 = {'Thomas Anderson' 'Thomas Anderson'};
+p14 = {'Jons Berzelius' 'Justus von Liebich'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Werner Arber (M1978)' 'Werner Arber (M1978)'};
+p0 = {'Eduard Kellenberger' 'Joe Bertani'};
+
+s1 = {'Joe Bertani' 'Joe Bertani' 'Joe Bertani'};
+p1 = {'Max Delbruck (M1969)' 'Salvador Luria (M1969)' 'Milislav Demerec'};
+
+s2 = {'Milislav Demerec'};
+p2 = {'Rollins Emerson'};
+
+s3 = {'Daniel Nathans (M1978)' 'Daniel Nathans (M1978)'};
+p3 = {'Fritz Lipmann (M1953)' 'Oliver Lowry'};
+
+s4 = {'Oliver Lowry'};
+p4 = {'Fred Koch'};
+
+s5 = {'Fred Koch'};
+p5 = {'Albert Mathews'};
+
+s6 = {'Albert Mathews' 'Albert Mathews' 'Albert Mathews'};
+p6 = {'William Sedgwick' 'Albrecht Kossel (M1910)' 'Edmund Wilson'};
+
+s7 = {'Hamilton Smith (M1978)'};
+p7 = {'Myron Levine'};
+
+s8 = {'Myron Levine' 'Myron Levine'};
+p8 = {'Salvador Luria (M1969)' 'Tracy Sonneborn'};
+
+s9 = {'Tracy Sonneborn'};
+p9 = {'Herbert Jennings'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Allan Cormack (M1979)' 'Allan Cormack (M1979)'};
+p0 = {'Otto Frisch' 'Reginald James'};
+
+s = [s0];
+p = [p0];
+
+NT = addedge(NT,p,s);
+NT = addnode(NT,{'Godfrey Hounsfield (M1979)'});
+%%
+s0 = {'Baruj Benacerraf (M1980)'};
+p0 = {'Elvin Kabat'};
+
+s1 = {'Jean Dausset (M1980)' 'Jean Dausset (M1980)' 'Jean Dausset (M1980)'};
+p1 = {'Marcel Bessis' 'Sidney Farber' 'Louis Diamond'};
+
+s2 = {'Sidney Farber'};
+p2 = {'Kenneth Blackfan'};
+
+s3 = {'Louis Diamond'};
+p3 = {'Kenneth Blackfan'};
+
+s4 = {'Kenneth Blackfan' 'Kenneth Blackfan'};
+p4 = {'John Howland' 'Walter Dandy'};
+
+s5 = {'Walter Dandy' 'Walter Dandy'};
+p5 = {'William Halsted' 'George Heuer'};
+
+s6 = {'George Heuer'};
+p6 = {'William Halsted'};
+
+s7 = {'William Halsted'};
+p7 = {'John Dalton'};
+
+s8 = {'John Dalton'};
+p8 = {'Claude Bernard'};
+
+s9 = {'George Snell (M1980)' 'George Snell (M1980)' 'George Snell (M1980)'};
+p9 = {'John Gerould' 'William Castle' 'Hermann Muller (M1946)'};
+
+s10 = {'John Gerould'};
+p10 = {'Charles Davenport'};
+
+s11 = {'William Castle' 'William Castle'};
+p11 = {'Charles Davenport' 'Edward Mark'};
+
+s12 = {'Charles Davenport'};
+p12 = {'Edward Mark'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Roger Sperry (M1981)' 'Roger Sperry (M1981)' 'Roger Sperry (M1981)'};
+p0 = {'Raymond Stetson' 'Paul Weiss' 'Karl Lashley'};
+
+s1 = {'Raymond Stetson'};
+p1 = {'Hugo Munsterberg'};
+
+s2 = {'Hugo Munsterberg'};
+p2 = {'Wilhelm Wundt'};
+
+s3 = {'Paul Weiss' 'Paul Weiss'};
+p3 = {'Karl Przibam' 'Ross Harrison'};
+
+s4 = {'Ross Harrison' 'Ross Harrison' 'Ross Harrison'};
+p4 = {'Moritz Nussbaum' 'Henry Martin' 'William Brooks'};
+
+s5 = {'Moritz Nussbaum'};
+p5 = {'Eduard Pfluger'};
+
+s6 = {'Eduard Pfluger' 'Eduard Pfluger'};
+p6 = {'Johannes Muller' 'Emil du Bois-Reymond'};
+
+s7 = {'David Hubel (M1981)' 'David Hubel (M1981)' 'David Hubel (M1981)' 'David Hubel (M1981)'};
+p7 = {'Herbert Jasper' 'Stephen Kuffler' 'Mike Fuortes' 'Robert Galambos'};
+
+s8 = {'Stephen Kuffler'};
+p8 = {'John Eccles (M1963)'};
+
+s9 = {'Mike Fuortes' 'Mike Fuortes'};
+p9 = {'Ferdinand Scheminzky' 'Edgar Adrian (M1932)'};
+
+s10 = {'Robert Galambos' 'Robert Galambos'};
+p10 = {'Alexander Forbes' 'Hallowell Davis'};
+
+s11 = {'Hallowell Davis'};
+p11 = {'Edgar Adrian (M1932)'};
+
+s12 = {'Alexander Forbes' 'Alexander Forbes'};
+p12 = {'Charles Sherrington (M1932)' 'Walter Cannon'};
+
+s13 = {'Herbert Jasper' 'Herbert Jasper'};
+p13 = {'Wilder Penfield' 'Lee Travis'};
+
+s14 = {'Lee Travis'};
+p14 = {'Carl Seashore'};
+
+s15 = {'Carl Seashore' 'Carl Seashore'};
+p15 = {'George Ladd' 'Edward Scripture'};
+
+s16 = {'George Ladd'};
+p16 = {'Rudolf Lotze'};
+
+s17 = {'Edward Scripture' 'Edward Scripture'};
+p17 = {'Wilhelm Wundt' 'Carl von Voit'};
+
+s18 = {'Wilder Penfield' 'Wilder Penfield' 'Wilder Penfield' 'Wilder Penfield'};  
+p18 = {'Charles Sherrington (M1932)' 'Harvey Cushing' 'Pio del Rio-Hortega' 'Otfrid Foerster'};
+
+s19 = {'Otfrid Foerster'};
+p19 = {'Carl Wernicke'};
+
+s20 = {'Carl Wernicke' 'Carl Wernicke'};
+p20 = {'Karl Westphal' 'Theodor Meynert'};
+
+s21 = {'Karl Westphal' 'Karl Westphal'};
+p21 = {'Carl Ludwig' 'Wilhelm Griesinger'};
+
+s22 = {'Harvey Cushing' 'Harvey Cushing' 'Harvey Cushing' 'Harvey Cushing'};
+p22 = {'William Osler' 'Charles Sherrington (M1932)' 'Karl Kronecker' 'William Halsted'};
+
+s23 = {'William Osler'};
+p23 = {'Silas Mitchell'};
+
+s24 = {'Silas Mitchell'};
+p24 = {'Claude Bernard'};
+
+s25 = {'Pio del Rio-Hortega' 'Pio del Rio-Hortega' 'Pio del Rio-Hortega'};
+p25 = {'Santiago Ramon y Cajal (M1906)' 'Leopoldo Lopez Garcia' 'Luis Simarro-Lacabra'};
+
+s26 = {'Leopoldo Lopez Garcia' 'Leopoldo Lopez Garcia' 'Leopoldo Lopez Garcia'};
+p26 = {'Victor Cornil' 'Aureliano Maestre de San Juan' 'Louis-Antoine Ranvier'};
+
+s27 = {'Louis-Antoine Ranvier'};
+p27 = {'Claude Bernard'};
+
+s28 = {'Luis Simarro-Lacabra' 'Luis Simarro-Lacabra' 'Luis Simarro-Lacabra' 'Luis Simarro-Lacabra' 'Luis Simarro-Lacabra'};
+p28 = {'Aureliano Maestre de San Juan' 'Louis-Antoine Ranvier' 'Jean-Martin Charcot' 'Mathias Duval' 'Valentin Magnan'};
+
+s29 = {'Mathias Duval'};
+p29 = {'GB Duchenne'};
+
+s30 = {'Torsten Wiesel (M1981)'};
+p30 = {'Stephen Kuffler'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Sune Bergstrom (M1982)' 'Sune Bergstrom (M1982)'};
+p0 = {'Hugo Theorell (M1955)' 'Oskar Wintersteiner'};
+
+s1 = {'Oskar Wintersteiner'};
+p1 = {'Fritz Pregl (C1923)'};
+
+s2 = {'Bengt Samuelsson (M1982)' 'Bengt Samuelsson (M1982)'};
+p2 = {'Sune Bergstrom (M1982)' 'Elias Corey (C1990)'};
+
+s3 = {'John Vane (M1982)' 'John Vane (M1982)'};
+p3 = {'Geoffrey Dawes' 'Harold Burn'};
+
+s4 = {'Geoffrey Dawes'};
+p4 = {'Harold Burn'};
+
+s5 = {'Harold Burn'};
+p5 = {'Henry Dale (M1936)'};
+
+s = [s0 s1 s2 s3 s4 s5];
+p = [p0 p1 p2 p3 p4 p5];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Barbara McClintock (M1983)' 'Barbara McClintock (M1983)'};
+p0 = {'Allen Fraser' 'Lester Sharp'};
+
+s1 = {'Allen Fraser'};
+p1 = {'Harry Love'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Niels Jerne (M1984)'};
+p0 = {'Max Delbruck (M1969)'};
+
+s1 = {'Georges Kohler (M1984)' 'Georges Kohler (M1984)'};
+p1 = {'Fritz Melchers' 'Cesar Millstein (M1984)'};
+
+s2 = {'Fritz Melchers' 'Fritz Melchers' 'Fritz Melchers' 'Fritz Melchers'};
+p2 = {'Max Delbruck (M1969)' 'Hans Zachau' 'Paul Knopf' 'Edwin Lennox'};
+
+s3 = {'Hans Zachau' 'Hans Zachau' 'Hans Zachau'};
+p3 = {'Adolf Butenandt (C1939)' 'John Sheehan' 'Fritz Lipmann (M1953)'};
+
+s4 = {'Paul Knopf' 'Paul Knopf'};
+p4 = {'Alexander Rich' 'Howard Dintzis'};
+
+s5 = {'Howard Dintzis' 'Howard Dintzis' 'Howard Dintzis'};
+p5 = {'Max Perutz (C1962)' 'John Kirkwood' 'Lawrence Oncley'};
+
+s6 = {'Edwin Lennox' 'Edwin Lennox' 'Edwin Lennox'};
+p6 = {'Max Delbruck (M1969)' 'Viktor Weisskopf' 'Melvin Cohn'};
+
+s7 = {'Melvin Cohn' 'Melvin Cohn'};
+p7 = {'Jacques Monod (M1965)' 'Alwin Pappenheimer'};
+
+s8 = {'Alwin Pappenheimer' 'Alwin Pappenheimer' 'Alwin Pappenheimer'};
+p8 = {'James Conant' 'Hans Zinsser' 'Henry Dale (M1936)'};
+
+s9 = {'Cesar Millstein (M1984)' 'Cesar Millstein (M1984)'};
+p9 = {'Andres Stoppani' 'Malcolm Dixon'};
+
+s10 = {'Andres Stoppani' 'Andres Stoppani' 'Andres Stoppani' 'Andres Stoppani'};
+p10 = {'Malcolm Dixon' 'Bernardo Houssay (M1947)' 'David Keilin' 'Melvin Calvin (C1961)'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Michael Brown (M1985)'};
+p0 = {'Earl Stadtman'};
+
+s1 = {'Joseph Goldstein (M1985)' 'Joseph Goldstein (M1985)' 'Joseph Goldstein (M1985)'};
+p1 = {'Donald Seldin' 'Arno Mutolsky' 'Marshall Nirenberg (M1968)'};
+
+s2 = {'Arno Mutolsky'};
+p2 = {'Karl Singer'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Stanley Cohen (M1986)' 'Stanley Cohen (M1986)'};
+p0 = {'Howard Lewis' 'Martin Kamen'};
+
+s1 = {'Martin Kamen' 'Martin Kamen'};
+p1 = {'William Harkins' 'Ernest Lawrence (P1939)'};
+
+s2 = {'Rita Levi-Montalcini (M1986)' 'Rita Levi-Montalcini (M1986)'};
+p2 = {'Guiseppe Levi' 'Viktor Hamburger'};
+
+s3 = {'Viktor Hamburger'};
+p3 = {'Hans Spemann (M1935)'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Susumu Tonegawa (M1987)' 'Susumu Tonegawa (M1987)'};
+p0 = {'Renato Dulbecco (M1975)' 'Masaki Hayashi'};
+
+s1 = {'Masaki Hayashi'};
+p1 = {'Sol Spiegelman'};
+
+s2 = {'Sol Spiegelman'};
+p2 = {'Bur Steinbach'};
+
+s3 = {'Bur Steinbach' 'Bur Steinbach'};
+p3 = {'Lewis Heilbrunn' 'David Nachmansohn'};
+
+s4 = {'Lewis Heilbrunn'};
+p4 = {'Frank Lillie'};
+
+s5 = {'David Nachmansohn' 'David Nachmansohn'};
+p5 = {'Peter Rona' 'Otto Meyerhof (M1922)'};
+
+s6 = {'Peter Rona' 'Peter Rona' 'Peter Rona'};
+p6 = {'Josef Herzig' 'Wolfgang Pauli (P1945)' 'Emil Abderhalden'};
+
+s7 = {'Josef Herzig' 'Josef Herzig' 'Josef Herzig'};
+p7 = {'August von Hoffmann' 'Robert Bunsen' 'Ludwig Barth von Barthenau'};
+
+s8 = {'Emil Abderhalden' 'Emil Abderhalden'};
+p8 = {'Emil Fischer (C1902)' 'Gustav von Bunge'};
+
+s9 = {'Gustav von Bunge'};
+p9 = {'Carl E.H. Schmidt'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'James Black (M1988)'};
+p0 = {'Robert Garry'};
+
+s1 = {'Robert Garry'};
+p1 = {'Edward Cathcart'};
+
+s2 = {'Edward Cathcart' 'Edward Cathcart' 'Edward Cathcart'};
+p2 = {'Carl von Voit' 'Ivan Pavlov (M1904)' 'Francis Benedict'};
+
+s3 = {'Francis Benedict' 'Francis Benedict' 'Francis Benedict'};
+p3 = {'Wilbur Atwater' 'Viktor Meyer' 'Josiah Cooke'};
+
+s4 = {'Gertrude Elion (M1988)'};
+p4 = {'George Hitchings'};
+
+s5 = {'George Hitchings (M1988)' 'George Hitchings (M1988)'};
+p5 = {'Thomas Thompson' 'Cyrus Fiske'};
+
+s6 = {'Thomas Thompson'};
+p6 = {'Horace Byers'};
+
+s7 = {'Horace Byers'};
+p7 = {'Harmon Morse'};
+
+s8 = {'Cyrus Fiske'};
+p8 = {'Otto Folin'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Michael Bishop (M1989)' 'Michael Bishop (M1989)' 'Michael Bishop (M1989)'};
+p0 = {'Gebhard Koch' 'Leon Levintov' 'Elmer Pfefferkorn'};
+
+s1 = {'Elmer Pfefferkorn' 'Elmer Pfefferkorn' 'Elmer Pfefferkorn'};
+p1 = {'John Enders (M1954)' 'Harold Amos' 'Donald Woods'};
+
+s2 = {'Harold Amos'};
+p2 = {'Howard Mueller'};
+
+s3 = {'Howard Mueller'};
+p3 = {'Hans Zinsser'};
+
+s4 = {'Donald Woods'};
+p4 = {'Marjory Stephenson'};
+
+s5 = {'Marjory Stephenson'};
+p5 = {'Frederick Hopkins (M1929)'};
+
+s6 = {'Leon Levintov'};
+p6 = {'Jesse Greenstein'};
+
+s7 = {'Harold Varmus (M1989)' 'Harold Varmus (M1989)' 'Harold Varmus (M1989)'};
+p7 = {'Michael Bishop (M1989)' 'Ira Pastan' 'Mike Fried'};
+
+s8 = {'Mike Fried'};
+p8 = {'Renato Dulbecco (M1975)'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Joseph Murray (M1990)' 'Joseph Murray (M1990)'};
+p0 = {'Arthur Hertig' 'James Brown'};
+
+s1 = {'Arthur Hertig'};
+p1 = {'John Rock'};
+
+s2 = {'James Brown'};
+p2 = {'Vilray Blair'};
+
+s3 = {'Vilray Blair'};
+p3 = {'Elisha Gregory'};
+
+s4 = {'Elisha Gregory'};
+p4 = {'Charles Pope'};
+
+s5 = {'Charles Pope'};
+p5 = {'William Horner'};
+
+s6 = {'William Horner'};
+p6 = {'Casper Wistar'};
+
+s7 = {'Casper Wistar' 'Casper Wistar'};
+p7 = {'John Hunter' 'William Cullen'};
+
+s8 = {'Donnall Thomas (M1990)'};
+p8 = {'John Loofbourow'};
+
+s9 = {'John Loofbourow'};
+p9 = {'Francis Heyroth'};
+
+s10 = {'Francis Heyroth'};
+p10 = {'Theodor Svedberg (C1926)'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Erwin Neher (M1991)' 'Erwin Neher (M1991)' 'Erwin Neher (M1991)'};
+p0 = {'Charles Stevens' 'Dieter Lux' 'William Beaman'};
+
+s1 = {'William Beeman'};
+p1 = {'Joyce Bearden'};
+
+s2 = {'Dieter Lux' 'Dieter Lux'};
+p2 = {'Alois Kornmuller' 'Daniel Pollen'};
+
+s3 = {'Daniel Pollen'};
+p3 = {'Phanor Perot'};
+
+s4 = {'Phanor Perot'};
+p4 = {'Wilder Penfield'};
+
+s5 = {'Alois Kornmuller'};
+p5 = {'Armin Tschermak-Seysenegg'};
+
+s6 = {'Charles Stevens' 'Charles Stevens'};
+p6 = {'Haldan Hartline (M1967)' 'Frank Brink'};
+
+s7 = {'Bert Sakmann (M1991)' 'Bert Sakmann (M1991)'};
+p7 = {'Bernard Katz (M1970)' 'Otto Creutzfeldt'};
+
+s8 = {'Otto Creutzfeldt'};
+p8 = {'Richard Jung'};
+
+s9 = {'Richard Jung' 'Richard Jung' 'Richard Jung'};
+p9 = {'Alois Kornmuller' 'Hugo Spatz' 'Walter Hess (M1949)'};
+
+s10 = {'Hugo Spatz' 'Hugo Spatz'};
+p10 = {'Franz Nissl' 'Walter Spielmeyer'};
+
+s11 = {'Walter Spielmeyer' 'Walter Spielmeyer'};
+p11 = {'Alfred Hoche' 'Eduard Hitzig'};
+
+s12 = {'Eduard Hitzig' 'Eduard Hitzig' 'Eduard Hitzig'};
+p12 = {'Karl Westphal' 'Emil du Bois-Reymond' 'Rudolf Virchow'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Edmond Fischer (M1992)'};
+p0 = {'Kurt Meyer'};
+
+s1 = {'Kurt Meyer' 'Kurt Meyer' 'Kurt Meyer'};
+p1 = {'Adolf von Baeyer (C1905)' 'Theodor Zincke' 'Arthur Hantzsch'};
+
+s2 = {'Edwin Krebs (M1992)' 'Edwin Krebs (M1992)' 'Edwin Krebs (M1992)' 'Edwin Krebs (M1992)'};
+p2 = {'Carl Cori (M1947)' 'Gerty Cori (M1947)' 'Charles Price' 'Charles Snyder'};
+
+s3 = {'Charles Price' 'Charles Price'};
+p3 = {'Roger Adams' 'Louis Fieser'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Richard Roberts (M1993)' 'Richard Roberts (M1993)' 'Richard Roberts (M1993)' 'Richard Roberts (M1993)'};
+p0 = {'James Watson (M1962)' 'Frederick Sanger (C1958)' 'David Ollis' 'Jack Strominger'};
+
+s1 = {'Jack Strominger' 'Jack Strominger'};
+p1 = {'John Brobeck' 'Oliver Lowry'};
+
+s2 = {'John Brobeck' 'John Brobeck'};
+p2 = {'Stephen Ranson' 'John Fulton'};
+
+s3 = {'John Fulton' 'John Fulton'};
+p3 = {'Charles Sherrington (M1932)' 'Harvey Cushing'};
+
+s4 = {'Stephen Ranson'};
+p4 = {'Henry Donaldson'};
+
+s5 = {'Henry Donaldson'};
+p5 = {'Granville Hall'};
+
+s6 = {'Phillip Sharp (M1993)' 'Phillip Sharp (M1993)' 'Phillip Sharp (M1993)'};
+p6 = {'James Watson (M1962)' 'Norman Davidson' 'Victor Bloomfield'};
+
+s7 = {'Victor Bloomfield' 'Victor Bloomfield'};
+p7 = {'Bruno Zimm' 'Robert Alberty'};
+
+s8 = {'Bruno Zimm' 'Bruno Zimm'};
+p8 = {'Joseph Mayer' 'Hermann Mark'};
+
+s9 = {'Joseph Mayer' 'Joseph Mayer'};
+p9 = {'Gilbert Lewis' 'James Franck (P1925)'};
+
+s10 = {'Bruno Zimm'};
+p10 = {'John Williams'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Alfred Gilman (M1994)' 'Alfred Gilman (M1994)'};
+p0 = {'Marshall Nirenberg (M1968)' 'Theodore Rall'};
+
+s1 = {'Theodore Rall'};
+p1 = {'Albert Lehninger'};
+
+s2 = {'Albert Lehninger'};
+p2 = {'Edgar Witzemann'};
+
+s3 = {'Edgar Witzemann'};
+p3 = {'William Evans'};
+
+s4 = {'William Evans' 'William Evans'};
+p4 = {'John Nef' 'Sydney Norton'};
+
+s5 = {'Sydney Norton' 'Sydney Norton'};
+p5 = {'Hermann Kolbe' 'Robert Bunsen'};
+
+s6 = {'Martin Rodbell (M1994)' 'Martin Rodbell (M1994)' 'Martin Rodbell (M1994)' 'Martin Rodbell (M1994)'};
+p6 = {'Herbert Carter' 'Donald Hanahan' 'Jean Brachet' 'Pieter Gaillard'};
+
+s7 = {'Donald Hanahan' 'Donald Hanahan'};
+p7 = {'Duane Englis' 'Israel Chaikoff'};
+
+s8 = {'Duane Englis'};
+p8 = {'George Beal'};
+
+s9 = {'George Beal'};
+p9 = {'Marston Bogert'};
+
+s10 = {'Jean Brachet' 'Jean Brachet'};
+p10 = {'Albert Dalcq' 'Joseph Needham'};
+
+s11 = {'Albert Dalcq'};
+p11 = {'Albert Brachet'};
+
+s12 = {'Joseph Needham'};
+p12 = {'Frederick Hopkins (M1929)'};
+
+s13 = {'Pieter Gaillard'};
+p13 = {'Siegfried Bok'};
+
+s14 = {'Siegfried Bok' 'Siegfried Bok'};
+p14 = {'Cornelis Winkler' 'Leendert Bouman'};
+
+s15 = {'Cornelis Winkler'};
+p15 = {'Sape Talma'};
+
+s16 = {'Sape Talma'};
+p16 = {'Franciscus Donders'};
+
+s17 = {'Leendert Bouman' 'Leendert Bouman' 'Leendert Bouman'};
+p17 = {'Jacob Rotgans' 'Julius Wagner von Jauregg (M1927)' 'Richard von Krafft-Ebing'};
+
+s18 = {'Jacob Rotgans'};
+p18 = {'Max Furbringer'};
+
+s19 = {'Richard von Krafft-Ebing'};
+p19 = {'Nikolaus Friedreich'};
+
+s20 = {'Nikolaus Friedreich' 'Nikolaus Friedreich' 'Nikolaus Friedreich'};
+p20 = {'Rudolf Virchow' 'Albert von Kolliker' 'Carl von Marcus'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Edward Lewis (M1995)' 'Edward Lewis (M1995)'};
+p0 = {'Alfred Sturtevant' 'Clarence Oliver'};
+
+s1 = {'Clarence Oliver'};
+p1 = {'Hermann Muller (M1946)'};
+
+s2 = {'Christiane Nusslein-Volhard (M1995)' 'Christiane Nusslein-Volhard (M1995)' 'Christiane Nusslein-Volhard (M1995)'};
+p2 = {'Heinz Schaller' 'Walter Gehring' 'Klaus Sander'};
+
+s3 = {'Heinz Schaller' 'Heinz Schaller'};
+p3 = {'Gobind Khorana (M1968)' 'Heinz Staab'};
+
+s4 = {'Heinz Staab'};
+p4 = {'Richard Kuhn (C1938)'};
+
+s5 = {'Walter Gehring'};
+p5 = {'Ernst Hadorn'};
+
+s6 = {'Ernst Hadorn'};
+p6 = {'Fritz Baltzer'};
+
+s7 = {'Fritz Baltzer'};
+p7 = {'Theodor Boveri'};
+
+s8 = {'Klaus Sander' 'Klaus Sander'};
+p8 = {'Mohamad Mirza' 'Gerhard Krause'};
+
+s9 = {'Gerhard Krause'};
+p9 = {'Friedrich Seidel'};
+
+s10 = {'Friedrich Seidel'};
+p10 = {'Alfred Kuhn'};
+
+s11 = {'Alfred Kuhn' 'Alfred Kuhn' 'Alfred Kuhn'};
+p11 = {'August Weismann' 'Johannes von Kries' 'Karl Heider'};
+
+s12 = {'Karl Heider'};
+p12 = {'Carl Claus'};
+
+s13 = {'Carl Claus'};
+p13 = {'Rudolf Leuckart'};
+
+s14 = {'Johannes von Kries' 'Johannes von Kries' 'Johannes von Kries'};
+p14 = {'Alfred Volkmann' 'Hermann von Helmholtz' 'Carl Ludwig'};
+
+s15 = {'Eric Wieschaus (M1995)' 'Eric Wieschaus (M1995)' 'Eric Wieschaus (M1995)'};
+p15 = {'Dan Poulson' 'Walter Gehring' 'Rolf Nothiger'};
+
+s16 = {'Rolf Nothiger' 'Rolf Nothiger'};
+p16 = {'Ernst Hadorn' 'Dan Lindsley'};
+
+s17 = {'Dan Lindsley' 'Dan Lindsley'};
+p17 = {'Edward Novitski' 'Alfred Sturtevant'};
+
+s18 = {'Edward Novitski' 'Edward Novitski'};
+p18 = {'Curt Stern' 'Alfred Sturtevant'};
+
+s19 = {'Curt Stern' 'Curt Stern' 'Curt Stern' 'Curt Stern'};
+p19 = {'Max Hartmann' 'Richard Goldschmidt' 'Richard Hesse' 'Thomas Morgan (M1933)'};
+
+s20 = {'Richard Hesse'};
+p20 = {'Hermann Grenacher'};
+
+s21 = {'Hermann Grenacher'};    
+p21 = {'Albert von Kolliker'};
+
+s22 = {'Max Hartmann'};
+p22 = {'Richard von Hertwig'};
+
+s23 = {'Richard Goldschmidt' 'Richard Goldschmidt'};
+p23 = {'Richard von Hertwig' 'Otto Butschli'};
+
+s24 = {'Otto Butschli' 'Otto Butschli' 'Otto Butschli' 'Otto Butschli'};
+p24 = {'Karl Mobius' 'Rudolf Leuckart' 'Robert Bunsen' 'Karl von Zittel'};
+
+s25 = {'Karl von Zittel' 'Karl von Zittel'};
+p25 = {'Edmond Hebert' 'Heinrich Bronn'};
+
+s26 = {'Heinrich Bronn'};
+p26 = {'Carl von Leonhard'};
+
+s27 = {'Carl von Leonhard'};
+p27 = {'Johann Blumenbach'};
+
+s28 = {'Edmond Hebert' 'Edmond Hebert'};
+p28 = {'Louis-Constant Prevost' 'Leonce Elie de Beaumont'};
+
+s29 = {'Louis-Constant Prevost' 'Louis-Constant Prevost'};
+p29 = {'Georges Cuvier' 'Alexandre Brongniart'};
+
+s30 = {'Alexandre Brongniart'};
+p30 = {'Antoine-Louis Brongniart'};
+
+s31 = {'Antoine-Louis Brongniart'};
+p31 = {'Guillaume-Francoise Rouelle'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Peter Doherty (M1996)'};
+p0 = {'Gordon Ada'};
+
+s1 = {'Gordon Ada'};
+p1 = {'Frank Burnet (M1960)'};
+
+s2 = {'Rolf Zinkernagel (M1996)'};
+p2 = {'Gordon Ada'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Stanley Prusiner (M1997)' 'Stanley Prusiner (M1997)' 'Stanley Prusiner (M1997)'};
+p0 = {'O. Lindberg' 'Britton Chance' 'Earl Stadtman'};
+
+s1 = {'Britton Chance' 'Britton Chance' 'Britton Chance' 'Britton Chance'};
+p1 = {'Martin Kilpatrick' 'Francis Roughton' 'Glenn Millikan' 'Hugo Theorell (M1955)'};
+
+s2 = {'Martin Kilpatrick'};
+p2 = {'Johannes Bronsted'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Robert Furchgott (M1998)' 'Robert Furchgott (M1998)'};
+p0 = {'Henry Bull' 'Ephraim Shorr'};
+
+s1 = {'Ephraim Shorr' 'Ephraim Shorr' 'Ephraim Shorr'};
+p1 = {'Lafayette Mendel' 'Graham Lusk' 'Eugene Dubois'};
+
+s2 = {'Henry Bull' 'Henry Bull'};
+p2 = {'Herbert Freundlich' 'Ross Gortner'};
+
+s3 = {'Herbert Freundlich'};
+p3 = {'Wilhelm Ostwald (C1909)'};
+
+s4 = {'Ross Gortner' 'Ross Gortner' 'Ross Gortner'};
+p4 = {'Frederick Alway' 'Lash Miller' 'Marston Bogert'};
+
+s5 = {'Louis Ignarro (M1998)'};
+p5 = {'Frederick Shiderman'};
+
+s6 = {'Frederick Shiderman'};
+p6 = {'Maurice Seevers'};
+
+s7 = {'Maurice Seevers'};
+p7 = {'Arthur Tatum'};
+
+s8 = {'Arthur Tatum'};
+p8 = {'Anton Carlson'};
+
+s9 = {'Ferid Murad (M1998)' 'Ferid Murad (M1998)' 'Ferid Murad (M1998)'};
+p9 = {'Earl Sutherland (M1971)' 'Theodore Rall' 'Martha Vaughan'};
+
+s10 = {'Martha Vaughan' 'Martha Vaughan' 'Martha Vaughan'};
+p10 = {'Christian Anfinsen (C1972)' 'William Stadie' 'Alfred Wilhelmi'};
+
+s11 = {'Alfred Wilhelmi'};
+p11 = {'Reginald Fisher'};
+
+s12 = {'Reginald Fisher'};
+p12 = {'Rudolph Peters'};
+
+s13 = {'Rudolph Peters'};
+p13 = {'Joseph Barcroft'};
+
+s14 = {'William Stadie'};
+p14 = {'Donald van Slyke'};
+
+s15 = {'Joseph Barcroft'};
+p15 = {'John Langley'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Gunter Blobel (M1999)' 'Gunter Blobel (M1999)'};
+p0 = {'George Palade (M1974)' 'Van Potter'};
+
+s1 = {'Van Potter' 'Van Potter'};
+p1 = {'Hans von Euler-Chelpin (C1929)' 'Conrad Elvehjem'};
+
+s2 = {'Conrad Elvehjem' 'Conrad Elvehjem' 'Conrad Elvehjem' 'Conrad Elvehjem'};
+p2 = {'David Keilin' 'Frederick Hopkins (M1929)' 'Edwin Hart' 'Harry Steenbock'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Arvid Carlsson (M2000)' 'Arvid Carlsson (M2000)'};
+p0 = {'Bernard Brodie' 'Gunnar Ahlgren'};
+
+s1 = {'Gunnar Ahlgren'};
+p1 = {'Torsten Thunberg'};
+
+s2 = {'Paul Greengard (M2000)' 'Paul Greengard (M2000)'};
+p2 = {'Frank Brink' 'Sidney Colowick'};
+
+s3 = {'Sidney Colowick'};
+p3 = {'Carl Cori (M1947)'};
+
+s4 = {'Eric Kandel (M2000)' 'Eric Kandel (M2000)' 'Eric Kandel (M2000)' 'Eric Kandel (M2000)'};
+p4 = {'Harry Grundfest' 'Wade Marshall' 'Stephen Kuffler' 'Ladislav Tauc'};
+
+s5 = {'Harry Grundfest' 'Harry Grundfest'};
+p5 = {'Selig Hecht' 'Herbert Gasser (M1944)'};
+
+s6 = {'Wade Marshall' 'Wade Marshall'};
+p6 = {'Ralph Gerard' 'Philip Bard'};
+
+s7 = {'Philip Bard'};
+p7 = {'Walter Cannon'};
+
+s8 = {'Ralph Gerard' 'Ralph Gerard' 'Ralph Gerard' 'Ralph Gerard'};
+p8 = {'Anton Carlson' 'Lester Dragstedt' 'Archibald Hill (M1922)' 'Otto Meyerhof (M1922)'};
+
+s9 = {'Lester Dragstedt'};
+p9 = {'Anton Carlson'};
+
+s10 = {'Ladislav Tauc'};
+p10 = {'Alfred Fessard'};
+
+s11 = {'Alfred Fessard' 'Alfred Fessard'};
+p11 = {'Henri Pieron' 'Louis Lapicque'};
+
+s12 = {'Louis Lapicque'};
+p12 = {'Albert Dastre'};
+
+s13 = {'Albert Dastre'};
+p13 = {'Claude Bernard'};
+
+s14 = {'Henri Pieron'};
+p14 = {'Edouard Toulouse'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Leland Hartwell (M2001)' 'Leland Hartwell (M2001)'};
+p0 = {'Renato Dulbecco (M1975)' 'Boris Magasanik'};
+
+s1 = {'Boris Magasanik' 'Boris Magasanik'};
+p1 = {'Erwin Chargaff' 'Howard Mueller'};
+
+s2 = {'Tim Hunt (M2001)' 'Tim Hunt (M2001)'};
+p2 = {'Irving London' 'Asher Korner'};
+
+s3 = {'Irving London'};
+p3 = {'David Rittenberg'};
+
+s4 = {'Asher Korner'};
+p4 = {'Frank Young'};
+
+s5 = {'Frank Young'};
+p5 = {'Jack Drummond'};
+
+s6 = {'Jack Drummond' 'Jack Drummond'};
+p6 = {'William Halliburton' 'Casimir Funk'};
+
+s7 = {'William Halliburton'};
+p7 = {'Edward Sharpey-Schafer'};
+
+s8 = {'Casimir Funk'};
+p8 = {'Stanislaw Kostanecki'};
+
+s9 = {'Stanislaw Kostanecki'};
+p9 = {'Carl Liebermann'};
+
+s10 = {'Paul Nurse (M2001)' 'Paul Nurse (M2001)' 'Paul Nurse (M2001)' 'Paul Nurse (M2001)'};
+p10 = {'Jack Cohen' 'Anthony Sims' 'Urs Leopold' 'Murdoch Mitchison'};
+
+s11 = {'Murdoch Mitchison' 'Murdoch Mitchison'};
+p11 = {'Michael Swann' 'Edgar Adrian (M1932)'};
+
+s12 = {'Urs Leopold' 'Urs Leopold' 'Urs Leopold'};
+p12 = {'Ojvind Winge' 'Boris Ephrussi' 'Norman Horowitz'};
+
+s13 = {'Boris Ephrussi'};
+p13 = {'Thomas Morgan (M1933)'};
+
+s14 = {'Norman Horowitz'};
+p14 = {'George Beadle (M1958)'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Robert Horvitz (M2002)' 'Robert Horvitz (M2002)' 'Robert Horvitz (M2002)'};
+p0 = {'Sydney Brenner (M2002)' 'Walter Gilbert (C1980)' 'James Watson (M1962)'};
+
+s1 = {'John Sulston (M2002)' 'John Sulston (M2002)' 'John Sulston (M2002)'};
+p1 = {'Sydney Brenner (M2002)' 'Colin Reese' 'Leslie Orgel'};
+
+s2 = {'Colin Reese' 'Colin Reese'};
+p2 = {'Alexander Todd (C1957)' 'Robert Woodward (C1965)'};
+
+s3 = {'Leslie Orgel' 'Leslie Orgel' 'Leslie Orgel'};
+p3 = {'Leslie Sutton' 'Linus Pauling (C1954)' 'Robert Mullikan (C1966)'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Paul Lauterbur (M2003)'};
+p0 = {'Christopher Dean'};
+
+s1 = {'Christopher Dean'};
+p1 = {'Robert Pound'};
+
+s2 = {'Robert Pound' 'Robert Pound'};
+p2 = {'Edward Purcell (P1952)' 'Luther Hector'};
+
+s3 = {'Luther Hector'};
+p3 = {'Albert Wills'};
+
+s4 = {'Peter Mansfield (M2003)' 'Peter Mansfield (M2003)'};
+p4 = {'Charles Slichter' 'Jack Powles'};
+
+s5 = {'Charles Slichter' 'Charles Slichter'};
+p5 = {'Edward Purcell (P1952)' 'John van Vleck (P1977)'};
+
+s6 = {'Jack Powles' 'Jack Powles' 'Jack Powles'};
+p6 = {'Willis Jackson' 'Edmond Bauer' 'Michel Magat'};
+
+s7 = {'Willis Jackson'};
+p7 = {'Eric Moullin'};
+
+s8 = {'Michel Magat' 'Michel Magat' 'Michel Magat'};
+p8 = {'Edmond Bauer' 'Ernst Bergmann' 'Kurt Wohl'};
+
+s9 = {'Kurt Wohl'};
+p9 = {'Walther Nernst (C1920)'};
+
+s10 = {'Ernst Bergmann'};
+p10 = {'Wilhelm Schlenk'};
+
+s11 = {'Edmond Bauer' 'Edmond Bauer' 'Edmond Bauer' 'Edmond Bauer'};
+p11 = {'Walther Nernst (C1920)' 'Marie Sklodowska Curie (P1903)' 'Marie Sklodowska Curie (C1911)' 'Paul Langevin'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11];
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Richard Axel (M2004)' 'Richard Axel (M2004)' 'Richard Axel (M2004)'};
+p0 = {'Bernard Weinstein' 'Sol Spiegelman' 'Gary Felsenfeld'};
+
+s1 = {'Gary Felsenfeld'};
+p1 = {'Linus Pauling (C1954)'};
+
+s2 = {'Linda Buck (M2004)' 'Linda Buck (M2004)' 'Linda Buck (M2004)' 'Linda Buck (M2004)'};
+p2 = {'Richard Axel (M2004)' 'Benvenuto Pernis' 'Ellen Vitetta' 'Walter Makous'};
+
+s3 = {'Ellen Vitetta'};
+p3 = {'Jonathan Uhr'};
+
+s4 = {'Jonathan Uhr'};
+p4 = {'Alwin Pappenheimer'};
+
+s5 = {'Walter Makous' 'Walter Makous'};
+p5 = {'Lorrin Riggs' 'Carl Pfaffmann'};
+
+s6 = {'Lorrin Riggs'};
+p6 = {'Clarence Graham'};
+
+s7 = {'Clarence Graham' 'Clarence Graham' 'Clarence Graham'};
+p7 = {'Haldan Hartline (M1967)' 'Ragnar Granit (M1967)' 'John Nafe'};
+
+s8 = {'John Nafe'};
+p8 = {'Edward Titchener'};
+
+s9 = {'Edward Titchener'};
+p9 = {'Wilhelm Wundt'};
+
+s10 = {'Carl Pfaffmann' 'Carl Pfaffmann'};
+p10 = {'Leonard Carmichael' 'Edgar Adrian (M1932)'};
+
+s11 = {'Leonard Carmichael' 'Leonard Carmichael' 'Leonard Carmichael'};
+p11 = {'Herbert Neal' 'Walter Dearborn' 'Wolfgang Kohler'}; 
+
+s12 = {'Wolfgang Kohler' 'Wolfgang Kohler' 'Wolfgang Kohler' 'Wolfgang Kohler'};
+p12 = {'Benno Erdmann' 'Max Planck (P1918)' 'Walther Nernst (C1920)' 'Carl Stumpf'};
+
+s13 = {'Carl Stumpf' 'Carl Stumpf'};
+p13 = {'Franz Brentano' 'Rudolf Lotze'};
+
+s14 = {'Walter Dearborn'};
+p14 = {'James Cattell'};
+
+s15 = {'James Cattell' 'James Cattell' 'James Cattell' 'James Cattell'};
+p15 = {'Rudolf Lotze' 'Wilhelm Wundt' 'Granville Hall' 'Francis Galton'};
+
+s16 = {'Francis Galton'};
+p16 = {'William Hopkins'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16];
+
+NT = addedge(NT,p,s);
+%%
+s = {'Robin Warren (M2005)' 'Barry Marshall (M2005)'};
+
+NT = addnode(NT,s);
+%%
+s0 = {'Andrew Fire (M2006)' 'Andrew Fire (M2006)'};
+p0 = {'Sydney Brenner (M2002)' 'Phillip Sharp (M1993)'};
+
+s1 = {'Craig Mello (M2006)' 'Craig Mello (M2006)' 'Craig Mello (M2006)' 'Craig Mello (M2006)'};
+p1 = {'David Hirsh' 'Dan Stinchcomb' 'Victor Ambros' 'James Priess'};
+
+s2 = {'Dan Stinchcomb'};
+p2 = {'David Hirsh'};
+
+s3 = {'James Priess'};
+p3 = {'David Hirsh'};
+
+s4 = {'David Hirsh' 'David Hirsh'};
+p4 = {'Sydney Brenner (M2002)' 'Fritz Lipmann (M1953)'};
+
+s5 = {'Victor Ambros' 'Victor Ambros'};
+p5 = {'David Baltimore (M1975)' 'Robert Horvitz (M2002)'};
+
+s = [s0 s1 s2 s3 s4 s5];
+p = [p0 p1 p2 p3 p4 p5];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Mario Capecchi (M2007)' 'Mario Capecchi (M2007)'};
+p0 = {'James Watson (M1962)' 'Alexander Rich'};
+
+s1 = {'Martin Evans (M2007)' 'Martin Evans (M2007)'};
+p1 = {'Malcolm Dixon' 'Elizabeth Deuchar'};
+
+s2 = {'Elizabeth Deuchar'};
+p2 = {'Conrad Waddington'};
+
+s3 = {'Conrad Waddington' 'Conrad Waddington' 'Conrad Waddington'};
+p3 = {'John B.S. Haldane' 'Joseph Needham' 'Otto Mangold'};
+
+s4 = {'Otto Mangold'};
+p4 = {'Hans Spemann (M1935)'};
+
+s = [s0 s1 s2 s3 s4];
+p = [p0 p1 p2 p3 p4];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Harald zur Hausen (M2008)' 'Harald zur Hausen (M2008)'};
+p0 = {'Eberhard Wecker' 'Werner Henle'};
+
+s1 = {'Werner Henle'};
+p1 = {'Ludolf von Krehl'};
+
+s2 = {'Eberhard Wecker' 'Eberhard Wecker' 'Eberhard Wecker'};
+p2 = {'Adolf Butenandt (C1939)' 'Werner Schafer' 'Hilary Koprowski'};
+
+s3 = {'Werner Schafer' 'Werner Schafer'};
+p3 = {'Hugo Keller' 'Karl Beller'};
+
+s4 = {'Francoise Barre-Sinoussi (M2008)' 'Francoise Barre-Sinoussi (M2008)'};
+p4 = {'Jean-Claude Chermann' 'Robert Bassin'};
+
+s5 = {'Jean-Claude Chermann'};
+p5 = {'Jacques Monod (M1965)'};
+
+s6 = {'Robert Bassin'};
+p6 = {'Vincent Groupe'};
+
+s7 = {'Vincent Groupe' 'Vincent Groupe'};
+p7 = {'Werner Henle' 'Gertrude Henle'};
+
+s8 = {'Gertrude Henle'};
+p8 = {'Ludolf von Krehl'};
+
+s9 = {'Luc Montagnier (M2008)' 'Luc Montagnier (M2008)' 'Luc Montagnier (M2008)'};
+p9 = {'Renato Dulbecco (M1975)' 'Michael Stoker' 'Pierre Gavaudan'};
+
+s10 = {'Michael Stoker'};
+p10 = {'William Hayes'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Elizabeth Blackburn (M2009)' 'Elizabeth Blackburn (M2009)'};
+p0 = {'Frederick Sanger (C1958)' 'Joseph Gall'};
+
+s1 = {'Carol Greider (M2009)'};
+p1 = {'Elizabeth Blackburn (M2009)'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Robert Edwards (M2010)' 'Robert Edwards (M2010)'};
+p0 = {'Alan Beatty' 'Albert Tyler'};
+
+s1 = {'Albert Tyler'};
+p1 = {'Thomas Morgan (M1933)'};
+
+s2 = {'Alan Beatty'};
+p2 = {'Ernest Baldwin'};
+
+s3 = {'Ernest Baldwin' 'Ernest Baldwin'};
+p3 = {'Joseph Needham' 'Frederick Hopkins (M1929)'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Bruce Beutler (M2011)' 'Bruce Beutler (M2011)' 'Bruce Beutler (M2011)' 'Bruce Beutler (M2011)'};
+p0 = {'Susumu Ohno' 'Abraham Braude' 'Anthony Cerami' 'Patricia Spear'};
+
+s1 = {'Susumu Ohno' 'Susumu Ohno'};
+p1 = {'Sajiro Makino' 'Riojun Kinosita'};
+
+s2 = {'Abraham Braude'};
+p2 = {'Wesley Spink'};
+
+s3 = {'Wesley Spink'};
+p3 = {'Maxwell Finland'};
+
+s4 = {'Maxwell Finland' 'Maxwell Finland'};
+p4 = {'Hans Zinsser' 'Milton Rosenau'};
+
+s5 = {'Milton Rosenau'};
+p5 = {'Robert Koch (M1905)'};
+
+s6 = {'Anthony Cerami'};
+p6 = {'Edward Reich'};
+
+s7 = {'Edward Reich'};
+p7 = {'Edward Tatum (M1958)'};
+
+s8 = {'Patricia Spear' 'Patricia Spear'};
+p8 = {'Gerald Edelman (M1972)' 'Bernard Roizman'};
+
+s9 = {'Bernard Roizman' 'Bernard Roizman'};
+p9 = {'Morton Klein' 'Thomas Turner'};
+
+s10 = {'Jules Hoffmann (M2011)' 'Jules Hoffmann (M2011)'};
+p10 = {'Pierre Joly' 'Peter Karlson'};
+
+s11 = {'Peter Karlson'};
+p11 = {'Adolf Butenandt (C1939)'};
+
+s12 = {'Ralph Steinman (M2011)' 'Ralph Steinman (M2011)' 'Ralph Steinman (M2011)' 'Ralph Steinman (M2011)'};
+p12 = {'Rene Dubos' 'Zanvil Cohn' 'James Hirsch' 'Elizabeth Hay'};
+
+s13 = {'James Hirsch'};
+p13 = {'Rene Dubos'};
+
+s14 = {'Zanvil Cohn'};
+p14 = {'Rene Dubos'};
+
+s15 = {'Elizabeth Hay'};
+p15 = {'Meryl Rose'};
+
+s16 = {'Meryl Rose'};
+p16 = {'Lester Barth'};
+
+s17 = {'Rene Dubos' 'Rene Dubos'};
+p17 = {'Selman Waksman (M1952)' 'Oswald Avery'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'John Gurdon (M2012)' 'John Gurdon (M2012)'};
+p0 = {'Michael Fischberg' 'Robert Edgar'};
+
+s1 = {'Michael Fischberg' 'Michael Fischberg'};
+p1 = {'Conrad Waddington' 'Ernst Hadorn'};
+
+s2 = {'Robert Edgar' 'Robert Edgar'};
+p2 = {'August Doermann' 'Max Delbruck (M1969)'};
+
+s3 = {'August Doermann'};
+p3 = {'George Beadle (M1958)'};
+
+s4 = {'Shinya Yamanata (M2012)'};
+p4 = {'Thomas Innerarity'};
+
+s5 = {'Thomas Innerarity'};
+p5 = {'Simon Wender'};
+
+s6 = {'Simon Wender' 'Simon Wender'};
+p6 = {'Ondess Inman' 'Ross Gortner'};
+
+s = [s0 s1 s2 s3 s4 s5 s6];
+p = [p0 p1 p2 p3 p4 p5 p6];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'James Rothman (M2013)' 'James Rothman (M2013)'};
+p0 = {'Harvey Lodish' 'Eugene Kennedy'};
+
+s1 = {'Eugene Kennedy' 'Eugene Kennedy' 'Eugene Kennedy'};
+p1 = {'Fritz Lipmann (M1953)' 'Horace Barker' 'Albert Lehninger'};
+
+s2 = {'Randy Schekman (M2013)' 'Randy Schekman (M2013)'};
+p2 = {'Arthur Kornberg (M1959)' 'Jonathan Singer'};
+
+s3 = {'Thomas Sudhof (M2013)' 'Thomas Sudhof (M2013)' 'Thomas Sudhof (M2013)'};
+p3 = {'Michael Brown (M1985)' 'Joseph Goldstein (M1985)' 'Victor Whittaker'};
+
+s4 = {'Victor Whittaker'};
+p4 = {'Robert H.S. Thompson'};
+
+s5 = {'Robert H.S. Thompson' 'Robert H.S. Thompson'};
+p5 = {'Rene Dubos' 'Rudolph Peters'};
+
+s = [s0 s1 s2 s3 s4 s5];
+p = [p0 p1 p2 p3 p4 p5];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'John O Keefe (M2014)'};
+p0 = {'Ronald Melzack'};
+
+s1 = {'Ronald Melzack' 'Ronald Melzack' 'Ronald Melzack'};
+p1 = {'Donald Hebb' 'William Livingston' 'Guiseppe Moruzzi'};
+
+s2 = {'Donald Hebb' 'Donald Hebb'};
+p2 = {'Karl Lashley' 'Wilder Penfield'};
+
+s3 = {'William Livingston'};
+p3 = {'William Allen'};
+
+s4 = {'William Allen'};
+p4 = {'John Johnston'};
+
+s5 = {'Guiseppe Moruzzi' 'Guiseppe Moruzzi' 'Guiseppe Moruzzi' 'Guiseppe Moruzzi'};
+p5 = {'Frederic Bremer' 'Edgar Adrian (M1932)' 'Mario Camis' 'Antonio Pensa'};
+
+s6 = {'Frederic Bremer'};
+p6 = {'Charles Sherrington (M1932)'};
+
+s7 = {'Mario Camis' 'Mario Camis' 'Mario Camis'};
+p7 = {'Charles Sherrington (M1932)' 'Vittorio Aducco' 'Joseph Barcroft'};
+
+s8 = {'Vittorio Aducco'};
+p8 = {'Angelo Mosso'};
+
+s9 = {'Angelo Mosso' 'Angelo Mosso' 'Angelo Mosso'};
+p9 = {'Morritz Schiff' 'Claude Bernard' 'Carl Ludwig'};
+
+s10 = {'Morritz Schiff' 'Morritz Schiff'};
+p10 = {'Francois Magendie' 'Johannes Muller'};
+
+s11 = {'Antonio Pensa'};
+p11 = {'Camillo Golgi (M1906)'};
+
+s12 = {'May-Britt Moser (M2014)' 'May-Britt Moser (M2014)' 'May-Britt Moser (M2014)'};
+p12 = {'John O Keefe (M2014)' 'Richard Morris' 'Per Andersen'};
+
+s13 = {'Richard Morris'};
+p13 = {'Norman Sutherland'};
+
+s14 = {'Per Andersen' 'Per Andersen'};
+p14 = {'John Eccles (M1963)' 'Birger Kaada'};
+
+s15 = {'Birger Kaada'};
+p15 = {'John Fulton'};
+
+s16 = {'Edvard Moser (M2014)' 'Edvard Moser (M2014)' 'Edvard Moser (M2014)'};
+p16 = {'John O Keefe (M2014)' 'Richard Morris' 'Per Andersen'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'William Campbell (M2015)' 'William Campbell (M2015)'};
+p0 = {'Arlie Todd' 'Chester Herrick'};
+
+s1 = {'Arlie Todd'};
+p1 = {'Harold Manter'};
+
+s2 = {'Harold Manter'};
+p2 = {'Henry Ward'};
+
+s3 = {'Chester Herrick' 'Chester Herrick'};
+p3 = {'William Cort' 'James Ackert'};
+
+s4 = {'William Cort'};
+p4 = {'Henry Ward'};
+
+s5 = {'James Ackert'};
+p5 = {'Frederic Carpenter'};
+
+s6 = {'Frederic Carpenter'};
+p6 = {'Edward Mark'};
+
+s7 = {'Satoshi Omura (M2015)' 'Satoshi Omura (M2015)'};
+p7 = {'Max Tishler' 'Koji Nakanishi'};
+
+s8 = {'Max Tishler'};
+p8 = {'Elmer Kohler'};
+
+s9 = {'Koji Nakanishi' 'Koji Nakanishi'};
+p9 = {'Louis Fieser' 'Yoshimasa Hirata'};
+
+s10 = {'Youyou Tu (M2015)'};
+p10 = {'Zhicen Lou'};
+
+s11 = {'Zhicen Lou'};
+p11 = {'James Fairbairn'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Yoshinori Ohsumi (M2016)' 'Yoshinori Ohsumi (M2016)'};
+p0 = {'Kazutomo Imahori' 'Gerald Edelman (M1972)'};
+
+s = [s0];
+p = [p0];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Jeffrey Hall (M2017)' 'Jeffrey Hall (M2017)'};
+p0 = {'Seymour Benzer' 'Lawrence Sendler'};
+
+s1 = {'Lawrence Sandler' 'Lawrence Sandler'};
+p1 = {'Edward Novitski' 'James Crow'};
+
+s2 = {'James Crow' 'James Crow'};
+p2 = {'Wilson Stone' 'John Patterson'};
+
+s3 = {'John Patterson'};
+p3 = {'Charles Whitman'};
+
+s4 = {'Wilson Stone' 'Wilson Stone'};
+p4 = {'Hermann Muller (M1946)' 'John Patterson'};
+
+s5 = {'Seymour Benzer'};
+p5 = {'Karl Lark-Horovitz'};
+
+s6 = {'Karl Lark-Horovitz'};
+p6 = {'Franz Exner'};
+
+s7 = {'Michael Rosbash (M2017)' 'Michael Rosbash (M2017)'};
+p7 = {'Sheldon Penman' 'John Bishop'};
+
+s8 = {'John Bishop'};
+p8 = {'Geoffrey Beale'};
+
+s9 = {'Geoffrey Beale'};
+p9 = {'Conrad Waddington'};
+
+s10 = {'Sheldon Penman' 'Sheldon Penman' 'Sheldon Penman' 'Sheldon Penman'};
+p10 = {'Leon Ledermann (P1988)' 'Alexander Rich' 'James Darnell' 'Richard Garwin'};
+
+s11 = {'Richard Garwin'};
+p11 = {'Enrico Fermi (P1938)'};
+
+s12 = {'Michael Young (M2017)' 'Michael Young (M2017)'};
+p12 = {'Burke Judd' 'David Hogness'};
+
+s13 = {'David Hogness' 'David Hogness'};
+p13 = {'Jacques Monod (M1965)' 'Herschel Mitchell'};
+
+s14 = {'Herschel Mitchell' 'Herschel Mitchell'};
+p14 = {'George Beadle (M1958)' 'Roger Williams'};
+
+s15 = {'Roger Williams'};
+p15 = {'Fred Koch'};
+
+s16 = {'Burke Judd'};
+p16 = {'Edward Lewis (M1995)'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16];
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'James Allison (M2018)' 'James Allison (M2018)'};
+p0 = {'Barrie Kitto' 'Ralph Reisfeld'};
+
+s1 = {'Ralph Reisfeld'};
+p1 = {'Ira Gould'};
+
+s2 = {'Ira Gould'};
+p2 = {'Hugo Sommer'};
+
+s3 = {'Hugo Sommer'};
+p3 = {'Edwin Hart'};
+
+s4 = {'Barrie Kitto'};
+p4 = {'Nathan Kaplan'};
+
+s5 = {'Nathan Kaplan' 'Nathan Kaplan'};
+p5 = {'Fritz Lipmann (M1953)' 'David Greenberg'};
+
+s6 = {'David Greenberg'};
+p6 = {'Carl L.A. Schmidt'};
+
+s7 = {'Tasuku Honjo (M2018)'};
+p7 = {'Donald Brown'};
+
+s8 = {'Donald Brown' 'Donald Brown' 'Donald Brown'};
+p8 = {'Jacques Monod (M1965)' 'Seymour Kety' 'Lloyd Kozloff'};
+
+s9 = {'Lloyd Kozloff'};
+p9 = {'Earl Evans'};
+
+s10 = {'Earl Evans' 'Earl Evans' 'Earl Evans' 'Earl Evans'};
+p10 = {'William Clark' 'John Abel' 'Hans Clarke' 'Hans Krebs (M1953)'};
+
+s11 = {'Seymour Kety' 'Seymour Kety'};
+p11 = {'Carl F. Schmidt' 'Joseph Aub'};
+
+s12 = {'Joseph Aub'};
+p12 = {'Walter Cannon'};
+
+s13 = {'Carl F. Schmidt'};
+p13 = {'Alfred Richards'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13];
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'William Kaelin (M2019)'};
+p0 = {'David Livingston'};
+
+s1 = {'David Livingston'};
+p1 = {'Philip Leder'};
+
+s2 = {'Philip Leder'};
+p2 = {'Marshall Nirenberg (M1968)'};
+
+s3 = {'Gregg Semenza (M2019)' 'Gregg Semenza (M2019)' 'Gregg Semenza (M2019)' 'Gregg Semenza (M2019)'};
+p3 = {'Elias Schwartz' 'Saul Surrey' 'Haig Kazazian' 'Stylianos Antonarakis'};
+
+s4 = {'Stylianos Antonarakis'};
+p4 = {'Haig Kazazian'};
+
+s5 = {'Haig Kazazian'};
+p5 = {'Harvey Itanio'};
+
+s6 = {'Harvey Itanio'};
+p6 = {'Linus Pauling (C1954)'};
+
+s = [s0 s1 s2 s3 s4 s5 s6];
+p = [p0 p1 p2 p3 p4 p5 p6];
+
+NT = addedge(NT,p,s);
+NT = addnode(NT,{'Peter Ratcliffe (M2019)'});
+%%
+s0 = {'Harvey Alter (M2020)'};
+p0 = {'Baruch Blumberg (M1976)'};
+
+s1 = {'Michael Houghton (M2020)'};
+p1 = {'James Chesterton'};
+
+s2 = {'Charles Rice (M2020)'};
+p2 = {'James Strauss'};
+
+s3 = {'James Strauss'};
+p3 = {'Robert Sinsheimer'};
+
+s4 = {'Robert Sinsheimer' 'Robert Sinsheimer'};
+p4 = {'Max Delbruck (M1969)' 'John Loofbourow'};
+
+s = [s0 s1 s2 s3 s4];
+p = [p0 p1 p2 p3 p4];
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'David Julius (M2021)' 'David Julius (M2021)' 'David Julius (M2021)' 'David Julius (M2021)'};
+p0 = {'Alexander Rich' 'Randy Schekman (M2013)' 'Richard Axel (M2004)' 'Jeremy Thorner'};
+
+s1 = {'Jeremy Thorner' 'Jeremy Thorner'};
+p1 = {'Robert Lehman' 'Henry Paulus'};
+
+s2 = {'Henry Paulus'};
+p2 = {'Eugene Kennedy'};
+
+s3 = {'Ardem Patapoutian (M2021)' 'Ardem Patapoutian (M2021)'};
+p3 = {'Barbara Wold' 'Louis Reichardt'};
+
+s4 = {'Barbara Wold' 'Barbara Wold'};
+p4 = {'Richard Axel (M2004)' 'Eric Davidson'};
+
+s5 = {'Eric Davidson'};
+p5 = {'Alfred Mirsky'};
+
+s6 = {'Alfred Mirsky' 'Alfred Mirsky'};
+p6 = {'Joseph Barcroft' 'Lawrence Henderson'};
+
+s7 = {'Louis Reichardt' 'Louis Reichardt' 'Louis Reichardt'};
+p7 = {'Dale Kaiser' 'Paul Patterson' 'Torsten Wiesel (M1981)'};
+
+s8 = {'Dale Kaiser' 'Dale Kaiser'};
+p8 = {'Jean-Jacques Weigle' 'Max Delbruck (M1969)'};
+
+s9 = {'Paul Patterson' 'Paul Patterson'};
+p9 = {'David Potter' 'Edwin Furshpan'};
+
+s10 = {'David Potter' 'David Potter'};
+p10 = {'Stephen Kuffler' 'Bernard Katz (M1970)'};
+
+s11 = {'Edwin Furshpan' 'Edwin Furshpan'};
+p11 = {'Stephen Kuffler' 'Cornelis Wiersma'};
+
+s12 = {'Cornelis Wiersma' 'Cornelis Wiersma' 'Cornelis Wiersma'};
+p12 = {'Edgar Adrian (M1932)' 'Hermann Jordan' 'Adriaan Noyons'};
+
+s13 = {'Hermann Jordan' 'Hermann Jordan'};
+p13 = {'Anton Dohrn' 'Hubert Ludwig'};
+
+s14 = {'Anton Dohrn'};
+p14 = {'Carl Gegenbauer'};
+
+s15 = {'Hubert Ludwig'};
+p15 = {'Karl Semper'};
+
+s16 = {'Karl Semper'};
+p16 = {'Albert von Kolliker'};
+
+s17 = {'Adriaan Noyons'};
+p17 = {'Hendrik Zwaardemaker'};
+
+s18 = {'Hendrik Zwaardemaker' 'Hendrik Zwaardemaker'};
+p18 = {'Thomas Place' 'Casper Kuhn'};
+
+s19 = {'Casper Kuhn'};
+p19 = {'Theodor Engelmann'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19];
+
+NT = addedge(NT,p,s);
+%%
+s = {'Jan Tinbergen (E1969)'};
+p = {'Paul Ehrenfest'};
+
+NT = addedge(NT,p,s);
+NT = addnode(NT,{'Ragnar Frisch (E1969)'});
+
+%%
+s0 = {'Paul Samuelson (E1970)' 'Paul Samuelson (E1970)' 'Paul Samuelson (E1970)' 'Joseph Schumpeter'};
+p0 = {'Wassily Leontief (E1973)' 'Gottfried Haberler' 'Joseph Schumpeter' 'Eugen Boehm von Bawerk'};
+ 
+s1 = {'Wassily Leontief (E1973)' 'Wassily Leontief (E1973)' 'Ladislaus Bortkiewicz' 'Wilhelm Lexis'};
+p1 = {'Werner Sombart' 'Ladislaus Bortkiewicz' 'Wilhelm Lexis' 'August Beer'};
+
+s2 = {'Gottfried Haberler' 'Ludwig von Mises' 'Ludwig von Mises'  'Carl Menger'};
+p2 = {'Ludwig von Mises' 'Carl Menger' 'Eugen Boehm von Bawerk' 'Lorenz von Stein'}; 
+
+s3 = {'Eugen Boehm von Bawerk' 'Eugen Boehm von Bawerk' 'Eugen Boehm von Bawerk'};
+p3 = {'Karl Knies' 'Wilhelm Roscher' 'Bruno Hildebrand'};
+
+s4 = {'Bruno Hildebrand' 'Karl Knies'};
+p4 = {'Maximilian Duncker' 'Bruno Hildebrand'};
+
+s5 = {'Werner Sombart' 'Werner Sombart' 'Adolf Wagner' 'Gustav von Schmoller'};
+p5 = {'Adolf Wagner' 'Gustav von Schmoller' 'Georg Hanssen' 'Karl Schuetz'};
+
+s = [s0 s1 s2 s3 s4 s5];
+p = [p0 p1 p2 p3 p4 p5];
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Simon Kuznets (E1971)' 'Wesley Clair Mitchell' 'Wesley Clair Mitchell' 'Wesley Clair Mitchell' 'Laurence Laughlin'};
+p0 = {'Wesley Clair Mitchell' 'John Dewey' 'Thorstein Veblen' 'Laurence Laughlin' 'Henry Adams'};
+
+s1 = {'Thorstein Veblen' 'William Sumner' 'William Sumner' 'Heinrich Ewald' 'Heinrich Ewald' 'Heinrich Ewald' 'Johann Eichhorn' 'Heinrich Planck' 'Heinrich Planck'};
+p1 = {'William Sumner' 'Noah Porter' 'Heinrich Ewald' 'Johann Eichhorn' 'Gottlieb Planck' 'Heinrich Planck' 'Christian Heyne' 'Johann Eichhorn' 'Gottlieb Planck'};
+
+s2 = {'Maximilian Duncker' 'Felix Papencordt' 'Felix Papencordt' 'Felix Papencordt' 'August Wilhelm Schlegel' 'August Wilhelm Schlegel'};
+p2 = {'Felix Papencordt' 'Friedrich Schelling' 'Christian August Brandis' 'August Wilhelm Schlegel' 'Alexander Hamilton' 'Christian Heyne'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Kenneth Arrow (E1972)' 'Harold Hotelling' 'Oswald Veblen' 'Eliakim Moore'};
+p0 = {'Harold Hotelling' 'Oswald Veblen' 'Eliakim Moore' 'Hubert Newton'};
+
+s1 = {'John Hicks (E1972)' 'John Hicks (E1972)' 'Lionel Robbins' 'John Hicks (E1972)' 'Erik Lindahl' 'Knut Wicksell'};
+p1 = {'Friedrich Hayek (E1974)' 'Lionel Robbins' 'Edwin Cannan' 'Erik Lindahl' 'Knut Wicksell' 'Carl Menger'};
+
+s2 = {'Friedrich Hayek (E1974)' 'Friedrich Hayek (E1974)' 'Friedrich Hayek (E1974)' 'Friedrich von Wieser'};
+p2 = {'Ludwig von Mises' 'Carl Menger' 'Friedrich von Wieser' 'Carl Menger'};
+
+s3 = {'Hubert Newton' 'Hubert Newton' 'Michel Chasles'};
+p3 = {'Anthony Stanley' 'Michel Chasles' 'Simeon-Denis Poisson'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Gunnar Myrdal (E1974)' 'Karl Gustav Cassel' 'Goesta Mittag-Leffler' 'Goeran Dillner'};
+p0 = {'Karl Gustav Cassel' 'Goesta Mittag-Leffler' 'Goeran Dillner' 'Carl Malmsten'};
+
+s = [s0];
+p = [p0];
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Tjalling Koopmans (E1975)' 'Tjalling Koopmans (E1975)'};
+p0 = {'Jan Tinbergen (E1969)' 'Hendrik Kramers'};
+
+s1 = {'Leonid Kantorovich (E1975)' 'Grigorri Fichtenholz' 'Leonid Kantorovich (E1975)' 'Vladimir Smirnov'};
+p1 = {'Grigorri Fichtenholz' 'Samuil Shatunovksy' 'Vladimir Smirnov' 'Vladimir Steklov'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+%%
+s = {'Milton Friedman (E1976)' 'Milton Friedman (E1976)' 'Henry Schultz' 'Henry Moore' 'Henry Moore' 'John Bates Clark'};
+p = {'Simon Kuznets (E1971)' 'Henry Schultz' 'Henry Moore' 'Simon Newcomb' 'John Bates Clark' 'Karl Knies'};
+
+NT = addedge(NT,p,s);
+%%
+s0 = {'Bertil Ohlin (E1977)' 'James Meade (E1977)' 'John Maynard Keynes' 'John Maynard Keynes'};
+p0 = {'Karl Gustav Cassel' 'John Maynard Keynes' 'W.E. Johnson' 'Alfred North Whitehead'};
+
+s1 = {'Alfred North Whitehead' 'Alfred North Whitehead'};
+p1 = {'Edward Routh' 'William Niven'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+%%
+s = {'Herbert Simon (E1978)'};
+p = {'Henry Schultz'};
+
+NT = addedge(NT,p,s);
+%%
+s = {'Theodore Schultz (E1979)' 'Benjamin Hibbard' 'Richard Ely' 'Arthur Lewis (E1979)' 'Arnold Plant'};
+p = {'Benjamin Hibbard' 'Richard Ely' 'Karl Knies' 'Arnold Plant' 'Edwin Cannan'};
+
+NT = addedge(NT,p,s);
+%%
+s = {'Lawrence Klein (E1980)'};
+p = {'Paul Samuelson (E1970)'};
+
+NT = addedge(NT,p,s);
+%%
+s = {'James Tobin (E1981)' 'James Tobin (E1981)' 'William Fellner'};
+p = {'Joseph Schumpeter' 'William Fellner' 'Werner Sombart'};
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'George Stigler (E1982)' 'Frank Knight' 'Alvyn Saunders Johnson' 'Alvyn Saunders Johnson' 'Frank Knight' 'Allyn Abbott Young' 'Allyn Abbott Young'};
+p0 = {'Frank Knight' 'Alvyn Saunders Johnson' 'John Bates Clark' 'Edwin Seligman' 'Allyn Abbott Young' 'Richard Ely' 'W.F. Wilcox'};
+
+s1 = {'Edwin Seligman' 'John Burgess' 'John Burgess' 'John Burgess' 'Johann Droysen'};
+p1 = {'John Burgess' 'Theodor Mommsen' 'Heinrich von Gneist' 'Johann Droysen' 'August Boeckh'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Gerard Debreu (E1983)'};
+p = {'Maurice Allais (E1988)'};
+NT = addedge(NT,p,s);
+
+%%
+s = {'Richard Stone (E1984)' 'Richard Stone (E1984)' 'Gerald Shove' 'Richard Stone (E1984)' 'Richard Kahn' 'Richard Kahn' 'Richard Stone (E1984)' 'Colin Clark' 'W.H. Beveridge' 'W.H. Beveridge' 'Colin Clark' 'Colin Clark' 'Alexander Carr-Saunders'};
+p = {'John Maynard Keynes' 'Gerald Shove' 'John Maynard Keynes' 'Richard Kahn' 'Gerald Shove' 'John Maynard Keynes' 'Colin Clark' 'W.H. Beveridge' 'Beatrice Webb' 'Sydney Webb' 'Allyn Abbott Young' 'Alexander Carr-Saunders' 'Karl Pearson'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Franco Modigliani (E1985)' 'Franco Modigliani (E1985)' 'Jacob Marschak' 'Abba Lerner' 'Emil Lederer' 'Emil Lederer'};
+p = {'Jacob Marschak' 'Abba Lerner' 'Emil Lederer' 'Lionel Robbins' 'Ludwig Brentano' 'Eugen Boehm von Bawerk'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'James Buchanan (E1986)'};
+p = {'Frank Knight'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Robert Solow (E1987)'};
+p = {'Wassily Leontief (E1973)'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Trygve Haavelmo (E1989)'};
+p = {'Ragnar Frisch (E1969)'};
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Harry Markowitz (E1990)' 'Harry Markowitz (E1990)'};
+p0 = {'Milton Friedman (E1976)' 'Jacob Marschak'};
+
+s1 = {'Merton Miller (E1990)' 'Fritz Machlup'};
+p1 = {'Fritz Machlup' 'Ludwig von Mises'};
+
+s2 = {'William Sharpe (E1990)' 'Armen Alchian' 'Allen Wallis'};
+p2 = {'Armen Alchian' 'Allen Wallis' 'Harold Hotelling'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Ronald Coase (E1991)' 'Ronald Coase (E1991)' 'Jacob Viner' 'Frank Taussig'};
+p = {'Frank Knight' 'Jacob Viner' 'Frank Taussig' 'Charles Dunbar'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Gary Becker (E1992)' 'Gregg Lewis'};
+p = {'Gregg Lewis' 'Henry Schultz'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Robert Fogel (E1993)' 'Douglas North (E1993)' 'Melvin Knight' 'Frank Hankins'};
+p = {'Simon Kuznets (E1971)' 'Melvin Knight' 'Frank Hankins' 'Henry Moore'};
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'John Harsanyi (E1994)'};
+p0 = {'Kenneth Arrow (E1972)'};
+
+s1 = {'John Nash (E1994)' 'Albert Tucker' 'Solomon Lefschetz' 'William Story' 'Wilhelm Schreibner' 'William Story' 'Carl Neumann' 'Carl Neumann' 'Otto Hesse'};
+p1 = {'Albert Tucker' 'Solomon Lefschetz' 'William Story' 'Wilhelm Schreibner' 'C.G.J. Jacobi' 'Carl Neumann' 'Friedrich Richelot' 'Otto Hesse' 'Carl Jacobi'};
+
+s2 = {'Reinhard Selten (E1994)' 'Reinhard Selten (E1994)' 'Wolfgang Franz' 'Helmut Hasse' 'Kurt Hensel' 'Leopold Kronecker'};
+p2 = {'Ewald Burger' 'Wolfgang Franz' 'Helmut Hasse' 'Kurt Hensel' 'Leopold Kronecker' 'Ernst Kummer'};
+
+s3 = {'Leopold Kronecker' 'Gustav Dirichlet' 'Gustav Dirichlet'};
+p3 = {'Gustav Dirichlet' 'Simeon-Denis Poisson' 'Jean-Baptiste Fourier'};
+
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Robert Lucas (E1995)' 'Robert Lucas (E1995)' 'Arnold Harberger' 'Lloyd Metzler' 'Alvin Hansen' 'Alvin Hansen' 'Alvin Hansen'};
+p = {'Gregg Lewis' 'Arnold Harberger' 'Lloyd Metzler' 'Alvin Hansen' 'Richard Ely' 'John Commons' 'Frederic Paxson'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'James Mirrlees (E1996)' 'William Vickrey (E1996)' 'William Vickrey (E1996)' 'Robert Haig'};
+p = {'Richard Stone (E1984)' 'Carl Shoup' 'Robert Haig' 'Edwin Seligman'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Robert Merton (E1997)' 'Myron Scholes (E1997)' 'Myron Scholes (E1997)' 'Eugene Fama (E2013)' 'Eugene Fama (E2013)'};
+p = {'Paul Samuelson (E1970)' 'Merton Miller (E1990)' 'Eugene Fama (E2013)' 'Merton Miller (E1990)' 'Harry Roberts'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Amartya Sen (E1998)' 'Amartya Sen (E1998)' 'Amiya Dasgupta'};
+p = {'Joan Robinson' 'Amiya Dasgupta' 'Lionel Robbins'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Robert Mundell (E1999)' 'Charles Kindleberger' 'Henry Willis' 'Charles Kindleberger' 'James W. Angell' 'James W. Angell'};
+p = {'Charles Kindleberger' 'Henry Willis' 'Laurence Laughlin' 'James W. Angell' 'William Ripley' 'Allyn Abbott Young'};
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'James Heckman (E2000)' 'Stanley Black' 'James Heckman (E2000)' 'Albert Rees' 'Albert Rees' 'Frederick Harbison' 'James Heckman (E2000)' 'Harry Kelejian' 'Arthur Goldberger'};
+p0 = {'Stanley Black' 'James Tobin (E1981)' 'Albert Rees' 'Gregg Lewis' 'Frederick Harbison' 'David McCabe' 'Harry Kelejian' 'Arthur Goldberger' 'Lawrence Klein (E1980)'};
+
+s1 = {'Daniel McFadden (E2000)' 'Leonid Hurwicz (E2007)' 'Leonid Hurwicz (E2007)'};
+p1 = {'Leonid Hurwicz (E2007)' 'Jacob Marschak' 'Tjalling Koopmans (E1975)'};
+
+s = [s0 s1];
+p = [p0 p1];
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'George Akerlof (E2001)' 'Michael Spence (E2001)' 'Thomas Schelling (E2005)' 'Thomas Schelling (E2005)' 'Thomas Schelling (E2005)' 'James Duesenberry' 'Arthur Smithies' 'Joseph Stiglitz (E2001)' 'Frank Hahn' 'Frank Hahn' 'Nicholas Kaldor' 'Nicholas Kaldor' 'Joseph Stiglitz (E2001)'};
+p = {'Robert Solow (E1987)' 'Thomas Schelling (E2005)' 'Wassily Leontief (E1973)' 'James Duesenberry' 'Arthur Smithies' 'Arthur Smithies' 'Joseph Schumpeter' 'Frank Hahn' 'Lionel Robbins' 'Nicholas Kaldor' 'Lionel Robbins' 'Allyn Abbott Young' 'Joan Robinson'};
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Vernon Smith (E2002)'};
+p0 = {'Wassily Leontief (E1973)'};
+
+s1 = {'Daniel Kahneman (E2002)' 'Susan Ervin-Tripp' 'Charles Osgood' 'Charles Osgood'};
+p1 = {'Susan Ervin-Tripp' 'Charles Osgood' 'Robert Sears' 'Donald Marquis'};
+
+s2 = {'Robert Sears' 'Donald Marquis' 'Donald Marquis' 'Donald Marquis' 'Edward Robinson'};
+p2 = {'Ralph DiLeone' 'Edward Robinson' 'Harold Burr' 'John Fulton' 'James R. Angell'};
+
+s3 = {'Daniel Kahneman (E2002)' 'Edwin Ghiselli' 'Edwin Ghiselli'};
+p3 = {'Edwin Ghiselli' 'Clarence Brown' 'Karl Lashley'};
+
+s4 = {'Karl Lashley' 'Karl Lashley' 'Karl Lashley'};
+p4 = {'John Johnston' 'Herbert Jennings' 'John Watson'};
+
+s5 = {'John Johnston' 'John Watson'};
+p5 = {'Oliver Strong' 'James R. Angell'};
+
+s = [s0 s1 s2 s3 s4 s5];
+p = [p0 p1 p2 p3 p4 p5];
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Robert Engle (E2003)' 'Ta-Chung Liu' 'Donald English' 'Donald English'};
+p0 = {'Ta-Chung Liu' 'Donald English' 'Henry Hatfield' 'Wesley Clair Mitchell'};
+
+s1 = {'Clive Granger (E2003)' 'Harry Pitt' 'Harry Pitt' 'David Widder' 'George Birkhoff'};
+p1 = {'Harry Pitt' 'David Widder' 'G.H. Hardy' 'George Birkhoff' 'Eliakim Moore'};
+
+s2 = {'Henry Hatfield' 'Henry Hatfield' 'Henry Hatfield' 'Albion Small' 'Albion Small'};
+p2 = {'Laurence Laughlin' 'Harry Judson' 'Albion Small' 'Richard Ely' 'Herbert Adams'};
+
+s = [s0 s1 s2];
+p = [p0 p1 p2];
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Finn Kydland (E2004)' 'Edward Prescott (E2004)' 'Michael Lovell'};
+p = {'Edward Prescott (E2004)' 'Michael Lovell' 'Wassily Leontief (E1973)'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Robert Aumann (E2005)' 'George Whitehead' 'Norman Steenrod'};
+p = {'George Whitehead' 'Norman Steenrod' 'Solomon Lefschetz'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Edmund Phelps (E2006)'};
+p = {'James Tobin (E1981)'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Eric Maskin (E2007)' 'Roger Myerson (E2007)'};
+p = {'Kenneth Arrow (E1972)' 'Kenneth Arrow (E1972)'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Paul Krugman (E2008)' 'Rudiger Dornbusch'};
+p = {'Rudiger Dornbusch' 'Robert Mundell (E1999)'};
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Oliver Williamson (E2009)' 'Oliver Williamson (E2009)' 'Richard Cyert' 'Richard Cyert' 'Arthur Burns'};
+p0 = {'Richard Cyert' 'Herbert Simon (E1978)' 'George Stigler (E1982)' 'Arthur Burns' 'Wesley Clair Mitchell'};
+
+s1 = {'Elinor Ostrom (E2009)' 'Dwaine Marvick' 'Dwaine Marvick' 'Dwaine Marvick' 'Dwaine Marvick'};
+p1 = {'Dwaine Marvick' 'Paul Hazard' 'David Truman' 'Franz Neumann' 'Robert Merton'};
+
+s2 = {'Robert Merton' 'Talcott Parsons' 'Edgar Salin' 'Alfred Weber' 'Tomas Masaryk' 'Tomas Masaryk'};
+p2 = {'Talcott Parsons' 'Edgar Salin' 'Alfred Weber' 'Tomas Masaryk' 'Franz Brentano' 'Wilhelm Wundt'};
+
+s3 = {'Franz Neumann' 'Franz Neumann' 'Franz Neumann' 'Karl Mannheim' 'Max Meyer' 'Max Meyer'};
+p3 = {'Max Meyer' 'Harold Laski' 'Karl Mannheim' 'Georg Simmel' 'Kuno Fischer' 'Fritz van Calker'};
+ 
+s = [s0 s1 s2 s3];
+p = [p0 p1 p2 p3];
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Peter Diamond (E2010)' 'Dale Mortensen (E2010)' 'Christopher Pissarides (E2010)' 'Michio Morishima' 'Yasuma Takada' 'Shotaro Yoneda' 'Shotaro Yoneda'};
+p = {'Robert Solow (E1987)' 'Michael Lovell' 'Michio Morishima' 'Yasuma Takada' 'Shotaro Yoneda' 'Franklin Giddings' 'Gabriel Tarde'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Thomas Sargent (E2011)' 'John Meyer' 'John Meyer' 'Guy Orcutt' 'Christopher Sims (E2011)' 'Hendrik Houthakker' 'Pieter de Wolff'};
+p = {'John Meyer' 'James Duesenberry' 'Guy Orcutt' 'Arthur Smithies' 'Hendrik Houthakker' 'Pieter de Wolff' 'Jan Tinbergen (E1969)'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Lloyd Shapley (E2012)' 'Alvin Roth (E2012)' 'Robert Wilson (E2020)' 'Howard Raiffa' 'Arthur Copeland' 'Oliver Kellogg'};
+p = {'Albert Tucker' 'Robert Wilson (E2020)' 'Howard Raiffa' 'Arthur Copeland' 'Oliver Kellogg' 'David Hilbert'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Lars Peter Hansen (E2013)' 'Robert Shiller (E2013)'};
+p = {'Christopher Sims (E2011)' 'Franco Modigliani (E1985)'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Jean Tirole (E2014)'};
+p = {'Eric Maskin (E2007)'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Angus Deaton (E2015)'};
+p = {'Richard Stone (E1984)'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Bengt Holmstrom (E2016)' 'Oliver Hart (E2016)' 'Michael Rothshield' 'Michael Rothshield' 'Michael Rothshield' 'Franklin Fisher'};
+p = {'Robert Wilson (E2020)' 'Michael Rothshield' 'Robert Solow (E1987)' 'Peter Diamond (E2010)' 'Franklin Fisher' 'John Meyer'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Richard Thaler (E2017)' 'Sherwin Rosen'};
+p = {'Sherwin Rosen' 'Gregg Lewis'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'William Nordhaus (E2018)' 'Paul Romer (E2018)' 'Paul Romer (E2018)' 'Jose Scheinkman' 'Lionel McKenzie' 'Lionel McKenzie' 'William Baumol' 'Oskar Morgenstern'  'Oskar Morgenstern' 'Hans Mayer'};
+p = {'Robert Solow (E1987)' 'Robert Lucas (E1995)' 'Jose Scheinkman' 'Lionel McKenzie' 'William Baumol' 'Oskar Morgenstern' 'Lionel Robbins' 'Ludwig von Mises' 'Hans Mayer' 'Friedrich von Wieser'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Esther Duflo (E2019)' 'Esther Duflo (E2019)' 'Esther Duflo (E2019)' 'Joshua Angrist (E2021)' 'Joshua Angrist (E2021)' 'David Card (E2021)' 'Orley Ashenfelter' 'Orley Ashenfelter' 'Stephen Goldfeld' 'Albert Ando'  'Abhijit Banerjee (E2019)' 'Michael Kremer (E2019)' 'Robert Barro' 'Zvi Griliches' 'Zvi Griliches'};
+p = {'Joshua Angrist (E2021)' 'Abhijit Banerjee (E2019)' 'Michael Kremer (E2019)' 'Orley Ashenfelter' 'David Card (E2021)' 'Orley Ashenfelter' 'Albert Rees' 'Stephen Goldfeld' 'Albert Ando' 'Franco Modigliani (E1985)' 'Eric Maskin (E2007)' 'Robert Barro' 'Zvi Griliches' 'Theodore Schultz (E1979)' 'Arnold Harberger'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Paul Milgrom (E2020)'};
+p = {'Robert Wilson (E2020)'};
+
+NT = addedge(NT,p,s);
+
+%%
+s = {'Guido Imbens (E2021)' 'Guido Imbens (E2021)' 'Peter Dolton' 'Tony Lancaster' 'M.J. Farrell' 'M.J. Farrell' 'David Champernowne'};
+p = {'Tony Lancaster' 'Peter Dolton' 'Frank Hahn' 'M.J. Farrell' 'Philip Andrews' 'David Champernowne' 'John Maynard Keynes'};
+
+NT = addedge(NT,p,s);
+
+%%
+s0 = {'Svante Paabo (M2022)' 'Svante Paabo (M2022)'};
+p0 = {'Per Peterson' 'Allan Wilson'};
+
+s1 = {'Allan Wilson' 'Allan Wilson'};
+p1 = {'Arthur Pardee' 'Nathan Kaplan'};
+
+s2 = {'Arthur Pardee' 'Arthur Pardee' 'Arthur Pardee'};
+p2 = {'Linus Pauling (C1954)' 'Dan Campbell' 'Stanley Swingle'};
+
+s3 = {'Stanley Swingle'};
+p3 = {'Linus Pauling (C1954)'};
+
+s4 = {'Alain Aspect (P2022)'};
+p4 = {'Serge Lowenthal'};
+
+s5 = {'Serge Lowenthal' 'Serge Lowenthal'};
+p5 = {'Pierre Fleury' 'Charles Fabry'};
+
+s6 = {'Pierre Fleury' 'Charles Fabry'};
+p6 = {'Henri Abraham' 'Jules Mace de Lepinay'};
+
+s7 = {'John Clauser (P2022)'};
+p7 = {'Patrick Thaddeus'};
+
+s8 = {'Patrick Thaddeus'};
+p8 = {'Charles Townes (P1964)'};
+
+s9 = {'Anton Zeilinger (P2022)'};
+p9 = {'Helmut Rauch'};
+
+s10 = {'Helmut Rauch'};
+p10 = {'Gustaf Ortner'};
+
+s11 = {'Gustaf Ortner'};
+p11 = {'Eduard Haschek'};
+
+s12 = {'Eduard Haschek'};
+p12 = {'Franz Exner'};
+
+s13 = {'Carolyn Bertozzi (C2022)' 'Carolyn Bertozzi (C2022)'};
+p13 = {'Steven Rosen' 'Mark Bednarski'};
+
+s14 = {'Mark Bednarski' 'Mark Bednarski'};
+p14 = {'Samuel Danishefsky' 'George Whitesides'};
+
+s15 = {'Samuel Danishefsky' 'Samuel Danishefsky'};
+p15 = {'Peter Yates' 'Gilbert Stork'};
+
+s16 = {'Peter Yates' 'Peter Yates'};
+p16 = {'Werner Bergmann' 'Robert Woodward (C1965)'};
+
+s17 = {'Werner Bergmann'};
+p17 = {'Adolf Windaus (C1928)'};
+
+s18 = {'Steven Rosen'};
+p18 = {'Samuel Barondes'};
+
+s19 = {'Samuel Barondes' 'Samuel Barondes'};
+p19 = {'Gordon Tomkins' 'Marshall Nirenberg (M1968)'};
+
+s20 = {'Morten Meldal (C2022)'};
+p20 = {'Klaus Bock'};
+
+s21 = {'Klaus Bock'};
+p21 = {'Christian Pedersen'};
+
+s22 = {'Christian Pedersen'};
+p22 = {'Hewitt Fletcher'};
+
+s23 = {'Hewitt Fletcher'};
+p23 = {'Robert Hockett'};
+
+s24 = {'Robert Hockett' 'Robert Hockett'};
+p24 = {'William Evans' 'Claude Hudson'};
+
+s25 = {'Claude Hudson' 'Claude Hudson' 'Claude Hudson' 'Claude Hudson'};
+p25 = {'Elmer Loomis' 'Walther Nernst (C1920)' 'Jacobus van t Hoff (C1901)' 'William Magie'};
+
+s26 = {'William Magie' 'William Magie'};
+p26 = {'Cyrus Brackett' 'Hermann von Helmholtz'};
+
+s27 = {'Elmer Loomis'};
+p27 = {'Friedrich Kohlrausch'};
+
+s28 = {'Ben Bernanke (E2022)'};
+p28 = {'Stanley Fischer'};
+
+s29 = {'Stanley Fischer'};
+p29 = {'Franklin Fisher'};
+
+s30 = {'Douglas Diamond (E2022)'};
+p30 = {'Stephen Ross'};
+
+s30 = {'Philip Dybvig (E2022)'};
+p30 = {'Stephen Ross'};
+
+s31 = {'Stephen Ross'};
+p31 = {'Richard Caves'};
+
+s32 = {'Richard Caves'};
+p32 = {'Gottfried Haberler'};
+
+s = [s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32];
+p = [p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32];
+
+NT = addedge(NT,p,s);
+
+%%
 clear p* s*
+
+if ismultigraph(NT)
+    disp('duplicate edges')
+else
+    disp('no duplicates')
+end
